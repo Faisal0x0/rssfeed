@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_676",
+    "source": "github",
+    "author": "washanhanzi",
+    "content": "[Issue] Droid interactive CLI causes terminal window to resize on focus\n\n## Bug Description\n\nFocusing on the Droid interactive CLI causes the terminal window to resize unexpectedly.\n\n## Environment\n\n- **Droid version**: 0.61.0\n- **OS**: Arch Linux, Wayland\n- **Affected terminals**: Kitty, Ghostty (plain terminal, no tmux/IDE)\n\n## Steps to Reproduce\n\n1. Open Kitty or Ghostty terminal\n2. Launch Droid interactive CLI\n3. Switch focus away from the terminal\n4. Switch focus back to the terminal\n\n**Expected**: Terminal window size remains unchanged.\n**Actual**: Terminal win",
+    "url": "https://github.com/Factory-AI/factory/issues/676",
+    "timestamp": "2026-02-24T05:17:20Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 676
+    }
+  },
+  {
     "id": "github_issue_675",
     "source": "github",
     "author": "zwen64657",
