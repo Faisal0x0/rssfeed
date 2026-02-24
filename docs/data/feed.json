@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_2026201362300543020",
+    "source": "twitter",
+    "author": "laup30",
+    "content": "@alvinsng How much usage does the @FactoryAI 200m token plan give you in comparison to an identically priced Codex Pro plan, with both running Codex-5.3 xhigh? Any idea, @alvinsng ? @EnoReyes @bentossell ?",
+    "url": "https://x.com/laup30/status/2026201362300543020",
+    "timestamp": "2026-02-24T07:43:44.000Z",
+    "metadata": {
+      "conversation_id": "2026201362300543020",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2026199318412103952",
+    "source": "twitter",
+    "author": "ScalerSohom",
+    "content": "@samfitz @FactoryAI congrats man great setup steps for OpenProse",
+    "url": "https://x.com/ScalerSohom/status/2026199318412103952",
+    "timestamp": "2026-02-24T07:35:37.000Z",
+    "metadata": {
+      "conversation_id": "2026199318412103952",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2026197306312134950",
+    "source": "twitter",
+    "author": "atsohom",
+    "content": "@samfitz @FactoryAI congrats man great setup steps for OpenProse",
+    "url": "https://x.com/atsohom/status/2026197306312134950",
+    "timestamp": "2026-02-24T07:27:37.000Z",
+    "metadata": {
+      "conversation_id": "2026197306312134950",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_issue_676",
     "source": "github",
     "author": "washanhanzi",
