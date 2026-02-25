@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2026709764424519808",
+    "source": "twitter",
+    "author": "kyleanthony",
+    "content": "@m4cosmicArt @FactoryAI Thank you!",
+    "url": "https://x.com/kyleanthony/status/2026709764424519808",
+    "timestamp": "2026-02-25T17:23:56.000Z",
+    "metadata": {
+      "conversation_id": "2026709764424519808",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2026704713840996544",
+    "source": "twitter",
+    "author": "m4cosmicArt",
+    "content": "@kyleanthony @FactoryAI Love that flowery pattern",
+    "url": "https://x.com/m4cosmicArt/status/2026704713840996544",
+    "timestamp": "2026-02-25T17:03:52.000Z",
+    "metadata": {
+      "conversation_id": "2026704713840996544",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_issue_680",
     "source": "github",
     "author": "didasy",
