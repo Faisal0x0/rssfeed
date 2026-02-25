@@ -10,7 +10,8 @@
       "type": "issue",
       "labels": [],
       "number": 680
-    }
+    },
+    "category": "bug"
   },
   {
     "id": "twitter_2026679599032074404",
@@ -25,7 +26,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
-    }
+    },
+    "category": "love"
   },
   {
     "id": "twitter_2026677947470426612",
@@ -40,7 +42,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
-    }
+    },
+    "category": "love"
   },
   {
     "id": "twitter_2026670425879494942",
