@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_2026753277187313816",
+    "source": "twitter",
+    "author": "AdamZmenak",
+    "content": "@FactoryAI What about Opencode or Pi?",
+    "url": "https://x.com/AdamZmenak/status/2026753277187313816",
+    "timestamp": "2026-02-25T20:16:51.000Z",
+    "metadata": {
+      "conversation_id": "2026753277187313816",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2026750820465684498",
+    "source": "twitter",
+    "author": "clarshio",
+    "content": "@FactoryAI we will need tb 3.0 soon 😅",
+    "url": "https://x.com/clarshio/status/2026750820465684498",
+    "timestamp": "2026-02-25T20:07:05.000Z",
+    "metadata": {
+      "conversation_id": "2026750820465684498",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2026745777901482151",
+    "source": "twitter",
+    "author": "sm_muon",
+    "content": "@FactoryAI Why the terminal bench team has not verified  this one and any of the previous runs themselves ?",
+    "url": "https://x.com/sm_muon/status/2026745777901482151",
+    "timestamp": "2026-02-25T19:47:03.000Z",
+    "metadata": {
+      "conversation_id": "2026745777901482151",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2026743664450666788",
     "source": "twitter",
     "author": "JoelDeTeves",
