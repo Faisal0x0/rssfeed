@@ -1,5 +1,170 @@
 [
   {
+    "id": "twitter_2027108995735883862",
+    "source": "twitter",
+    "author": "geo_anima",
+    "content": "@FactoryAI I had an extraordinarily coherent long-horizon run of almost 9 hours overnight. I’m loving Droid Missions!\n\nhttps://t.co/3hYZnlA5EF",
+    "url": "https://x.com/geo_anima/status/2027108995735883862",
+    "timestamp": "2026-02-26T19:50:21.000Z",
+    "metadata": {
+      "conversation_id": "2027108995735883862",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027107697263272128",
+    "source": "twitter",
+    "author": "WinterArc2125",
+    "content": "@EnoReyes @FactoryAI Cool. Share some credits as well :))",
+    "url": "https://x.com/WinterArc2125/status/2027107697263272128",
+    "timestamp": "2026-02-26T19:45:11.000Z",
+    "metadata": {
+      "conversation_id": "2027107697263272128",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027107685422727255",
+    "source": "twitter",
+    "author": "skastr052",
+    "content": "@FactoryAI Very interesting! Does mission control leverages existing custom droids for specific tasks? Can a droid delegate to subdroids?",
+    "url": "https://x.com/skastr052/status/2027107685422727255",
+    "timestamp": "2026-02-26T19:45:08.000Z",
+    "metadata": {
+      "conversation_id": "2027107685422727255",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027107344807759937",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@WinterArc2125 @FactoryAI We will share our benchmark SaaSBench soon!",
+    "url": "https://x.com/EnoReyes/status/2027107344807759937",
+    "timestamp": "2026-02-26T19:43:47.000Z",
+    "metadata": {
+      "conversation_id": "2027107344807759937",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027107199885955540",
+    "source": "twitter",
+    "author": "WinterArc2125",
+    "content": "@EnoReyes @FactoryAI Neat. Multi-day is mad crazy lol. How were your sample/test runs? and what were they about?",
+    "url": "https://x.com/WinterArc2125/status/2027107199885955540",
+    "timestamp": "2026-02-26T19:43:12.000Z",
+    "metadata": {
+      "conversation_id": "2027107199885955540",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027106521637954016",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@colesmcintosh @FactoryAI It's been incredible to watch them quickly gain a foothold in enterprise",
+    "url": "https://x.com/EnoReyes/status/2027106521637954016",
+    "timestamp": "2026-02-26T19:40:31.000Z",
+    "metadata": {
+      "conversation_id": "2027106521637954016",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027106472077959389",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@WinterArc2125 @FactoryAI Yes, and you can interrupt + manage + replan as it goes!",
+    "url": "https://x.com/EnoReyes/status/2027106472077959389",
+    "timestamp": "2026-02-26T19:40:19.000Z",
+    "metadata": {
+      "conversation_id": "2027106472077959389",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027106402011861155",
+    "source": "twitter",
+    "author": "WinterArc2125",
+    "content": "@FactoryAI Long-running agents are cool. \nCan you interrupt them while they're working?",
+    "url": "https://x.com/WinterArc2125/status/2027106402011861155",
+    "timestamp": "2026-02-26T19:40:02.000Z",
+    "metadata": {
+      "conversation_id": "2027106402011861155",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027106358932418802",
+    "source": "twitter",
+    "author": "JoelDeTeves",
+    "content": "@FactoryAI Can we get something bigger than Max plan guys like a $500 plan or even a $1000 plan would be a good middle of the road option",
+    "url": "https://x.com/JoelDeTeves/status/2027106358932418802",
+    "timestamp": "2026-02-26T19:39:52.000Z",
+    "metadata": {
+      "conversation_id": "2027106358932418802",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027106109882876051",
+    "source": "twitter",
+    "author": "draslan_eth",
+    "content": "@FactoryAI 👀",
+    "url": "https://x.com/draslan_eth/status/2027106109882876051",
+    "timestamp": "2026-02-26T19:38:53.000Z",
+    "metadata": {
+      "conversation_id": "2027106109882876051",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027106023157211272",
+    "source": "twitter",
+    "author": "colesmcintosh",
+    "content": "@FactoryAI Multi-day is insane",
+    "url": "https://x.com/colesmcintosh/status/2027106023157211272",
+    "timestamp": "2026-02-26T19:38:32.000Z",
+    "metadata": {
+      "conversation_id": "2027106023157211272",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027084222259970339",
     "source": "twitter",
     "author": "djasnive",
