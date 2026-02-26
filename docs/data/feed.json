@@ -1,5 +1,80 @@
 [
   {
+    "id": "twitter_2027124114360533481",
+    "source": "twitter",
+    "author": "techMosavvy",
+    "content": "@shadcn @FactoryAI had an Ultra plan @ $2000/m but that's seemingly been discontinued https://t.co/Rz5mOqPbdq",
+    "url": "https://x.com/techMosavvy/status/2027124114360533481",
+    "timestamp": "2026-02-26T20:50:25.000Z",
+    "metadata": {
+      "conversation_id": "2027124114360533481",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 1
+    }
+  },
+  {
+    "id": "twitter_2027123729067880689",
+    "source": "twitter",
+    "author": "nalulj",
+    "content": "@EnoReyes @andrew_d_d @FactoryAI You guys should add codex auth",
+    "url": "https://x.com/nalulj/status/2027123729067880689",
+    "timestamp": "2026-02-26T20:48:53.000Z",
+    "metadata": {
+      "conversation_id": "2027123729067880689",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027121345692148071",
+    "source": "twitter",
+    "author": "RunMaestroAI",
+    "content": "@EnoReyes @FactoryAI You've got some serious fans, because you'll notice that Factory came before Gemini and Qwen3!",
+    "url": "https://x.com/RunMaestroAI/status/2027121345692148071",
+    "timestamp": "2026-02-26T20:39:25.000Z",
+    "metadata": {
+      "conversation_id": "2027121345692148071",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027120656933073359",
+    "source": "twitter",
+    "author": "BaDjeidy",
+    "content": "@FactoryAI @thsottiaux When are we having this in codex?",
+    "url": "https://x.com/BaDjeidy/status/2027120656933073359",
+    "timestamp": "2026-02-26T20:36:41.000Z",
+    "metadata": {
+      "conversation_id": "2027120656933073359",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027119863358243112",
+    "source": "twitter",
+    "author": "matanSF",
+    "content": "@benklieger @FactoryAI https://t.co/Siy6aW9Klo",
+    "url": "https://x.com/matanSF/status/2027119863358243112",
+    "timestamp": "2026-02-26T20:33:32.000Z",
+    "metadata": {
+      "conversation_id": "2027119863358243112",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027118977386962964",
     "source": "twitter",
     "author": "EnoReyes",
