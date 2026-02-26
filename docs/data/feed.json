@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2026984490183307655",
+    "source": "twitter",
+    "author": "masfiq018",
+    "content": "@rezaul_arif @FactoryAI do tell more.",
+    "url": "https://x.com/masfiq018/status/2026984490183307655",
+    "timestamp": "2026-02-26T11:35:36.000Z",
+    "metadata": {
+      "conversation_id": "2026984490183307655",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2026984046887395586",
+    "source": "twitter",
+    "author": "rezaul_arif",
+    "content": "@masfiq018 @FactoryAI Yes you can with a workaround, use proxy and config it as a custom model. That's how I'm using rn as well",
+    "url": "https://x.com/rezaul_arif/status/2026984046887395586",
+    "timestamp": "2026-02-26T11:33:50.000Z",
+    "metadata": {
+      "conversation_id": "2026984046887395586",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2026971092942762183",
     "source": "twitter",
     "author": "Adrian173075707",
