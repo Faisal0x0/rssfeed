@@ -1,5 +1,305 @@
 [
   {
+    "id": "twitter_2027455399968874928",
+    "source": "twitter",
+    "author": "mbusigin",
+    "content": "@garybasin @KalGrinberg @matanSF @FactoryAI True, gotta overtrain on zohar",
+    "url": "https://x.com/mbusigin/status/2027455399968874928",
+    "timestamp": "2026-02-27T18:46:50.000Z",
+    "metadata": {
+      "conversation_id": "2027455399968874928",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027454857884434453",
+    "source": "twitter",
+    "author": "garybasin",
+    "content": "@mbusigin @KalGrinberg @matanSF @FactoryAI None of these words are in the bible",
+    "url": "https://x.com/garybasin/status/2027454857884434453",
+    "timestamp": "2026-02-27T18:44:41.000Z",
+    "metadata": {
+      "conversation_id": "2027454857884434453",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027454595471900869",
+    "source": "twitter",
+    "author": "mbusigin",
+    "content": "@garybasin @KalGrinberg @matanSF @FactoryAI or find a symbolic superset to gap incompleteness",
+    "url": "https://x.com/mbusigin/status/2027454595471900869",
+    "timestamp": "2026-02-27T18:43:38.000Z",
+    "metadata": {
+      "conversation_id": "2027454595471900869",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027454338533114171",
+    "source": "twitter",
+    "author": "d0xxed",
+    "content": "it took 30 minutes and i now owe @FactoryAI 2 dollars and 79 cents https://t.co/pua98Le5jj",
+    "url": "https://x.com/d0xxed/status/2027454338533114171",
+    "timestamp": "2026-02-27T18:42:37.000Z",
+    "metadata": {
+      "conversation_id": "2027454338533114171",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027454293041942617",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@arthur_hyper88 @FactoryAI Lowkey really want to unleash Droid in Unity and build out a 3D game/simulation",
+    "url": "https://x.com/KalGrinberg/status/2027454293041942617",
+    "timestamp": "2026-02-27T18:42:26.000Z",
+    "metadata": {
+      "conversation_id": "2027454293041942617",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027454061579239717",
+    "source": "twitter",
+    "author": "mbusigin",
+    "content": "@garybasin @KalGrinberg @matanSF @FactoryAI Nah do something useful like find a polynomial algorithm to factor primes",
+    "url": "https://x.com/mbusigin/status/2027454061579239717",
+    "timestamp": "2026-02-27T18:41:31.000Z",
+    "metadata": {
+      "conversation_id": "2027454061579239717",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027454047696130375",
+    "source": "twitter",
+    "author": "RayFernando1337",
+    "content": "@KalGrinberg @AmarSVS @FactoryAI Give me that hot new ui!",
+    "url": "https://x.com/RayFernando1337/status/2027454047696130375",
+    "timestamp": "2026-02-27T18:41:27.000Z",
+    "metadata": {
+      "conversation_id": "2027454047696130375",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027452310406730078",
+    "source": "twitter",
+    "author": "djasnive",
+    "content": "@nummanali @FactoryAI @AmpCode You have mentioned the two best players in the field.",
+    "url": "https://x.com/djasnive/status/2027452310406730078",
+    "timestamp": "2026-02-27T18:34:33.000Z",
+    "metadata": {
+      "conversation_id": "2027452310406730078",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027452074267709661",
+    "source": "twitter",
+    "author": "lpcode808",
+    "content": "@KalGrinberg @RayFernando1337 @FactoryAI @bentossell Evals would be spinning up sub-agents that are new students and documenting their work as they test out said explorations and then building out from their new knowledge",
+    "url": "https://x.com/lpcode808/status/2027452074267709661",
+    "timestamp": "2026-02-27T18:33:37.000Z",
+    "metadata": {
+      "conversation_id": "2027452074267709661",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027451878791889165",
+    "source": "twitter",
+    "author": "libankano",
+    "content": "Build a self-improving AI agent trainer.\n\nI have a care coordination agent that texts real families via SMS. It learns from user corrections — but the “weights” are markdown files, not tensors. \n\nThe training loop: conversations get reviewed, findings get staged, corrections get promoted into the agent’s prompt.\n\nThe mission: build the closed-loop pipeline that reviews conversation transcripts, identifies failures (confabulation, stacked questions, broken promises), generates lesson candidates, and promotes them — with human approval gates. An AI that builds the training infrastructure for another AI.\n\nRepo: could I dm you the private repo?",
+    "url": "https://x.com/libankano/status/2027451878791889165",
+    "timestamp": "2026-02-27T18:32:50.000Z",
+    "metadata": {
+      "conversation_id": "2027451878791889165",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027451461789982835",
+    "source": "twitter",
+    "author": "p6hxk6tyf5",
+    "content": "@KalGrinberg @RayFernando1337 @FactoryAI Kidding but are you open sourcing the results? Would love to see what droid build",
+    "url": "https://x.com/p6hxk6tyf5/status/2027451461789982835",
+    "timestamp": "2026-02-27T18:31:11.000Z",
+    "metadata": {
+      "conversation_id": "2027451461789982835",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027451325470876080",
+    "source": "twitter",
+    "author": "p6hxk6tyf5",
+    "content": "@KalGrinberg @RayFernando1337 @FactoryAI On my way to make 2 extra accounts",
+    "url": "https://x.com/p6hxk6tyf5/status/2027451325470876080",
+    "timestamp": "2026-02-27T18:30:38.000Z",
+    "metadata": {
+      "conversation_id": "2027451325470876080",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027451271368577150",
+    "source": "twitter",
+    "author": "jacobferus",
+    "content": "@KalGrinberg @FactoryAI Build an sql database that beats postgresql in terms of number of features and speed",
+    "url": "https://x.com/jacobferus/status/2027451271368577150",
+    "timestamp": "2026-02-27T18:30:25.000Z",
+    "metadata": {
+      "conversation_id": "2027451271368577150",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027451258798543012",
+    "source": "twitter",
+    "author": "nikunj",
+    "content": "@dakshgup Then she overhears @FactoryAI saying “date the model, marry the harness”\n\nAnd swivels around and tells you flatly\n\n“I’ll date you, a founder, but go marry a FAANG engineer if you do this again”",
+    "url": "https://x.com/nikunj/status/2027451258798543012",
+    "timestamp": "2026-02-27T18:30:22.000Z",
+    "metadata": {
+      "conversation_id": "2027451258798543012",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027451206336209014",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@p6hxk6tyf5 @RayFernando1337 @FactoryAI 3rd mention of building Salesforce! If we get to 5 I’m doing it immediately",
+    "url": "https://x.com/KalGrinberg/status/2027451206336209014",
+    "timestamp": "2026-02-27T18:30:10.000Z",
+    "metadata": {
+      "conversation_id": "2027451206336209014",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027451170000929072",
+    "source": "twitter",
+    "author": "anasibnanwar",
+    "content": "@KalGrinberg @FactoryAI Can we use the Misson control with BYOK?",
+    "url": "https://x.com/anasibnanwar/status/2027451170000929072",
+    "timestamp": "2026-02-27T18:30:01.000Z",
+    "metadata": {
+      "conversation_id": "2027451170000929072",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027451041281966315",
+    "source": "twitter",
+    "author": "lpcode808",
+    "content": "@KalGrinberg @RayFernando1337 @FactoryAI @bentossell Does it have to be wiki style where it has a lot of interlinks in Obsidian? Maybe. Or maybe it's just a really well‑done gallery where users can adjust knobs to see the principles at play.",
+    "url": "https://x.com/lpcode808/status/2027451041281966315",
+    "timestamp": "2026-02-27T18:29:31.000Z",
+    "metadata": {
+      "conversation_id": "2027451041281966315",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027450992183390613",
+    "source": "twitter",
+    "author": "lpcode808",
+    "content": "@KalGrinberg @RayFernando1337 @FactoryAI @bentossell Moonshot is a web page where you'd have a whole bunch of these interactive explorations that highlight the key points of said curriculum. How meta. Probably needs educator guidance in dev of artifacts but you never know how well the agents can do!",
+    "url": "https://x.com/lpcode808/status/2027450992183390613",
+    "timestamp": "2026-02-27T18:29:19.000Z",
+    "metadata": {
+      "conversation_id": "2027450992183390613",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027450951922282758",
+    "source": "twitter",
+    "author": "NickSloggett",
+    "content": "@KalGrinberg @FactoryAI Build nanosecond performant @sierrachart for the web if unachievable write it for mac and windows including all mobile platforms.",
+    "url": "https://x.com/NickSloggett/status/2027450951922282758",
+    "timestamp": "2026-02-27T18:29:09.000Z",
+    "metadata": {
+      "conversation_id": "2027450951922282758",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027450853536514049",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@wan_ruirui @FactoryAI @FutureHouseSF @SGRodriques Still a great test of Mission capabilities! Gonna give it some time before making the selection, but this one is dope",
+    "url": "https://x.com/KalGrinberg/status/2027450853536514049",
+    "timestamp": "2026-02-27T18:28:46.000Z",
+    "metadata": {
+      "conversation_id": "2027450853536514049",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027444300272046592",
     "source": "twitter",
     "author": "KalGrinberg",
@@ -15234,6 +15534,19 @@
       "number": 639
     },
     "category": "bug"
+  },
+  {
+    "id": "github_issue_639",
+    "source": "github",
+    "author": "0xSero",
+    "content": "[Issue] Droid <> Zed terminal - Intense flickering issue\n\n## Issue: Huge flickering issue in the Zed IDE terminal \n\n### Details \n\n- OS: Mac OS v26\n- Device Macbook Pro M1 Max\n- IDE: Zed\n- Environment: Zed IDE's built in terminal \n- Bug: intense flickering \n\n### Behaviour\n\n- During window resizes, or accessing either models list or settings \n- The screen flickers for 1-2 minutes before settling down \n- Nothing fixes this, it happens when conversations get long as well\n- This behaviour is especially bad within the Zed terminal \n\n### How to reproduce:\n\n1.",
+    "url": "https://github.com/Factory-AI/factory/issues/639",
+    "timestamp": "2026-02-09T15:06:15Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 639
+    }
   },
   {
     "id": "twitter_2020863386557308945",
