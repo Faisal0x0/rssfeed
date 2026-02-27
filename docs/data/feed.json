@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2027431985363263910",
+    "source": "twitter",
+    "author": "SIGKITTEN",
+    "content": "@KalGrinberg @FactoryAI &gt; make a complete salesforce. no mistakes",
+    "url": "https://x.com/SIGKITTEN/status/2027431985363263910",
+    "timestamp": "2026-02-27T17:13:47.000Z",
+    "metadata": {
+      "conversation_id": "2027431985363263910",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027430122308161951",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "I work at @FactoryAI.  I have unlimited tokens.\n\nDrop your wildest prompt - the best one gets a full Mission run\n\nNo token limit, no time limit.  Droid will run for a month non-stop if that's how long it takes to finish the project",
+    "url": "https://x.com/KalGrinberg/status/2027430122308161951",
+    "timestamp": "2026-02-27T17:06:23.000Z",
+    "metadata": {
+      "conversation_id": "2027430122308161951",
+      "likes": 1,
+      "retweets": 1,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027424349498593700",
     "source": "twitter",
     "author": "ibrahem4k",
