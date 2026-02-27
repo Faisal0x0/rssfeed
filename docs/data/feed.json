@@ -10,7 +10,8 @@
       "type": "issue",
       "labels": [],
       "number": 688
-    }
+    },
+    "category": "question"
   },
   {
     "id": "twitter_2027233282015015399",
@@ -297,7 +298,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
-    }
+    },
+    "category": "love"
   },
   {
     "id": "twitter_2027170313814065641",
