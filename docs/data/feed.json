@@ -1,5 +1,140 @@
 [
   {
+    "id": "twitter_2027476672891482566",
+    "source": "twitter",
+    "author": "DanielWhit21874",
+    "content": "@ssh_sharma135 @KalGrinberg @FactoryAI Noted that, you guys have smashing it :)",
+    "url": "https://x.com/DanielWhit21874/status/2027476672891482566",
+    "timestamp": "2026-02-27T20:11:22.000Z",
+    "metadata": {
+      "conversation_id": "2027476672891482566",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027476472844456357",
+    "source": "twitter",
+    "author": "backnotprop",
+    "content": "@KalGrinberg @FactoryAI Return 50% or more against the market at the end of 1mo.",
+    "url": "https://x.com/backnotprop/status/2027476472844456357",
+    "timestamp": "2026-02-27T20:10:34.000Z",
+    "metadata": {
+      "conversation_id": "2027476472844456357",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027475834731147475",
+    "source": "twitter",
+    "author": "0xOrkward",
+    "content": "@KalGrinberg @FactoryAI unlimited tokens and a month of compute. someone's asking it to rewrite linux",
+    "url": "https://x.com/0xOrkward/status/2027475834731147475",
+    "timestamp": "2026-02-27T20:08:02.000Z",
+    "metadata": {
+      "conversation_id": "2027475834731147475",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027475442530201692",
+    "source": "twitter",
+    "author": "JustMicrock",
+    "content": "@KalGrinberg @FactoryAI solve world hunger. make no mistakes",
+    "url": "https://x.com/JustMicrock/status/2027475442530201692",
+    "timestamp": "2026-02-27T20:06:28.000Z",
+    "metadata": {
+      "conversation_id": "2027475442530201692",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027474750298009828",
+    "source": "twitter",
+    "author": "the_yamiteru",
+    "content": "@KalGrinberg @devparagiri @FactoryAI Why are you not looking for remote coworkers outside of US?",
+    "url": "https://x.com/the_yamiteru/status/2027474750298009828",
+    "timestamp": "2026-02-27T20:03:43.000Z",
+    "metadata": {
+      "conversation_id": "2027474750298009828",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027474514444226625",
+    "source": "twitter",
+    "author": "ssh_sharma135",
+    "content": "@DanielWhit21874 @KalGrinberg @FactoryAI markdown is all you need",
+    "url": "https://x.com/ssh_sharma135/status/2027474514444226625",
+    "timestamp": "2026-02-27T20:02:47.000Z",
+    "metadata": {
+      "conversation_id": "2027474514444226625",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027473890847461510",
+    "source": "twitter",
+    "author": "pietAIdev",
+    "content": "@KalGrinberg @FactoryAI salesforce replica!!!",
+    "url": "https://x.com/pietAIdev/status/2027473890847461510",
+    "timestamp": "2026-02-27T20:00:18.000Z",
+    "metadata": {
+      "conversation_id": "2027473890847461510",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027473541939994874",
+    "source": "twitter",
+    "author": "options__DNA",
+    "content": "@KalGrinberg @FactoryAI Build a low cost historical &amp; live OHLCV data feed for all US stocks 😬",
+    "url": "https://x.com/options__DNA/status/2027473541939994874",
+    "timestamp": "2026-02-27T19:58:55.000Z",
+    "metadata": {
+      "conversation_id": "2027473541939994874",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027473538039398680",
+    "source": "twitter",
+    "author": "ResearchSwarmAI",
+    "content": "You are a world-class multi-agent systems architect, AI-safety researcher, and simulation engineer (NeurIPS/ICML/Alignment Forum level). Your mission is to build **SWARM-NG Simulator** — a complete, self-contained, production-ready Python framework that is a **universal simulator for ANY large-scale multi-agent system**.\n\nGoal: One framework that can instantly simulate, visualize, and quantify emergent systemic risks in **any** multi-agent environment the user defines — robotic swarms, social networks, economies, nations, supply chains, blockchains, biological collectives, or completely novel domains — revealing failures that ONLY appear at scale (100–1M+ agents) and that no single-agent safety test can detect.\n\nThe simulator must be 100 % domain-agnostic: users define new worlds simply by dropping a YAML scenario file or a short Python environment class. No hard-coded domains required.\n\nPhase 0: Core SWARM Fidelity\nImplement these foundational principles exactly:\n- Every single interaction (vote, trade, movement, message, policy, collision, contract, etc.) produces a raw score → soft probability  \n  ```math\n  p = \\frac{1}{1 + e^{-k \\cdot \\hat{v}}}\n(k configurable, default 1.0). NO binary labels anywhere in the entire codebase.\n•  All metrics are pure expectations over p:\n•  toxicity_rate = E[1-p | accepted]\n•  quality_gap (adverse selection)\n•  conditional_loss\n•  incoherence (variance across replays)\n•  flagship illusion_delta = C_perceived - C_distributed\n•  Full replay engine: every decision can be replayed with fresh context to measure fragility at scale.\n•  YAML-driven scenarios (users define agents, environment rules, observables, and success criteria in plain YAML).\n•  CLI: swarm-ng-sim run scenarios/my_world.yaml --agents 5000 --epochs 50 --scale distributed --seed 42 --export-plots\n•  Modern Streamlit dashboard with live plots\nPhase 1: Universal Simulation Engine\n•  Pluggable environment system: any new domain is added with one YAML file (or optional lightweight Python class).\n•  Built-in examples (shipped as templates only): robotic swarm, agentic social network, trading economy, governance society — but these are not required at runtime.\n•  Distributed backend (Ray/Dask or Kubernetes-ready) for 10k–1M+ agents with one flag --scale 50000.\n•  Real-time population-level metrics and GPU-accelerated replay.\nPhase 2: Self-Improving Research Engine (the ambitious heart)\nAdd three brand-new subsystems:\n1.  Risk Discovery Meta-Agent LLM council that analyzes any run’s history and automatically proposes, implements, and validates entirely new emergent failure modes (with new metrics and scenario YAMLs).\n2.  Governance RL Optimizer PPO/SAC layer that tunes any governance levers in real time and exports reusable “optimal policy” files.\n3.  Automated Research Pipeline After any sweep, generate a full LaTeX paper (title, abstract, figures, causal analysis, counterfactuals) with one-click PDF export.\nPhase 3: Deliverables (output in strict order)\n1.  Complete pyproject.toml with extras [core], [distributed], [research], [llm], [viz].\n2.  Clean, extensible directory tree (swarm_ng_sim/ package).\n3.  Core classes first: SoftLabeler, Orchestrator, SoftMetrics, ReplayEngine, IllusionDeltaCalculator.\n4.  Universal environment base class + YAML loader (with 4 template scenarios as examples).\n5.  Minimal quickstart that runs a user-defined scenario and prints the final metrics table.\n6.  Full CLI + Streamlit dashboard (dynamic tabs for any loaded scenario + live graphs).\n7.  Self-improving sweep script that discovers new risks, optimizes governance, and outputs a paper.pdf.\n8.  Docker + docker-compose for one-command massive-scale runs.\n9.  At least 5 example scenario YAMLs demonstrating different domains.\n\nThis is the ultimate general-purpose tool for studying emergent behavior in any agent society — the framework that will power the next decade of multi-agent safety and complex systems research. Begin.",
+    "url": "https://x.com/ResearchSwarmAI/status/2027473538039398680",
+    "timestamp": "2026-02-27T19:58:54.000Z",
+    "metadata": {
+      "conversation_id": "2027473538039398680",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027471704092774713",
     "source": "twitter",
     "author": "ssh_sharma135",
