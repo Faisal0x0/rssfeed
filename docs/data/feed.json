@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2027532498524139645",
+    "source": "twitter",
+    "author": "jjpcodes",
+    "content": "@KalGrinberg @FactoryAI port GTA V and RDR2 to macbooks, and make it run well on an M4 pro",
+    "url": "https://x.com/jjpcodes/status/2027532498524139645",
+    "timestamp": "2026-02-27T23:53:12.000Z",
+    "metadata": {
+      "conversation_id": "2027532498524139645",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027531597524730277",
+    "source": "twitter",
+    "author": "lostonwww",
+    "content": "@KalGrinberg @FactoryAI crawl every public GitHub repo, identify every bug, fix them all,\nthen re-scan to find the bugs the fixes introduced,\nfix those too\n\nloop until there are zero bugs in all of open source\n\nI'll wait :)",
+    "url": "https://x.com/lostonwww/status/2027531597524730277",
+    "timestamp": "2026-02-27T23:49:37.000Z",
+    "metadata": {
+      "conversation_id": "2027531597524730277",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027529167416238422",
     "source": "twitter",
     "author": "seat_duck",
