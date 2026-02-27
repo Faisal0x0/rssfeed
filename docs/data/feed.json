@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_2027444300272046592",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@HarryStuck77 @FactoryAI I’ll pick a Mission and post frequent updates or even just have Droid output updates to twitter autonomously from the @droid account",
+    "url": "https://x.com/KalGrinberg/status/2027444300272046592",
+    "timestamp": "2026-02-27T18:02:43.000Z",
+    "metadata": {
+      "conversation_id": "2027444300272046592",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027443941034102966",
     "source": "twitter",
     "author": "KalGrinberg",
@@ -174,6 +189,21 @@
       "quotes": 0
     },
     "category": "mention"
+  },
+  {
+    "id": "twitter_2027442040015904847",
+    "source": "twitter",
+    "author": "geo_anima",
+    "content": "My @Droid Missions config:\n\nOrchestrator: Opus 4.6 (Max)\nWorker: GPT-5.3-Codex (Extra high)\nValidator: GPT-5.3-Codex (Extra high)\nSkip scrutiny: OFF\nSkip user testing: ON\n\nI run meta-planning missions - a mission to plan\nthe mission that architects the build.",
+    "url": "https://x.com/geo_anima/status/2027442040015904847",
+    "timestamp": "2026-02-27T17:53:45.000Z",
+    "metadata": {
+      "conversation_id": "2027442040015904847",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2027441933052694826",
@@ -430,6 +460,21 @@
       "quotes": 0
     },
     "category": "mention"
+  },
+  {
+    "id": "twitter_2027415099732865495",
+    "source": "twitter",
+    "author": "pascallammers_",
+    "content": "Trying /enter-mission from @droid today for the first time!  Mission Control looks siiiiiiccckkkkk https://t.co/ehaCCMiw7K",
+    "url": "https://x.com/pascallammers_/status/2027415099732865495",
+    "timestamp": "2026-02-27T16:06:41.000Z",
+    "metadata": {
+      "conversation_id": "2027415099732865495",
+      "likes": 9,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2027410975817613748",
