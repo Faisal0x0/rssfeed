@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_688",
+    "source": "github",
+    "author": "fanenr",
+    "content": "[Issue] Can native shell keyboard shortcuts be supported?\n\nIn the native shell, I can efficiently move the cursor using shortcuts like `C-f`, `C-b`, `C-a`, `C-e`, `M-f`, `M-b`, and so on, which is far faster than using arrow keys. Codex CLI supports this wonderfully; is there any hope that Droid will support it as well?",
+    "url": "https://github.com/Factory-AI/factory/issues/688",
+    "timestamp": "2026-02-27T04:37:07Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 688
+    }
+  },
+  {
     "id": "twitter_2027233282015015399",
     "source": "twitter",
     "author": "zach_sndr",
@@ -270,6 +283,21 @@
       "quotes": 0
     },
     "category": "mention"
+  },
+  {
+    "id": "twitter_2027172436131606724",
+    "source": "twitter",
+    "author": "geo_anima",
+    "content": "@FJ000RD It’s @Droid\n\nI haven’t gone back to Codex or Claude Code since Droid’s public release in September. IMHO it’s a much more coherent and capable harness.",
+    "url": "https://x.com/geo_anima/status/2027172436131606724",
+    "timestamp": "2026-02-27T00:02:26.000Z",
+    "metadata": {
+      "conversation_id": "2027172436131606724",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2027170313814065641",
