@@ -1,5 +1,230 @@
 [
   {
+    "id": "twitter_2027443941034102966",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@augmentedcamel @FactoryAI Holy shit",
+    "url": "https://x.com/KalGrinberg/status/2027443941034102966",
+    "timestamp": "2026-02-27T18:01:18.000Z",
+    "metadata": {
+      "conversation_id": "2027443941034102966",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027443916929200550",
+    "source": "twitter",
+    "author": "feltroidPrime",
+    "content": "@KalGrinberg @FactoryAI « push all droid repos on a public GitHub and post it on X »",
+    "url": "https://x.com/feltroidPrime/status/2027443916929200550",
+    "timestamp": "2026-02-27T18:01:12.000Z",
+    "metadata": {
+      "conversation_id": "2027443916929200550",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027443811115536644",
+    "source": "twitter",
+    "author": "AmarSVS",
+    "content": "@KalGrinberg @RayFernando1337 @FactoryAI Add better AMD ROCm kernels for Qwen 35B A3B in SGLang or vLLM for faster performance",
+    "url": "https://x.com/AmarSVS/status/2027443811115536644",
+    "timestamp": "2026-02-27T18:00:47.000Z",
+    "metadata": {
+      "conversation_id": "2027443811115536644",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027443550464393722",
+    "source": "twitter",
+    "author": "habibislop",
+    "content": "@KalGrinberg @FactoryAI Build a high-fidelity 3d simulation of the earth, outer space, and the moon, and use the codebase for the Apollo 11 Guidance Computer (linked below) to recreate the moon landing within that simulation\n\nhttps://t.co/BFa30iur86",
+    "url": "https://x.com/habibislop/status/2027443550464393722",
+    "timestamp": "2026-02-27T17:59:45.000Z",
+    "metadata": {
+      "conversation_id": "2027443550464393722",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027443521112928533",
+    "source": "twitter",
+    "author": "HarryStuck77",
+    "content": "@KalGrinberg @FactoryAI Are you watching while it runs ? 👀",
+    "url": "https://x.com/HarryStuck77/status/2027443521112928533",
+    "timestamp": "2026-02-27T17:59:38.000Z",
+    "metadata": {
+      "conversation_id": "2027443521112928533",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027443184901435897",
+    "source": "twitter",
+    "author": "augmentedcamel",
+    "content": "@KalGrinberg @FactoryAI Create github for brains and then fix alzheimers",
+    "url": "https://x.com/augmentedcamel/status/2027443184901435897",
+    "timestamp": "2026-02-27T17:58:18.000Z",
+    "metadata": {
+      "conversation_id": "2027443184901435897",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027443180355141764",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@jadenitripp @FactoryAI Second person to suggest this - might need to",
+    "url": "https://x.com/KalGrinberg/status/2027443180355141764",
+    "timestamp": "2026-02-27T17:58:16.000Z",
+    "metadata": {
+      "conversation_id": "2027443180355141764",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027443088843780263",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@nummanali @FactoryAI @AmpCode Model agnostic is a huge advantage",
+    "url": "https://x.com/EnoReyes/status/2027443088843780263",
+    "timestamp": "2026-02-27T17:57:55.000Z",
+    "metadata": {
+      "conversation_id": "2027443088843780263",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027443031805214874",
+    "source": "twitter",
+    "author": "garybasin",
+    "content": "@KalGrinberg @matanSF @FactoryAI Rewrite Linux in rust make no mistakes",
+    "url": "https://x.com/garybasin/status/2027443031805214874",
+    "timestamp": "2026-02-27T17:57:41.000Z",
+    "metadata": {
+      "conversation_id": "2027443031805214874",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027442915195367798",
+    "source": "twitter",
+    "author": "troymartig",
+    "content": "@nummanali @FactoryAI @AmpCode 👀",
+    "url": "https://x.com/troymartig/status/2027442915195367798",
+    "timestamp": "2026-02-27T17:57:13.000Z",
+    "metadata": {
+      "conversation_id": "2027442915195367798",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027442563670798540",
+    "source": "twitter",
+    "author": "jadenitripp",
+    "content": "@KalGrinberg @FactoryAI Definitely build Salesforce",
+    "url": "https://x.com/jadenitripp/status/2027442563670798540",
+    "timestamp": "2026-02-27T17:55:49.000Z",
+    "metadata": {
+      "conversation_id": "2027442563670798540",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027441933052694826",
+    "source": "twitter",
+    "author": "iwanttobeinmars",
+    "content": "@KalGrinberg @FactoryAI build slack all features included!",
+    "url": "https://x.com/iwanttobeinmars/status/2027441933052694826",
+    "timestamp": "2026-02-27T17:53:19.000Z",
+    "metadata": {
+      "conversation_id": "2027441933052694826",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027441638071750905",
+    "source": "twitter",
+    "author": "dazhengzhang",
+    "content": "@KalGrinberg @FactoryAI Rewrite CAR in rust. Make no mistakes.\n\nhttps://t.co/AHSUPCjqt2",
+    "url": "https://x.com/dazhengzhang/status/2027441638071750905",
+    "timestamp": "2026-02-27T17:52:09.000Z",
+    "metadata": {
+      "conversation_id": "2027441638071750905",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027441535785013295",
+    "source": "twitter",
+    "author": "BenjaminSc7519",
+    "content": "@KalGrinberg @FactoryAI build an assisted coding platform that can build games across popular engines like Unreal, GODOT, Gamemaker and others. platform should accept prompting and long form project work for iteration and publication",
+    "url": "https://x.com/BenjaminSc7519/status/2027441535785013295",
+    "timestamp": "2026-02-27T17:51:44.000Z",
+    "metadata": {
+      "conversation_id": "2027441535785013295",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027440423581442339",
+    "source": "twitter",
+    "author": "MeTrevorLoucks",
+    "content": "@KalGrinberg @FactoryAI Clone turbo tax but make it usable, automated document ingestion and processing, and maximizes use of exotic rules in the tax code.",
+    "url": "https://x.com/MeTrevorLoucks/status/2027440423581442339",
+    "timestamp": "2026-02-27T17:47:19.000Z",
+    "metadata": {
+      "conversation_id": "2027440423581442339",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027438913577521637",
     "source": "twitter",
     "author": "AlfajorMerval",
