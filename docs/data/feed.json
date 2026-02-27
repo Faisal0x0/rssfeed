@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_2027529167416238422",
+    "source": "twitter",
+    "author": "seat_duck",
+    "content": "@KalGrinberg @FactoryAI I mean was the issue ever it not running long enough or the agent just not having any actual taste itself?",
+    "url": "https://x.com/seat_duck/status/2027529167416238422",
+    "timestamp": "2026-02-27T23:39:57.000Z",
+    "metadata": {
+      "conversation_id": "2027529167416238422",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027528497418109105",
+    "source": "twitter",
+    "author": "pietAIdev",
+    "content": "@KalGrinberg @FactoryAI so it's salesforce replica? because i see more than 5👀",
+    "url": "https://x.com/pietAIdev/status/2027528497418109105",
+    "timestamp": "2026-02-27T23:37:18.000Z",
+    "metadata": {
+      "conversation_id": "2027528497418109105",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027528363963720074",
+    "source": "twitter",
+    "author": "DowClem",
+    "content": "Entered Mission control mode with 1.3 million tokens to spare, fingers crossed. @FactoryAI https://t.co/jO2MbqsBaI",
+    "url": "https://x.com/DowClem/status/2027528363963720074",
+    "timestamp": "2026-02-27T23:36:46.000Z",
+    "metadata": {
+      "conversation_id": "2027528363963720074",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027528242383753228",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@gilhildebrand @FactoryAI @EnoReyes Lfg",
+    "url": "https://x.com/KalGrinberg/status/2027528242383753228",
+    "timestamp": "2026-02-27T23:36:17.000Z",
+    "metadata": {
+      "conversation_id": "2027528242383753228",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027525520523448512",
+    "source": "twitter",
+    "author": "gilhildebrand",
+    "content": "@ankursharma1493 @FactoryAI @EnoReyes Yep https://t.co/JGb6WyDSZc",
+    "url": "https://x.com/gilhildebrand/status/2027525520523448512",
+    "timestamp": "2026-02-27T23:25:28.000Z",
+    "metadata": {
+      "conversation_id": "2027525520523448512",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027525276822085848",
+    "source": "twitter",
+    "author": "ankursharma1493",
+    "content": "@gilhildebrand @FactoryAI @EnoReyes Hey, have you tried setting up OpenClaw so far?\n\nAlso, anything you'd have done recently to automate some marketing, reaching out stuff?",
+    "url": "https://x.com/ankursharma1493/status/2027525276822085848",
+    "timestamp": "2026-02-27T23:24:30.000Z",
+    "metadata": {
+      "conversation_id": "2027525276822085848",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027524790651687333",
     "source": "twitter",
     "author": "geo_anima",
@@ -16,6 +106,171 @@
     "category": "mention"
   },
   {
+    "id": "twitter_2027524432441299441",
+    "source": "twitter",
+    "author": "nanomader",
+    "content": "Take a snapshot of the Linux kernel repo (torvalds/linux) and record the exact commit hash you work from. Focus only on the eBPF verifier logic needed for a small, clearly defined subset of eBPF programs in kernel/bpf/verifier.c\n\nPick a subset that is realistic to finish in a month: integer arithmetic and moves, conditional and unconditional jumps, stack loads/stores with constant offsets, and basic map helper calls (lookup/update/delete). Exclude the hard parts on purpose (no loops, no tail calls, no packet pointer work, no tricky pointer arithmetic, no uncommon helpers).\n\nWrite a formal model of this subset in Coq or Isabelle/HOL. That model should include (1) the execution semantics of the chosen eBPF instructions, (2) a simple memory model for stack and map values, and (3) a formal description of the verifier's abstract state and the checks it performs for this subset. Then prove a machine checked theorem like: if the verifier rules for this subset accept a program, every possible execution of the program is memory safe, meaning it never reads or writes outside the stack bounds or outside a map value.\n\nTo keep the model honest, also build a differential test harness that generates random programs in the same subset, runs them through the real Linux verifier (via bpftool and/or tools/testing/selftests/bpf), and runs them through your model. If the results differ, the harness should automatically minimize the program and output a small reproducer plus a short explanation of what differed.\n\nFinish by wiring this into CI so the proof always checks, and the fuzzer can run at least 1,000 random programs per night. If you uncover a real mismatch that looks like a kernel issue, produce an upstream-ready patch that adds a regression test (and a fix if appropriate).",
+    "url": "https://x.com/nanomader/status/2027524432441299441",
+    "timestamp": "2026-02-27T23:21:08.000Z",
+    "metadata": {
+      "conversation_id": "2027524432441299441",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027524422500860058",
+    "source": "twitter",
+    "author": "libankano",
+    "content": "@KalGrinberg @RayFernando1337 @FactoryAI @KalGrinberg will you do it? 🥹",
+    "url": "https://x.com/libankano/status/2027524422500860058",
+    "timestamp": "2026-02-27T23:21:06.000Z",
+    "metadata": {
+      "conversation_id": "2027524422500860058",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027520075897401540",
+    "source": "twitter",
+    "author": "gilhildebrand",
+    "content": "letting it rip @FactoryAI @EnoReyes https://t.co/u51gekY19e",
+    "url": "https://x.com/gilhildebrand/status/2027520075897401540",
+    "timestamp": "2026-02-27T23:03:50.000Z",
+    "metadata": {
+      "conversation_id": "2027520075897401540",
+      "likes": 6,
+      "retweets": 0,
+      "replies": 2,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027519618366247426",
+    "source": "twitter",
+    "author": "BenPielstick",
+    "content": "@KalGrinberg @FactoryAI I wonder what it would come up with as a design if you didn't specify anything. RS has a fairly simple design compared to something like WoW.",
+    "url": "https://x.com/BenPielstick/status/2027519618366247426",
+    "timestamp": "2026-02-27T23:02:01.000Z",
+    "metadata": {
+      "conversation_id": "2027519618366247426",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027519195131400333",
+    "source": "twitter",
+    "author": "JesseBurge7812",
+    "content": "@KalGrinberg @FactoryAI if the quality of the code is nice, i will buy an droid account and also will improve it",
+    "url": "https://x.com/JesseBurge7812/status/2027519195131400333",
+    "timestamp": "2026-02-27T23:00:20.000Z",
+    "metadata": {
+      "conversation_id": "2027519195131400333",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027519003686555918",
+    "source": "twitter",
+    "author": "JesseBurge7812",
+    "content": "@KalGrinberg @FactoryAI let droid cook",
+    "url": "https://x.com/JesseBurge7812/status/2027519003686555918",
+    "timestamp": "2026-02-27T22:59:34.000Z",
+    "metadata": {
+      "conversation_id": "2027519003686555918",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027518826154496243",
+    "source": "twitter",
+    "author": "akhi20187",
+    "content": "@KalGrinberg @FactoryAI build an AI copilot for the Manifatcuring industry for all process owners, to design their workflows, control plans, Fmea reports ..",
+    "url": "https://x.com/akhi20187/status/2027518826154496243",
+    "timestamp": "2026-02-27T22:58:52.000Z",
+    "metadata": {
+      "conversation_id": "2027518826154496243",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027518609539416552",
+    "source": "twitter",
+    "author": "mg",
+    "content": "The first big push made it through, next two happening now. So far at 5hr 14min for this run. The new @FactoryAI missions seem pretty awesome. https://t.co/FFaM8fPnTr",
+    "url": "https://x.com/mg/status/2027518609539416552",
+    "timestamp": "2026-02-27T22:58:00.000Z",
+    "metadata": {
+      "conversation_id": "2027518609539416552",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027518335387373660",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@JesseBurge7812 @FactoryAI damn it... that's like 5+ Salesforce requests",
+    "url": "https://x.com/KalGrinberg/status/2027518335387373660",
+    "timestamp": "2026-02-27T22:56:55.000Z",
+    "metadata": {
+      "conversation_id": "2027518335387373660",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027518207427547414",
+    "source": "twitter",
+    "author": "KalGrinberg",
+    "content": "@ibrinzila @FactoryAI Yeah bring it on, I haven't selected yet",
+    "url": "https://x.com/KalGrinberg/status/2027518207427547414",
+    "timestamp": "2026-02-27T22:56:24.000Z",
+    "metadata": {
+      "conversation_id": "2027518207427547414",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027517998043406498",
+    "source": "twitter",
+    "author": "JesseBurge7812",
+    "content": "@KalGrinberg @FactoryAI after reading all the comments i think salesforce!",
+    "url": "https://x.com/JesseBurge7812/status/2027517998043406498",
+    "timestamp": "2026-02-27T22:55:34.000Z",
+    "metadata": {
+      "conversation_id": "2027517998043406498",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "reddit_1rglofn",
     "source": "reddit",
     "author": "bentossell",
@@ -28,6 +283,21 @@
       "subreddit": "FactoryAi"
     },
     "category": "mention"
+  },
+  {
+    "id": "twitter_2027517389479571759",
+    "source": "twitter",
+    "author": "ty_todd1",
+    "content": "@KalGrinberg @matanSF @FactoryAI VSCode but built on Tauri.",
+    "url": "https://x.com/ty_todd1/status/2027517389479571759",
+    "timestamp": "2026-02-27T22:53:09.000Z",
+    "metadata": {
+      "conversation_id": "2027517389479571759",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2027516232442990864",
