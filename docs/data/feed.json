@@ -1,5 +1,140 @@
 [
   {
+    "id": "twitter_2027566004860071936",
+    "source": "twitter",
+    "author": "coryhall_",
+    "content": "Build a file carver from scratch in RUST that can perform all benchmarks from NIST and DFRWS 2006/2007 without any false positives. That is the hardest problem I have tried to solve using the leading AI services and knowledge of the problem. Maybe a custom AI software factory with unlimited tokens can solve it. Then open-source it if you can build it.",
+    "url": "https://x.com/coryhall_/status/2027566004860071936",
+    "timestamp": "2026-02-28T02:06:20.000Z",
+    "metadata": {
+      "conversation_id": "2027566004860071936",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027562543838052797",
+    "source": "twitter",
+    "author": "anasibnanwar",
+    "content": "@FactoryAI Time to try Mission Control mode and go to sleep... https://t.co/fksNAB1tdF",
+    "url": "https://x.com/anasibnanwar/status/2027562543838052797",
+    "timestamp": "2026-02-28T01:52:35.000Z",
+    "metadata": {
+      "conversation_id": "2027562543838052797",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027560412879683650",
+    "source": "twitter",
+    "author": "dgnratd",
+    "content": "@KalGrinberg @FactoryAI Find the answer to the great Question of Life, the Universe and Everything",
+    "url": "https://x.com/dgnratd/status/2027560412879683650",
+    "timestamp": "2026-02-28T01:44:07.000Z",
+    "metadata": {
+      "conversation_id": "2027560412879683650",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027560243706925187",
+    "source": "twitter",
+    "author": "JoelDeTeves",
+    "content": "@KalGrinberg @DowClem @FactoryAI @droid Me too",
+    "url": "https://x.com/JoelDeTeves/status/2027560243706925187",
+    "timestamp": "2026-02-28T01:43:27.000Z",
+    "metadata": {
+      "conversation_id": "2027560243706925187",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027558514424713328",
+    "source": "twitter",
+    "author": "AnnioDance",
+    "content": "@KalGrinberg @FactoryAI I have countless ideas, so just give me access and I’ll burn through them for you😂",
+    "url": "https://x.com/AnnioDance/status/2027558514424713328",
+    "timestamp": "2026-02-28T01:36:34.000Z",
+    "metadata": {
+      "conversation_id": "2027558514424713328",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027556679785607579",
+    "source": "twitter",
+    "author": "ActuallySamuelH",
+    "content": "@KalGrinberg @FactoryAI here's something niche. can droid replicate the  QUAD INFOTECH QMOS system?\n\nhttps://t.co/8vKhHBKZo7",
+    "url": "https://x.com/ActuallySamuelH/status/2027556679785607579",
+    "timestamp": "2026-02-28T01:29:17.000Z",
+    "metadata": {
+      "conversation_id": "2027556679785607579",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027556313425641934",
+    "source": "twitter",
+    "author": "JonnyD",
+    "content": "@KalGrinberg @FactoryAI Build a Cheesecake - @FactoryAI",
+    "url": "https://x.com/JonnyD/status/2027556313425641934",
+    "timestamp": "2026-02-28T01:27:49.000Z",
+    "metadata": {
+      "conversation_id": "2027556313425641934",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027555978678567194",
+    "source": "twitter",
+    "author": "acewhocares",
+    "content": "@KalGrinberg @FactoryAI what is the value prop of factory ai vs say codex or claude code?",
+    "url": "https://x.com/acewhocares/status/2027555978678567194",
+    "timestamp": "2026-02-28T01:26:30.000Z",
+    "metadata": {
+      "conversation_id": "2027555978678567194",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027554629169652058",
+    "source": "twitter",
+    "author": "gradienths",
+    "content": "@KalGrinberg @FactoryAI Rewrite every single electron app into macos native apps in swift or rust, with 0 memory leaks.",
+    "url": "https://x.com/gradienths/status/2027554629169652058",
+    "timestamp": "2026-02-28T01:21:08.000Z",
+    "metadata": {
+      "conversation_id": "2027554629169652058",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027551584209588536",
     "source": "twitter",
     "author": "plantingtoearn",
