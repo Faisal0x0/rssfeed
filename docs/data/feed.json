@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2027832201329410553",
+    "source": "twitter",
+    "author": "NineDroid",
+    "content": "@zerohedge With his 75 virgins",
+    "url": "https://x.com/NineDroid/status/2027832201329410553",
+    "timestamp": "2026-02-28T19:44:06.000Z",
+    "metadata": {
+      "conversation_id": "2027832201329410553",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027831649958867107",
+    "source": "twitter",
+    "author": "NineDroid",
+    "content": "@GadSaad 🎯🎯🎯",
+    "url": "https://x.com/NineDroid/status/2027831649958867107",
+    "timestamp": "2026-02-28T19:41:55.000Z",
+    "metadata": {
+      "conversation_id": "2027831649958867107",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027830399552848265",
     "source": "twitter",
     "author": "Daniel_San_CGI",
@@ -74606,6 +74636,19 @@
       "number": 418
     },
     "category": "bug"
+  },
+  {
+    "id": "github_discussion_418",
+    "source": "github",
+    "author": "WeYaTa-Dev",
+    "content": "[Discussion] Unable to authenticate Figma MCP\n\nI have run this command and the mcp's added successfully\r\n`droid mcp add figma https://mcp.figma.com/mcp --type http`\r\n\r\nBut when I tried to authenticate the mcp via /mcp command, it said:\r\n<img width=\"1209\" height=\"420\" alt=\"image\" src=\"https://github.com/user-attachments/assets/01774d30-442e-4361-b2ec-2cb67855f193\" />",
+    "url": "https://github.com/Factory-AI/factory/discussions/418",
+    "timestamp": "2025-11-22T09:31:10Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Questions",
+      "number": 418
+    }
   },
   {
     "id": "github_discussion_384",
