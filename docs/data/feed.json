@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_2027770531274244272",
+    "source": "twitter",
+    "author": "JoelDeTeves",
+    "content": "@aeitroc @droid Yes",
+    "url": "https://x.com/JoelDeTeves/status/2027770531274244272",
+    "timestamp": "2026-02-28T15:39:03.000Z",
+    "metadata": {
+      "conversation_id": "2027770531274244272",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027769082179682598",
     "source": "twitter",
     "author": "mg",
@@ -15226,6 +15241,19 @@
       "subreddit": "FactoryAi"
     },
     "category": "question"
+  },
+  {
+    "id": "reddit_1r3vike",
+    "source": "reddit",
+    "author": "RaiseRecent5881",
+    "content": "When Codex 5.3 is available in droid?\n\nThumbnail: self\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1r3vike/when_codex_53_is_available_in_droid/",
+    "timestamp": "2026-02-13T17:33:33.000Z",
+    "metadata": {
+      "score": 6,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
   },
   {
     "id": "twitter_2022360636492251210",
