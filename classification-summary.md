@@ -1,12 +1,12 @@
 # Classification Summary
 
-**Date:** 2026-02-28 06:00 UTC
-**New items classified:** 3
+**Date:** 2026-02-28 06:12 UTC
+**New items classified:** 1
 
 | Category | Count | % |
 |----------|-------|------|
-| mention | 1 | 33.3% |
-| bug | 0 | 0.0% |
+| mention | 0 | 0.0% |
+| bug | 1 | 100.0% |
 | love | 0 | 0.0% |
-| question | 2 | 66.7% |
+| question | 0 | 0.0% |
 | other | 0 | 0.0% |
