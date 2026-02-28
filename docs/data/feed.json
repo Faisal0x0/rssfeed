@@ -1,5 +1,65 @@
 [
   {
+    "id": "twitter_2027769082179682598",
+    "source": "twitter",
+    "author": "mg",
+    "content": "It's been fun to put it through its paces!\n\nThis one is my opinionated app factory of sorts. Shared infra for all my projects, so that I can put agent development more on rails. Schema-driven, so that adding different transports is a tight process.\n\nThe end goal is simple: set up a project scaffold, set up for CLI/MCP/HTTP/etc. and the core handles the rest. Then tight feedback loops for agents to make improvements to the core, and let them cascade through to the other projects trivially.",
+    "url": "https://x.com/mg/status/2027769082179682598",
+    "timestamp": "2026-02-28T15:33:17.000Z",
+    "metadata": {
+      "conversation_id": "2027769082179682598",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027768750238294415",
+    "source": "twitter",
+    "author": "geo_anima",
+    "content": "@DowClem @FactoryAI Droid Missions are hungry!\n\nOn day 3 of my billing cycle, I'm already at 220M tokens.\n\nThe cost of augmenting and compressing hundreds of hours of work.",
+    "url": "https://x.com/geo_anima/status/2027768750238294415",
+    "timestamp": "2026-02-28T15:31:58.000Z",
+    "metadata": {
+      "conversation_id": "2027768750238294415",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027767226057523632",
+    "source": "twitter",
+    "author": "shanemonastero",
+    "content": "@KSimback It really is such a great model\n\nCoupled with the @FactoryAI harness it feels like a powered up version of Claude Code without bugs",
+    "url": "https://x.com/shanemonastero/status/2027767226057523632",
+    "timestamp": "2026-02-28T15:25:55.000Z",
+    "metadata": {
+      "conversation_id": "2027767226057523632",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027764081285861775",
+    "source": "twitter",
+    "author": "Miguel907195421",
+    "content": "@justsisyphus @FactoryAI @EnoReyes @opencode How to start in opencode the mission feature like in droid?",
+    "url": "https://x.com/Miguel907195421/status/2027764081285861775",
+    "timestamp": "2026-02-28T15:13:25.000Z",
+    "metadata": {
+      "conversation_id": "2027764081285861775",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027756979712930233",
     "source": "twitter",
     "author": "birch_js",
