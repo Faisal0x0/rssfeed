@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_2027595570878287939",
+    "source": "twitter",
+    "author": "matanSF",
+    "content": "@mg @FactoryAI This made my day :) what r u building",
+    "url": "https://x.com/matanSF/status/2027595570878287939",
+    "timestamp": "2026-02-28T04:03:49.000Z",
+    "metadata": {
+      "conversation_id": "2027595570878287939",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027594621816344988",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "@mg @FactoryAI Let me know if you have any feedback!",
+    "url": "https://x.com/EnoReyes/status/2027594621816344988",
+    "timestamp": "2026-02-28T04:00:03.000Z",
+    "metadata": {
+      "conversation_id": "2027594621816344988",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027588963339252083",
+    "source": "twitter",
+    "author": "DavidPlakon",
+    "content": "@KalGrinberg @FactoryAI Build a mass domestic surveillance system.",
+    "url": "https://x.com/DavidPlakon/status/2027588963339252083",
+    "timestamp": "2026-02-28T03:37:34.000Z",
+    "metadata": {
+      "conversation_id": "2027588963339252083",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027588398240707058",
+    "source": "twitter",
+    "author": "JaimeOrtega",
+    "content": "@FactoryAI Man, not even I can pursue goals autonomously over multi-day horizons 😔",
+    "url": "https://x.com/JaimeOrtega/status/2027588398240707058",
+    "timestamp": "2026-02-28T03:35:19.000Z",
+    "metadata": {
+      "conversation_id": "2027588398240707058",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027585012162498691",
+    "source": "twitter",
+    "author": "dkubb",
+    "content": "@KalGrinberg @FactoryAI A Lean to Rust backend.\n\nWith all the work people are doing rewriting things in Rust, we're going to want more components that have cores that are proven.\n\nThere is a Lean to C backend, but I would prefer not to have to use FFI to connect the Rust code to the generated C.",
+    "url": "https://x.com/dkubb/status/2027585012162498691",
+    "timestamp": "2026-02-28T03:21:52.000Z",
+    "metadata": {
+      "conversation_id": "2027585012162498691",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2027581074822598735",
+    "source": "twitter",
+    "author": "Cyclebrity",
+    "content": "@KalGrinberg @RayFernando1337 @FactoryAI Sherlock the entire AI industry 🔥",
+    "url": "https://x.com/Cyclebrity/status/2027581074822598735",
+    "timestamp": "2026-02-28T03:06:13.000Z",
+    "metadata": {
+      "conversation_id": "2027581074822598735",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027576146406068698",
     "source": "twitter",
     "author": "mindofmaldo",
