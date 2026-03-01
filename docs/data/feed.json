@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_2028079924876320991",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@tpritha03 🤣🤣",
+    "url": "https://x.com/droidbuilds/status/2028079924876320991",
+    "timestamp": "2026-03-01T12:08:28.000Z",
+    "metadata": {
+      "conversation_id": "2028079924876320991",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028079591341142347",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@Anas_founder True 💯",
+    "url": "https://x.com/droidbuilds/status/2028079591341142347",
+    "timestamp": "2026-03-01T12:07:09.000Z",
+    "metadata": {
+      "conversation_id": "2028079591341142347",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028079350881701943",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@tpritha03 Lmao 💀💀 https://t.co/Z481ftyNHn",
+    "url": "https://x.com/droidbuilds/status/2028079350881701943",
+    "timestamp": "2026-03-01T12:06:11.000Z",
+    "metadata": {
+      "conversation_id": "2028079350881701943",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028078934752219543",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@0xPrajwal_ Yess",
+    "url": "https://x.com/droidbuilds/status/2028078934752219543",
+    "timestamp": "2026-03-01T12:04:32.000Z",
+    "metadata": {
+      "conversation_id": "2028078934752219543",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028078547185828176",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@devXritesh Ai was there that time?? 😂",
+    "url": "https://x.com/droidbuilds/status/2028078547185828176",
+    "timestamp": "2026-03-01T12:03:00.000Z",
+    "metadata": {
+      "conversation_id": "2028078547185828176",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028078202074137038",
+    "source": "twitter",
+    "author": "markzdroid",
+    "content": "@hiraideukie Yes, songs tend to fall in UL’s over the weekend but TANN didn’t.",
+    "url": "https://x.com/markzdroid/status/2028078202074137038",
+    "timestamp": "2026-03-01T12:01:37.000Z",
+    "metadata": {
+      "conversation_id": "2028078202074137038",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028075044702929271",
     "source": "twitter",
     "author": "droidbuilds",
@@ -46,6 +136,21 @@
       "quotes": 0
     },
     "category": "other"
+  },
+  {
+    "id": "twitter_2028074497094631706",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@JoseInNorte brooo https://t.co/jW0o7ZaNg9",
+    "url": "https://x.com/droidbuilds/status/2028074497094631706",
+    "timestamp": "2026-03-01T11:46:54.000Z",
+    "metadata": {
+      "conversation_id": "2028074497094631706",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2028074129597849795",
@@ -15182,6 +15287,19 @@
       "number": 680
     },
     "category": "bug"
+  },
+  {
+    "id": "github_issue_680",
+    "source": "github",
+    "author": "didasy",
+    "content": "[Issue] Error: 400 status code (no body)\n\nBug report ID: c6586ef6-9e5f-4313-9756-bec6e179c5a9\n\nProblem:\n\nI use cli-proxy-api, set the default model to gpt-5.3-codex. Works fine, but when I switch to gpt-5.2, it shows that error instead.\n\nAfter consulting with GPT, it told me it is because session lock set to fireworks even though it should be openai like I explicitly set in the settings.json. Then it told me to submit bug report.\n\nIt works fine in the previous versions 0.5x.x",
+    "url": "https://github.com/Factory-AI/factory/issues/680",
+    "timestamp": "2026-02-25T15:39:01Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 680
+    }
   },
   {
     "id": "twitter_2026679599032074404",
