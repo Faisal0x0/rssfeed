@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_2028087216220577868",
+    "source": "twitter",
+    "author": "DowClem",
+    "content": "@geo_anima @FactoryAI which model where you using for orchestrator, worker and validator? I used opus for orchestrator and codex for worker and validator and it took incredibly long.",
+    "url": "https://x.com/DowClem/status/2028087216220577868",
+    "timestamp": "2026-03-01T12:37:27.000Z",
+    "metadata": {
+      "conversation_id": "2028087216220577868",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028079924876320991",
     "source": "twitter",
     "author": "droidbuilds",
