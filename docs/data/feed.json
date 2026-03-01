@@ -1,5 +1,170 @@
 [
   {
+    "id": "twitter_2028132730240643255",
+    "source": "twitter",
+    "author": "porkytheking",
+    "content": "@JustinMalayas I swear he doesn’t hear himself talk.",
+    "url": "https://x.com/porkytheking/status/2028132730240643255",
+    "timestamp": "2026-03-01T15:38:18.000Z",
+    "metadata": {
+      "conversation_id": "2028132730240643255",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028132428657672462",
+    "source": "twitter",
+    "author": "DroidMASIVO",
+    "content": "@AshCrypto Compren cuando caiga a 50k 55k y mientras si cae más compra más y después se holdea en ( MASIVO )🤯🌪️👽",
+    "url": "https://x.com/DroidMASIVO/status/2028132428657672462",
+    "timestamp": "2026-03-01T15:37:06.000Z",
+    "metadata": {
+      "conversation_id": "2028132428657672462",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028132053116420241",
+    "source": "twitter",
+    "author": "DrOIDrendel",
+    "content": "@JosefKrieg99804 Segítesz? Mi hogy kapunk elég (orosz) olajat, ha a fuckránok nem nyitják meg a Barátságot?\nKöszi🇭🇺👌",
+    "url": "https://x.com/DrOIDrendel/status/2028132053116420241",
+    "timestamp": "2026-03-01T15:35:36.000Z",
+    "metadata": {
+      "conversation_id": "2028132053116420241",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028131910246191431",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@godwin36453 Done",
+    "url": "https://x.com/droidbuilds/status/2028131910246191431",
+    "timestamp": "2026-03-01T15:35:02.000Z",
+    "metadata": {
+      "conversation_id": "2028131910246191431",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028131831535837659",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@MattBuildss Agree 💯",
+    "url": "https://x.com/droidbuilds/status/2028131831535837659",
+    "timestamp": "2026-03-01T15:34:44.000Z",
+    "metadata": {
+      "conversation_id": "2028131831535837659",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028131649452638355",
+    "source": "twitter",
+    "author": "droidbuilds",
+    "content": "@ispeakweb2 Yessir",
+    "url": "https://x.com/droidbuilds/status/2028131649452638355",
+    "timestamp": "2026-03-01T15:34:00.000Z",
+    "metadata": {
+      "conversation_id": "2028131649452638355",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028131157624463563",
+    "source": "twitter",
+    "author": "droideka2k",
+    "content": "@eastasiasoft @_themushy",
+    "url": "https://x.com/droideka2k/status/2028131157624463563",
+    "timestamp": "2026-03-01T15:32:03.000Z",
+    "metadata": {
+      "conversation_id": "2028131157624463563",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028130429090529418",
+    "source": "twitter",
+    "author": "DoRizakh",
+    "content": "@WatcherGuru 🚀 wild times 💀",
+    "url": "https://x.com/DoRizakh/status/2028130429090529418",
+    "timestamp": "2026-03-01T15:29:09.000Z",
+    "metadata": {
+      "conversation_id": "2028130429090529418",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028130062458069488",
+    "source": "twitter",
+    "author": "DoRizakh",
+    "content": "@EcoPulseStreet Bi de uzun uzun yazmış. Bu bomba buraya atılsa demekki aynı şeyleri söyleyecekmiş korkunç korkunçççççç",
+    "url": "https://x.com/DoRizakh/status/2028130062458069488",
+    "timestamp": "2026-03-01T15:27:42.000Z",
+    "metadata": {
+      "conversation_id": "2028130062458069488",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028129766944227560",
+    "source": "twitter",
+    "author": "kevinma_dev_zh",
+    "content": "我在考虑基于 Pi（OpenClaw 底层的极简 agent 框架）做一个 tech team agent 自用。按照我自己的编排习惯来设计和实现，它的角色相当于 tech leader——理解我的需求和意图后，编写准确的提示词分发给 Claude Code、Codex CLI、Gemini CLI、Droid 等本地已配置好的工具，就像我坐在电脑前亲自给每个工具下指令一样。每个工具本身就是一个独立的 agent，Pi agent 做的是理解意图、拆解任务、编排调度。\n\n模型选择上，可以参考 Amp Code 的设计思路——不同任务角色匹配不同模型，由 agent 根据任务性质自动选择最合适的工具和模型组合，而不是手动指定。\n\n安全策略上，Pi 本身不做任何权限限制，需要自己在上层实现目录隔离和命令执行的安全边界，确保 agent 只能在指定的 codebase 目录中操作，禁止访问或执行其它目录的任何命令。\n\n交互上分两种模式：不在电脑前时，通过 Telegram 远程给 Pi agent 下任务、看进展、给反馈；回到电脑前，不经过 Pi agent，直接按自己的习惯在各个工具中编排指令和任务。两种模式各自独立，互不影响。如果整个编排流程做的很丝滑了，也可以做个 TUI 或 GUI 版本，在电脑前使用。\n\n总之，目标就是把这套东西打造成最趁手的开发环境。",
+    "url": "https://x.com/kevinma_dev_zh/status/2028129766944227560",
+    "timestamp": "2026-03-01T15:26:31.000Z",
+    "metadata": {
+      "conversation_id": "2028129766944227560",
+      "likes": 3,
+      "retweets": 1,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028129483769733321",
+    "source": "twitter",
+    "author": "terescavs",
+    "content": "@darkhorse_55 lol 😂…I dunno ‘bout that\n ‘Lil One ✍️ 🌹\n\nI think touching in the right way, at the right time &amp; in the right areas can definitely reach Yer soul; \n…BUT?\nI know what yew meant metaphorically…\nspiritually over physically🌹\n\nhttps://t.co/206SqasfSG\n\nBubo🦉",
+    "url": "https://x.com/terescavs/status/2028129483769733321",
+    "timestamp": "2026-03-01T15:25:24.000Z",
+    "metadata": {
+      "conversation_id": "2028129483769733321",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028128833858134039",
     "source": "twitter",
     "author": "FiveOhFour",
