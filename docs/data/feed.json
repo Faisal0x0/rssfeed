@@ -1,5 +1,63 @@
 [
   {
+    "id": "twitter_2028192807391797478",
+    "source": "twitter",
+    "author": "erd0xbc",
+    "content": "@jamonholmgren @claudeai @cursor_ai The list is simple for me:\n\n- Easy access for enterprise: @GitHubCopilot \n- Frontier AI Labs: Codex, Claude Code\n- Frontier Agent Labs: @AmpCode, @FactoryAI &gt; @droid \n- Honorable mention: @cursor_ai",
+    "url": "https://x.com/erd0xbc/status/2028192807391797478",
+    "timestamp": "2026-03-01T19:37:01.000Z",
+    "metadata": {
+      "conversation_id": "2028192807391797478",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "github_issue_692",
+    "source": "github",
+    "author": "gobrandwave",
+    "content": "[Issue] Auto-compaction fails to trigger when context window fills up — garbled gzip error responses\n\n# Bug: Auto-compaction fails to trigger when context window fills up — garbled gzip error responses\n\n## The problem\n\nWhen a Droid CLI session fills its context window, the session hard-fails instead of auto-compacting. The user is left with an unresponsive session and must manually run `/compress` to recover. This happens consistently every time the context window fills up.\n\nThe underlying cause is that the API error response body is gzip-compressed but never decompressed before being parsed. In",
+    "url": "https://github.com/Factory-AI/factory/issues/692",
+    "timestamp": "2026-03-01T19:32:07Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 692
+    }
+  },
+  {
+    "id": "twitter_2028190826053202024",
+    "source": "twitter",
+    "author": "towrywang",
+    "content": "@ninjaparticle @FactoryAI @droid droid have the worst TUI :) \nIts agentic ability is frontier for sure :)\nFor best tui experience try ampcode :)",
+    "url": "https://x.com/towrywang/status/2028190826053202024",
+    "timestamp": "2026-03-01T19:29:09.000Z",
+    "metadata": {
+      "conversation_id": "2028190826053202024",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028190288175644756",
+    "source": "twitter",
+    "author": "towrywang",
+    "content": "@ninjaparticle @FactoryAI @droid ???",
+    "url": "https://x.com/towrywang/status/2028190288175644756",
+    "timestamp": "2026-03-01T19:27:01.000Z",
+    "metadata": {
+      "conversation_id": "2028190288175644756",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028186903162364400",
     "source": "twitter",
     "author": "Crono_Nya",
@@ -30872,6 +30930,19 @@
       "number": 639
     },
     "category": "bug"
+  },
+  {
+    "id": "github_issue_639",
+    "source": "github",
+    "author": "0xSero",
+    "content": "[Issue] Droid <> Zed terminal - Intense flickering issue\n\n## Issue: Huge flickering issue in the Zed IDE terminal \n\n### Details \n\n- OS: Mac OS v26\n- Device Macbook Pro M1 Max\n- IDE: Zed\n- Environment: Zed IDE's built in terminal \n- Bug: intense flickering \n\n### Behaviour\n\n- During window resizes, or accessing either models list or settings \n- The screen flickers for 1-2 minutes before settling down \n- Nothing fixes this, it happens when conversations get long as well\n- This behaviour is especially bad within the Zed terminal \n\n### How to reproduce:\n\n1.",
+    "url": "https://github.com/Factory-AI/factory/issues/639",
+    "timestamp": "2026-02-09T15:06:15Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 639
+    }
   },
   {
     "id": "twitter_2020863386557308945",
