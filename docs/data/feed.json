@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_2028149368923017696",
+    "source": "twitter",
+    "author": "geo_anima",
+    "content": "@DowClem @FactoryAI I was experimenting with several different configurations of models, but I ended up settling on this config:\n\nhttps://t.co/aDWnllda9b",
+    "url": "https://x.com/geo_anima/status/2028149368923017696",
+    "timestamp": "2026-03-01T16:44:25.000Z",
+    "metadata": {
+      "conversation_id": "2028149368923017696",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028132730240643255",
     "source": "twitter",
     "author": "porkytheking",
