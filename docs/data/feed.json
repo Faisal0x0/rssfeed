@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_2027948965270843557",
+    "source": "twitter",
+    "author": "DowClem",
+    "content": "Building with @FactoryAI in the CLI https://t.co/cV90LV7KBH",
+    "url": "https://x.com/DowClem/status/2027948965270843557",
+    "timestamp": "2026-03-01T03:28:05.000Z",
+    "metadata": {
+      "conversation_id": "2027948965270843557",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2027946579655524709",
     "source": "twitter",
     "author": "Neysinceroo2",
@@ -318,6 +333,21 @@
       "quotes": 0
     },
     "category": "other"
+  },
+  {
+    "id": "twitter_2027929929946722487",
+    "source": "twitter",
+    "author": "EnoReyes",
+    "content": "The Factory Plugin marketplace contains a few general skills we think you'll really like:\n\n1. Navigating sessions\n2. Visual design (images, presentations, etc.)\n3. Human Writing (de-slopify)\n4. Browser Navigation\n5. Security (threat model, scanning, vuln identification)",
+    "url": "https://x.com/EnoReyes/status/2027929929946722487",
+    "timestamp": "2026-03-01T02:12:27.000Z",
+    "metadata": {
+      "conversation_id": "2027929929946722487",
+      "likes": 27,
+      "retweets": 5,
+      "replies": 2,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2027928798344216625",
