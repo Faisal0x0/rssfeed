@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2028530967053521167",
+    "source": "twitter",
+    "author": "RayFernando1337",
+    "content": "@FactoryAI Can’t wait to try this.",
+    "url": "https://x.com/RayFernando1337/status/2028530967053521167",
+    "timestamp": "2026-03-02T18:00:45.000Z",
+    "metadata": {
+      "conversation_id": "2028530967053521167",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028530841517769133",
+    "source": "twitter",
+    "author": "cooolernemesis",
+    "content": "@FactoryAI Nice launch—sharing full session logs and prompt history should make agent debugging much easier. A lightweight diff view between runs could be a killer addition for spotting regressions quickly.",
+    "url": "https://x.com/cooolernemesis/status/2028530841517769133",
+    "timestamp": "2026-03-02T18:00:15.000Z",
+    "metadata": {
+      "conversation_id": "2028530841517769133",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028527998367076687",
     "source": "twitter",
     "author": "BaDjeidy",
@@ -30582,6 +30612,19 @@
     "category": "bug"
   },
   {
+    "id": "github_issue_668",
+    "source": "github",
+    "author": "hongkongkiwi",
+    "content": "[Issue] Issues with anthropic models\n\nGetting this issue now with anthropic models:\n\nOn version: `v0.57.17`\n\n```\n Error: Streaming is required for operations that may take longer than 10 minutes. See https://github.com/anthropics/anthropic-sdk-typescript#long-requests for more details\n```",
+    "url": "https://github.com/Factory-AI/factory/issues/668",
+    "timestamp": "2026-02-18T17:21:13Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 668
+    }
+  },
+  {
     "id": "twitter_2024172017889558685",
     "source": "twitter",
     "author": "ES0XJEM",
@@ -30736,6 +30779,19 @@
       "subreddit": "FactoryAi"
     },
     "category": "question"
+  },
+  {
+    "id": "reddit_1r7qj5o",
+    "source": "reddit",
+    "author": "yusufg",
+    "content": "Did Minimax-2.5 get pulled out\n\nI thought I saw it earlier as a Droid Core model, don't see it as of 0.57.16 ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1r7qj5o/did_minimax25_get_pulled_out/",
+    "timestamp": "2026-02-18T02:21:54.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
   },
   {
     "id": "twitter_2023922259845341234",
