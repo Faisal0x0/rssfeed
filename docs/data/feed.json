@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_693",
+    "source": "github",
+    "author": "boggi-futura",
+    "content": "[Issue] session history does not load properly\n\nhaving to re-open factory desktop app to load recent sessions as not appearing in the session nav ",
+    "url": "https://github.com/Factory-AI/factory/issues/693",
+    "timestamp": "2026-03-02T12:41:19Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 693
+    }
+  },
+  {
     "id": "github_issue_692",
     "source": "github",
     "author": "gobrandwave",
