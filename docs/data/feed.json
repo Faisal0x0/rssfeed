@@ -96,6 +96,21 @@
     "category": "other"
   },
   {
+    "id": "twitter_2028460037858033923",
+    "source": "twitter",
+    "author": "shendusikao",
+    "content": "https://t.co/bRwjsv26x5\n\n太酷了",
+    "url": "https://x.com/shendusikao/status/2028460037858033923",
+    "timestamp": "2026-03-02T13:18:54.000Z",
+    "metadata": {
+      "conversation_id": "2028460037858033923",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028455383304441890",
     "source": "twitter",
     "author": "temuka1286",
@@ -1340,6 +1355,21 @@
       "quotes": 0
     },
     "category": "other"
+  },
+  {
+    "id": "twitter_2028427351512744234",
+    "source": "twitter",
+    "author": "aniketsauravv",
+    "content": "@Ra1kshit @FactoryAI @cursor_ai What do you think the number of tokens would need to recreate Stockfish in a completely different language",
+    "url": "https://x.com/aniketsauravv/status/2028427351512744234",
+    "timestamp": "2026-03-02T11:09:01.000Z",
+    "metadata": {
+      "conversation_id": "2028427351512744234",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2028427009508913628",
@@ -49236,6 +49266,19 @@
     "category": "mention"
   },
   {
+    "id": "reddit_1qov9hn",
+    "source": "reddit",
+    "author": "bentossell",
+    "content": "Factory CLI v0.56.0 Released - ACP daemon mode and more\n\n## New features\n\n* **ACP daemon mode** - New daemon mode for Agent Control Protocol enabling persistent background sessions with improved session loading\n* **Lazy session loading** - Sessions now load messages lazily for faster startup when resuming large sessions\n* **Dynamic default settings** - Settings now support dynamic defaults for better configuration flexibility\n\n## Bug fixes\n\n* **MCP tool schema isolation** - Broken tool schemas in one MCP server no longer affect other MCP servers\n* **S",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1qov9hn/factory_cli_v0560_released_acp_daemon_mode_and/",
+    "timestamp": "2026-01-28T00:02:55.000Z",
+    "metadata": {
+      "score": 6,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "twitter_2016300095747047641",
     "source": "twitter",
     "author": "MysticEru",
@@ -92282,6 +92325,19 @@
     "category": "question"
   },
   {
+    "id": "github_discussion_309",
+    "source": "github",
+    "author": "msneijders",
+    "content": "[Discussion] Droid CLI: configurable timeouts per mcp server\n\n**Motivation**: I use a 'Language Server Protocol' mcp for adding tools to query symbols and find_usage and such. But on large projects and during first-time use they can take quite some time before giving responses; causing timeouts in droid cli. If I could configure a larger timeout for this specific mcp server it could work better.",
+    "url": "https://github.com/Factory-AI/factory/discussions/309",
+    "timestamp": "2025-11-04T10:48:14Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Feature requests",
+      "number": 309
+    }
+  },
+  {
     "id": "github_discussion_240",
     "source": "github",
     "author": "factory-ben",
@@ -92352,6 +92408,19 @@
     "category": "mention"
   },
   {
+    "id": "github_discussion_240",
+    "source": "github",
+    "author": "factory-ben",
+    "content": "[Discussion] Mini Changelog\n\n<img width=\"686\" height=\"397\" alt=\"Screenshot 2025-10-22 at 14 58 16\" src=\"https://github.com/user-attachments/assets/0288d87c-55b1-44b4-91cb-33d745fc052b\" />\r\n",
+    "url": "https://github.com/Factory-AI/factory/discussions/240",
+    "timestamp": "2025-10-23T09:45:14Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Factory Official",
+      "number": 240
+    }
+  },
+  {
     "id": "github_discussion_225",
     "source": "github",
     "author": "JohnDotOwl",
@@ -92420,6 +92489,19 @@
       "number": 225
     },
     "category": "question"
+  },
+  {
+    "id": "github_discussion_225",
+    "source": "github",
+    "author": "JohnDotOwl",
+    "content": "[Discussion] Change Log\n\nCan we have more updated change logs somewhere if possible. \r\n\r\nSuccessfully updated to version 0.21.5 Just saw this ",
+    "url": "https://github.com/Factory-AI/factory/discussions/225",
+    "timestamp": "2025-10-21T09:52:33Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Feature requests",
+      "number": 225
+    }
   },
   {
     "id": "github_discussion_223",
