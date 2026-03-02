@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2028363931891466735",
+    "source": "twitter",
+    "author": "benvargas",
+    "content": "they never merged it and i closed it, they were going to base other work on my PR but approach with different abstracts… that branch was working great for me, but then anthropic renewed the attacks on subscribers with 3rd party use\n\nbut honestly, I’ve just stopped using anthropic sub entirely - no CLIProxyAPI, no pi use, no openclaw, etc. \n\nI use github copilot pro+ with 3rd party harness for opus/sonnet or just use claude code - most of my use has moved to 5.3 Codex though",
+    "url": "https://x.com/benvargas/status/2028363931891466735",
+    "timestamp": "2026-03-02T06:57:01.000Z",
+    "metadata": {
+      "conversation_id": "2028363931891466735",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028359479528653225",
+    "source": "twitter",
+    "author": "Alexand52645890",
+    "content": "@benvargas @moinulmoin @FactoryAI @droid Based on the latest updates, I can only see setting the thinking budget to 128k as equivalent to max. Is this already resolved? I think your PR is closed",
+    "url": "https://x.com/Alexand52645890/status/2028359479528653225",
+    "timestamp": "2026-03-02T06:39:19.000Z",
+    "metadata": {
+      "conversation_id": "2028359479528653225",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028357483123601554",
     "source": "twitter",
     "author": "NachoR__",
@@ -30586,6 +30616,19 @@
       "number": 656
     },
     "category": "bug"
+  },
+  {
+    "id": "github_issue_656",
+    "source": "github",
+    "author": "alexhamidi",
+    "content": "[Issue] Droid incompatible with Grok 4 BYOK due to reasoning_effort param\n\n### Problem\nUsing BYOK with Grok 4.1 returns a 400 error: \n`Error: 400 \"Model grok-4-1-fast-reasoning does not support parameter reasoningEffort.\"`\n\nhere is the `config.json` entry that caused the error:\n```json\n{\n      \"model\": \"grok-4-1-fast-reasoning\",\n      \"id\": \"custom:Grok-4.1-0\",\n      \"index\": 0,\n      \"baseUrl\": \"https://api.x.ai/v1\",\n      \"apiKey\": \"xai-****\",\n      \"displayName\": \"Grok 4.1\",\n      \"maxOutputTokens\": 8192,\n      \"noImageSupport\": false,\n      \"provider\": \"openai\"\n }\n",
+    "url": "https://github.com/Factory-AI/factory/issues/656",
+    "timestamp": "2026-02-14T06:39:57Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 656
+    }
   },
   {
     "id": "twitter_2022553550518391291",
