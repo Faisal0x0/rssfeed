@@ -1,5 +1,50 @@
 [
   {
+    "id": "twitter_2028967699846504752",
+    "source": "twitter",
+    "author": "alexinbinary",
+    "content": "@JayChopra_ @FactoryAI Not true gang 😭",
+    "url": "https://x.com/alexinbinary/status/2028967699846504752",
+    "timestamp": "2026-03-03T22:56:10.000Z",
+    "metadata": {
+      "conversation_id": "2028967699846504752",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028967464860828004",
+    "source": "twitter",
+    "author": "alvinsng",
+    "content": "The AI Factory above the Cheesecake Factory!",
+    "url": "https://x.com/alvinsng/status/2028967464860828004",
+    "timestamp": "2026-03-03T22:55:14.000Z",
+    "metadata": {
+      "conversation_id": "2028967464860828004",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028966344637444538",
+    "source": "twitter",
+    "author": "JayChopra_",
+    "content": "BEWARE of @FactoryAI being 10x more expensive than Claude Code and you can't cancel your subscription!\n\nMy friend made the mistake of giving a chance to factory ai's droid. Had to call their bank and cancel credit card payments but they KEPT charging even after the cancellation? Shame on them and their non-existent support.\n\nThe factory AI mods on the subreddit also removed the complaint? Not sure what they're hiding.",
+    "url": "https://x.com/JayChopra_/status/2028966344637444538",
+    "timestamp": "2026-03-03T22:50:47.000Z",
+    "metadata": {
+      "conversation_id": "2028966344637444538",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028964461466226799",
     "source": "twitter",
     "author": "shane41139",
@@ -302,6 +347,21 @@
       "quotes": 0
     },
     "category": "other"
+  },
+  {
+    "id": "twitter_2028961446449823862",
+    "source": "twitter",
+    "author": "JoelDeTeves",
+    "content": "@kyleanthony Hell ya @FactoryAI GOAT",
+    "url": "https://x.com/JoelDeTeves/status/2028961446449823862",
+    "timestamp": "2026-03-03T22:31:19.000Z",
+    "metadata": {
+      "conversation_id": "2028961446449823862",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2028960504883102183",
@@ -46194,6 +46254,19 @@
       "subreddit": "FactoryAi"
     },
     "category": "bug"
+  },
+  {
+    "id": "reddit_1r3ucrn",
+    "source": "reddit",
+    "author": "johannes_bertens",
+    "content": "Raspberry PI 4 support dropped?\n\nRunning droid now gives:\n\n```bash\n❯ droid\nIllegal instruction\n```\n\nVersion 0.57.5 still works:\n`https://downloads.factory.ai/factory-cli/releases/0.57.5/linux/arm64/droid`\n\nBut obviously it's sad if that's (one of?) the last versions!",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1r3ucrn/raspberry_pi_4_support_dropped/",
+    "timestamp": "2026-02-13T16:50:39.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
   },
   {
     "id": "twitter_2022350627439817012",
