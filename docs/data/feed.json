@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2028821534798676093",
+    "source": "twitter",
+    "author": "kyleanthony",
+    "content": "@tdh_02 @FactoryAI @matanSF i'm working on it!",
+    "url": "https://x.com/kyleanthony/status/2028821534798676093",
+    "timestamp": "2026-03-03T13:15:22.000Z",
+    "metadata": {
+      "conversation_id": "2028821534798676093",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028821396311151067",
+    "source": "twitter",
+    "author": "tdh_02",
+    "content": "@kyleanthony yes now convince @FactoryAI @matanSF to do the same",
+    "url": "https://x.com/tdh_02/status/2028821396311151067",
+    "timestamp": "2026-03-03T13:14:49.000Z",
+    "metadata": {
+      "conversation_id": "2028821396311151067",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
     "id": "github_issue_699",
     "source": "github",
     "author": "thezzisu",
@@ -46394,6 +46424,19 @@
       "subreddit": "FactoryAi"
     },
     "category": "bug"
+  },
+  {
+    "id": "reddit_1qygv4w",
+    "source": "reddit",
+    "author": "Reasonable-Sector192",
+    "content": "Opus 4.6 not showing up in the CLI Vscode.\n\nWhy",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1qygv4w/opus_46_not_showing_up_in_the_cli_vscode/",
+    "timestamp": "2026-02-07T15:36:18.000Z",
+    "metadata": {
+      "score": 2,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
   },
   {
     "id": "twitter_2020105887050854755",
