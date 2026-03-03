@@ -1,5 +1,35 @@
 [
   {
+    "id": "twitter_2028709435737338346",
+    "source": "twitter",
+    "author": "ain3sh",
+    "content": "@FactoryAI 🤖🚀 https://t.co/0ZCobrSnOs",
+    "url": "https://x.com/ain3sh/status/2028709435737338346",
+    "timestamp": "2026-03-03T05:49:55.000Z",
+    "metadata": {
+      "conversation_id": "2028709435737338346",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2028704168916210054",
+    "source": "twitter",
+    "author": "EntireHQ",
+    "content": "@_RandomYang @FactoryAI Hi @_RandomYang we are working through some performance fixes now. If possible, we’d love to learn more about your situation in a DM.",
+    "url": "https://x.com/EntireHQ/status/2028704168916210054",
+    "timestamp": "2026-03-03T05:29:00.000Z",
+    "metadata": {
+      "conversation_id": "2028704168916210054",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028701306437910552",
     "source": "twitter",
     "author": "_RandomYang",
@@ -65946,6 +65976,19 @@
     "category": "question"
   },
   {
+    "id": "reddit_1qgi3fe",
+    "source": "reddit",
+    "author": "Open-Philosopher4431",
+    "content": "How to connect gemini 3 flash API key to Droid?\n\nHow to connect gemini 3 flash API key to Droid? \n\nI tried to add it in custom model, but always get error 400 no body. ",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1qgi3fe/how_to_connect_gemini_3_flash_api_key_to_droid/",
+    "timestamp": "2026-01-18T19:37:54.000Z",
+    "metadata": {
+      "score": 1,
+      "num_comments": 3,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "twitter_2012949929220812911",
     "source": "twitter",
     "author": "BEAST_OFFICIIAL",
@@ -68636,6 +68679,19 @@
     "category": "mention"
   },
   {
+    "id": "reddit_1qela7d",
+    "source": "reddit",
+    "author": "bentossell",
+    "content": "Factory CLI v0.52.0 Released - `/share` command\n\n## New features\n\n* **`/share` command** - Share your current session with organization members, copies share URL to clipboard\n\n## Bug fixes\n\n* **Task tool view** - Fixed Ctrl+O view for Task tool\n* **Settings file writes** - Avoid unnecessary file writes when updating unrelated settings\n* **Unified tool display** - Fixed tool result pending display issue\n* **Subagent version** - Fixed subagent spawning to use correct droid version\n\n---\n\n[View full changelog](https://docs.factory.ai/changelog/cli",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1qela7d/factory_cli_v0520_released_share_command/",
+    "timestamp": "2026-01-16T16:51:37.000Z",
+    "metadata": {
+      "score": 4,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "reddit_1qekkhl",
     "source": "reddit",
     "author": "anchit_rana",
@@ -68676,6 +68732,19 @@
       "subreddit": "FactoryAi"
     },
     "category": "other"
+  },
+  {
+    "id": "reddit_1qekkhl",
+    "source": "reddit",
+    "author": "anchit_rana",
+    "content": "I have some AWS credits to burn\n\nThumbnail: default\n",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1qekkhl/i_have_some_aws_credits_to_burn/",
+    "timestamp": "2026-01-16T16:26:24.000Z",
+    "metadata": {
+      "score": 0,
+      "num_comments": 1,
+      "subreddit": "FactoryAi"
+    }
   },
   {
     "id": "twitter_2012177341523411096",
