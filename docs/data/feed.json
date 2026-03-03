@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_2028915104738427081",
+    "source": "twitter",
+    "author": "cmricksen",
+    "content": "@cosmo_kappa @ain3sh @EnoReyes @FactoryAI Shoot me a dm! I can help out.",
+    "url": "https://x.com/cmricksen/status/2028915104738427081",
+    "timestamp": "2026-03-03T19:27:11.000Z",
+    "metadata": {
+      "conversation_id": "2028915104738427081",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028905171942523132",
     "source": "twitter",
     "author": "mystrioustrmors",
@@ -30413,6 +30428,19 @@
     "category": "mention"
   },
   {
+    "id": "reddit_1rgj6n7",
+    "source": "reddit",
+    "author": "jazzy8alex",
+    "content": "Viewing &amp; Searching Factory Droid CLI Session History with Agent Sessions (macOS)\n\nHey Droid ommunity,\n\nI built **Agent Sessions** to browse/search different local coding-agents (Codex, Claude etc) runs, and I’m sharing it here specifically for  **Droid** folks.\n\n**Project page:** [Agent Sessions](https://jazzyalex.github.io/agent-sessions)\n\n• macOS app • Open source • Local only • 282 GitHub stars\n\n# What it helps with\n\n* Browse all local Droid and 5 more CLI agents sessions (active + past)\n* Full-text search across your session history\n* Read runs as a clean message timeline",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1rgj6n7/viewing_searching_factory_droid_cli_session/",
+    "timestamp": "2026-02-27T21:16:39.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "twitter_2027492836115935440",
     "source": "twitter",
     "author": "mwroblewski_dev",
@@ -47037,6 +47065,19 @@
       "number": 641
     },
     "category": "bug"
+  },
+  {
+    "id": "github_issue_641",
+    "source": "github",
+    "author": "igoor-asso",
+    "content": "[Issue] I've received confirmation that the specification has been approved and edited.\n\nIn Droid BYOK, on Windows 11 inside VSCode, with GLM-4.7, when I'm in spec mode and Droid creates a plan, I choose to edit manually in VSCode. As soon as I start editing, I get \n\nI've received confirmation that the specification has been approved and edited.\n\neven if I didn't even save the newly created file. \nSometimes it actually starts developing without me accepting any modification.",
+    "url": "https://github.com/Factory-AI/factory/issues/641",
+    "timestamp": "2026-02-10T16:38:31Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 641
+    }
   },
   {
     "id": "twitter_2021255606724932041",
