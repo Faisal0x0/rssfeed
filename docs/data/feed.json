@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_2028931490470395938",
+    "source": "twitter",
+    "author": "dparedesi",
+    "content": "@petergyang @linear @tryramp @FactoryAI Uhm… none of those are skills ☠️\n\nThey might be a plugin for a set of skills within a role. That’s how you packetise/distribute knowledge",
+    "url": "https://x.com/dparedesi/status/2028931490470395938",
+    "timestamp": "2026-03-03T20:32:17.000Z",
+    "metadata": {
+      "conversation_id": "2028931490470395938",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2028931425504739472",
     "source": "twitter",
     "author": "enbydroid",
@@ -70660,6 +70675,19 @@
     "category": "bug"
   },
   {
+    "id": "reddit_1qhb8aq",
+    "source": "reddit",
+    "author": "Foreign-Theme-8405",
+    "content": "Bug in GLM 4.7 droid: \"Operation failed - check parameters and try again\"\n\nWhen a plan is executed with GLM 4.7 on droid, in a specific folder, the CREATE file operations fail with the message:\n\n\n\n\"Operation failed - check parameters and try again\"\n\n\n\nIt works correctly in other projects and with other models, such as Codex.",
+    "url": "https://www.reddit.com/r/FactoryAi/comments/1qhb8aq/bug_in_glm_47_droid_operation_failed_check/",
+    "timestamp": "2026-01-19T17:50:49.000Z",
+    "metadata": {
+      "score": 3,
+      "num_comments": 0,
+      "subreddit": "FactoryAi"
+    }
+  },
+  {
     "id": "twitter_2013308123163881933",
     "source": "twitter",
     "author": "jcurtis",
@@ -102512,6 +102540,19 @@
       "number": 509
     },
     "category": "question"
+  },
+  {
+    "id": "github_discussion_509",
+    "source": "github",
+    "author": "MikDal002",
+    "content": "[Discussion] How to continue chat after droid crash\n\nHello :) \r\n\r\nSometimes droid crashes unexpectedly. Is there any way to recover to that session? \r\n\r\nExample exception\r\n\r\n```\r\nBun v1.3.3 (274e01c7) Windows x64\r\nWindows v.win11_dt\r\nCPU: sse42 avx avx2\r\nArgs: \"C:\\Users\\DQ845LT\\bin\\droid.exe\" \"--resume\"\r\nFeatures: Bun.stderr(2) Bun.stdin(2) Bun.stdout(2) fetch(6) http_server(2) jsc spawn(25) standalone_executable\r\nBuiltins: \"bun:main\" \"node:assert\" \"node:async_hooks\" \"node:buffer\" \"node:child_process\" \"node:constants\" \"node:crypto\" \"node:events\" \"",
+    "url": "https://github.com/Factory-AI/factory/discussions/509",
+    "timestamp": "2025-12-10T16:12:43Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Questions",
+      "number": 509
+    }
   },
   {
     "id": "github_issue_507",
