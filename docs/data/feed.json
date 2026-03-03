@@ -12,7 +12,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
-    }
+    },
+    "category": "mention"
   },
   {
     "id": "twitter_2028931425504739472",
@@ -70685,7 +70686,8 @@
       "score": 3,
       "num_comments": 0,
       "subreddit": "FactoryAi"
-    }
+    },
+    "category": "bug"
   },
   {
     "id": "twitter_2013308123163881933",
@@ -102552,7 +102554,8 @@
       "type": "discussion",
       "category": "Questions",
       "number": 509
-    }
+    },
+    "category": "question"
   },
   {
     "id": "github_issue_507",
