@@ -1,5 +1,20 @@
 [
   {
+    "id": "twitter_2029332570736132222",
+    "source": "twitter",
+    "author": "shivam_nerd",
+    "content": "This is not just a pilot or a test. This is real life adoption and true business outcomes.\n\nMy job is to elevate full engineering teams, and truly change the way software engineering is done at large organizations.\n\nOne of the greatest partners we have had.",
+    "url": "https://x.com/shivam_nerd/status/2029332570736132222",
+    "timestamp": "2026-03-04T23:06:02.000Z",
+    "metadata": {
+      "conversation_id": "2029332570736132222",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2029330593268306308",
     "source": "twitter",
     "author": "this_maru",
@@ -45786,6 +45801,19 @@
     "category": "question"
   },
   {
+    "id": "github_issue_688",
+    "source": "github",
+    "author": "fanenr",
+    "content": "[Issue] Can native shell keyboard shortcuts be supported?\n\nIn the native shell, I can efficiently move the cursor using shortcuts like `C-f`, `C-b`, `C-a`, `C-e`, `M-f`, `M-b`, and so on, which is far faster than using arrow keys. Codex CLI supports this wonderfully; is there any hope that Droid will support it as well?",
+    "url": "https://github.com/Factory-AI/factory/issues/688",
+    "timestamp": "2026-02-27T04:37:07Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 688
+    }
+  },
+  {
     "id": "twitter_2027233282015015399",
     "source": "twitter",
     "author": "zach_sndr",
@@ -77582,6 +77610,19 @@
       "number": 613
     },
     "category": "bug"
+  },
+  {
+    "id": "github_discussion_613",
+    "source": "github",
+    "author": "NTQ-TaiHX",
+    "content": "[Discussion] Authentication failed:\n\nEPERM: operation not permitted, rename 'C:\\Users\\xxx\\.factory\\auth.encrypted.tmp' -> 'C:\\Users\\xxx\\.factory\\auth.encrypted'\r\n\r\n> Press Enter to try again\r\n\r\nFor security reasons, I am not allowed to create .encrypted files; as soon as the new version is updated, I cannot use Droid.\r\n",
+    "url": "https://github.com/Factory-AI/factory/discussions/613",
+    "timestamp": "2026-01-23T04:58:29Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Questions",
+      "number": 613
+    }
   },
   {
     "id": "twitter_2014560190884876599",
