@@ -176,6 +176,21 @@
     "category": "other"
   },
   {
+    "id": "twitter_2029208976798167432",
+    "source": "twitter",
+    "author": "puhahocii",
+    "content": "@petergyang @linear @tryramp @FactoryAI “Codify expertise into AI skills” is such a practical frame. Been trying to turn my own customer complaint process into reusable prompts—AI handles the first pass, I take the tricky ones. Works okay, but turning intuition into steps is the hard part.",
+    "url": "https://x.com/puhahocii/status/2029208976798167432",
+    "timestamp": "2026-03-04T14:54:55.000Z",
+    "metadata": {
+      "conversation_id": "2029208976798167432",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2029208839464100239",
     "source": "twitter",
     "author": "achudaisilva",
@@ -30228,6 +30243,19 @@
     "category": "bug"
   },
   {
+    "id": "github_issue_691",
+    "source": "github",
+    "author": "HaydenLundin",
+    "content": "[Issue] Subagents (Task tool) fail 100% on all BYOK models — \"No output received\" / \"Task failed\"\n\n\n## Summary\n\nThe Task tool fails to execute **any** subagent when using BYOK custom models. Tested across 5 different models, 2 different providers, and 2 different provider types — all produce the same `⚠ Task failed` with no output. The simplest possible task (\"respond with the word hello\") fails every time.\n\nThe default `worker` droid (shipped by Factory) fails on every BYOK model. This is not a droid configuration issue.\n\nThis appears related to closed #211 (same symptoms). The underlying is",
+    "url": "https://github.com/Factory-AI/factory/issues/691",
+    "timestamp": "2026-03-01T07:29:28Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 691
+    }
+  },
+  {
     "id": "twitter_2028009499399741747",
     "source": "twitter",
     "author": "NineDroid",
@@ -45984,6 +46012,19 @@
     "category": "bug"
   },
   {
+    "id": "github_issue_674",
+    "source": "github",
+    "author": "dalisoft",
+    "content": "[Issue] `droid` not running\n\n## Excepted behavior\n\nRunning `droid` terminal instance.\n\n## Actual \n\nhttps://github.com/user-attachments/assets/ca86a49b-c064-4e99-a5b4-cbdf7e7ac199\n\n\n## Additional details\n\nDroid: 0.60.0\nZed: 0.224.10\nOS: Darwin 24.6.0 (macOS 15.7.4), Apple Silicon",
+    "url": "https://github.com/Factory-AI/factory/issues/674",
+    "timestamp": "2026-02-21T12:12:15Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 674
+    }
+  },
+  {
     "id": "twitter_2025179943638823261",
     "source": "twitter",
     "author": "_alissonryan",
@@ -46056,6 +46097,19 @@
       "number": 673
     },
     "category": "bug"
+  },
+  {
+    "id": "github_issue_673",
+    "source": "github",
+    "author": "1PercentSync",
+    "content": "[Issue] Bug: All models disabled in blocklist mode\n\n---\n\n## Bug: All models disabled in blocklist mode\n\n### Description\n\nWhen configuring model policy in the admin panel, disabling \"Allow All Factory Models\" while enabling \"Auto-allow New Models\" (blocklist mode) causes all models to be disabled, instead of the expected behavior where models not in the blocklist should be available.\n\n### Steps to Reproduce\n\n1. Go to Factory Droid admin panel\n2. Disable \"Allow All Factory Models\"\n3. Enable \"Auto-allow New Models\"\n4. Add some models to the blocklis",
+    "url": "https://github.com/Factory-AI/factory/issues/673",
+    "timestamp": "2026-02-21T05:27:20Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 673
+    }
   },
   {
     "id": "twitter_2025056984186392921",
