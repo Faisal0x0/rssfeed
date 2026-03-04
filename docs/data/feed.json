@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_706",
+    "source": "github",
+    "author": "7ampon",
+    "content": "[Issue] [BUG] CLI authentication fails on Windows\n\n## Description\n\nUnable to log in via the Droid CLI on Windows. Selecting `Login` from the welcome screen results in an endless loop of \"Authentication failed: Was there a typo in the url or port?\".\n\n<img width=\"1200\" height=\"554\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a723b284-b022-49f6-8ca9-8e1598728dcd\" />\n\n## Environment\n\n- **Droid version:** 0.67.1\n- **Bun version**: 1.2.22 and 1.3.10 (tested on both)\n\n## Steps to Reproduce\n\n1. Install on Windows `irm https://app.factory",
+    "url": "https://github.com/Factory-AI/factory/issues/706",
+    "timestamp": "2026-03-04T03:11:05Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 706
+    }
+  },
+  {
+    "id": "github_issue_704",
+    "source": "github",
+    "author": "symulacr",
+    "content": "[Issue] bug report 751f3bbd: session context isolation failure\n\nbug report id: 751f3bbd-bfd9-436e-9c42-a320f7709504\n\nsession context isolation failure. previous request artifacts (files + thinking metadata) appearing in subsequent unrelated request context.\n\ntechnical details:\n- session a created: matrix_engine.hpp, test_matrix_engine.cpp\n- session b (unrelated) showed session a files in `ls` output\n- session b thinking block contained session a description metadata\n- working directory state persisting across session boundaries\n\nimpact: assistant provided in",
+    "url": "https://github.com/Factory-AI/factory/issues/704",
+    "timestamp": "2026-03-04T02:57:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 704
+    }
+  },
+  {
     "id": "github_issue_699",
     "source": "github",
     "author": "thezzisu",

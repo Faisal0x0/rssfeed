@@ -1,7 +1,5 @@
 {
   "ids": [
-    "twitter_1992369376931271136",
-    "github_issue_378",
     "twitter_1992374758244057202",
     "twitter_1992374498839105980",
     "twitter_1992373987146690695",
@@ -999,7 +997,9 @@
     "github_issue_692",
     "github_issue_693",
     "github_issue_694",
-    "github_issue_699"
+    "github_issue_699",
+    "github_issue_706",
+    "github_issue_704"
   ],
   "conversations": []
 }
