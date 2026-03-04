@@ -1,5 +1,95 @@
 [
   {
+    "id": "twitter_2029270428641091834",
+    "source": "twitter",
+    "author": "anasibnanwar",
+    "content": "@niwoerner @FactoryAI What models did u use for ur run?",
+    "url": "https://x.com/anasibnanwar/status/2029270428641091834",
+    "timestamp": "2026-03-04T18:59:06.000Z",
+    "metadata": {
+      "conversation_id": "2029270428641091834",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2029270363545432264",
+    "source": "twitter",
+    "author": "anasibnanwar",
+    "content": "@niwoerner @FactoryAI My agents have been running for 110+ hours hope it doesn’t produce slop..i have used Gpt 5.3 codex xhigh for the backend work because i trust it.",
+    "url": "https://x.com/anasibnanwar/status/2029270363545432264",
+    "timestamp": "2026-03-04T18:58:51.000Z",
+    "metadata": {
+      "conversation_id": "2029270363545432264",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2029269632704774283",
+    "source": "twitter",
+    "author": "HarryStuck77",
+    "content": "@anasibnanwar @FactoryAI @droid @MiniMax_AI as gpt",
+    "url": "https://x.com/HarryStuck77/status/2029269632704774283",
+    "timestamp": "2026-03-04T18:55:57.000Z",
+    "metadata": {
+      "conversation_id": "2029269632704774283",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2029269435572420912",
+    "source": "twitter",
+    "author": "anasibnanwar",
+    "content": "@HarryStuck77 @FactoryAI @droid @MiniMax_AI Is minimax good at frontend?",
+    "url": "https://x.com/anasibnanwar/status/2029269435572420912",
+    "timestamp": "2026-03-04T18:55:10.000Z",
+    "metadata": {
+      "conversation_id": "2029269435572420912",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2029269006851686599",
+    "source": "twitter",
+    "author": "Hxlfed14",
+    "content": "@constantin_e21 @FactoryAI has some really interesting breakthroughs coming too \n\ntotally agreed",
+    "url": "https://x.com/Hxlfed14/status/2029269006851686599",
+    "timestamp": "2026-03-04T18:53:27.000Z",
+    "metadata": {
+      "conversation_id": "2029269006851686599",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
+    "id": "twitter_2029268098176496123",
+    "source": "twitter",
+    "author": "sarahyang_ai",
+    "content": "@petergyang @linear @tryramp @FactoryAI @thenanyu it feels like what we need is kept changing this day. what we need last year might not be important this year",
+    "url": "https://x.com/sarahyang_ai/status/2029268098176496123",
+    "timestamp": "2026-03-04T18:49:51.000Z",
+    "metadata": {
+      "conversation_id": "2029268098176496123",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2029266287906701595",
     "source": "twitter",
     "author": "HarryStuck77",
