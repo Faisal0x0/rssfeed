@@ -208,6 +208,21 @@
     "category": "other"
   },
   {
+    "id": "twitter_2029233188128854365",
+    "source": "twitter",
+    "author": "dai___you",
+    "content": "AIネイティブな企業3社 - @linear、@tryramp、@factoryai - のAIオンボーディング https://t.co/3xfORD1TpZ",
+    "url": "https://x.com/dai___you/status/2029233188128854365",
+    "timestamp": "2026-03-04T16:31:08.000Z",
+    "metadata": {
+      "conversation_id": "2029233188128854365",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
+  },
+  {
     "id": "twitter_2029232377453523342",
     "source": "twitter",
     "author": "achudaisilva",
@@ -478,6 +493,21 @@
       "quotes": 0
     },
     "category": "other"
+  },
+  {
+    "id": "twitter_2029225767746585077",
+    "source": "twitter",
+    "author": "MingtaKaivo",
+    "content": "@petergyang @linear @tryramp @FactoryAI @thenanyu spent a week writing CLAUDE.md files for my agents before they stopped hallucinating the API schema. onboarding AI is 80% documentation nobody wants to write and 20% realizing the docs were wrong",
+    "url": "https://x.com/MingtaKaivo/status/2029225767746585077",
+    "timestamp": "2026-03-04T16:01:38.000Z",
+    "metadata": {
+      "conversation_id": "2029225767746585077",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "quotes": 0
+    }
   },
   {
     "id": "twitter_2029225714172486141",
@@ -45774,6 +45804,19 @@
       "number": 676
     },
     "category": "bug"
+  },
+  {
+    "id": "github_issue_676",
+    "source": "github",
+    "author": "washanhanzi",
+    "content": "[Issue] Droid interactive CLI causes terminal window to resize on focus\n\n## Bug Description\n\nFocusing on the Droid interactive CLI causes the terminal window to resize unexpectedly.\n\n## Environment\n\n- **Droid version**: 0.61.0\n- **OS**: Arch Linux, Wayland\n- **Affected terminals**: Kitty, Ghostty (plain terminal, no tmux/IDE)\n\n## Steps to Reproduce\n\n1. Open Kitty or Ghostty terminal\n2. Launch Droid interactive CLI\n3. Switch focus away from the terminal\n4. Switch focus back to the terminal\n\n**Expected**: Terminal window size remains unchanged.\n**Actual**: Terminal win",
+    "url": "https://github.com/Factory-AI/factory/issues/676",
+    "timestamp": "2026-02-24T05:17:20Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 676
+    }
   },
   {
     "id": "twitter_2026126714020237626",
