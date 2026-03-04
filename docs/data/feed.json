@@ -236,7 +236,8 @@
       "retweets": 0,
       "replies": 0,
       "quotes": 0
-    }
+    },
+    "category": "mention"
   },
   {
     "id": "twitter_2029299042526613618",
@@ -1451,7 +1452,8 @@
       "retweets": 3,
       "replies": 2,
       "quotes": 1
-    }
+    },
+    "category": "love"
   },
   {
     "id": "twitter_2029272200138662343",
