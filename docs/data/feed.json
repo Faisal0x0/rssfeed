@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_716",
+    "source": "github",
+    "author": "LuncyBloont",
+    "content": "[Issue] Enter key not working in latest VS Code Terminal\n\n**Enter, Delete, Tab keys not working in VS Code 1.110 terminal when running droid**\n\nIn VS Code version 1.110 (February 2026), after launching `droid` in the integrated terminal, the Enter, Delete, and Tab keys stop working. Regular character input works fine.\n\n- This issue does not occur in an older VS Code version (January 2026) or in another derivative (TRAE) I tested.\n- It reproduces in a clean environment with no extensions installed.\n- I tested with multiple recent versions of droid (from",
+    "url": "https://github.com/Factory-AI/factory/issues/716",
+    "timestamp": "2026-03-05T06:00:32Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 716
+    }
+  },
+  {
     "id": "github_issue_706",
     "source": "github",
     "author": "7ampon",
