@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_718",
+    "source": "github",
+    "author": "JochenYang",
+    "content": "[Issue] [Feature Request] Support SpinnerVerbs-like custom verbs for slash commands\n\n## Feature Request: Custom Slash Command Verbs\n\n### Description\nDoes Factory support something similar to Claude Code's \"SpinnerVerbs\"? \n\nIn Claude Code, SpinnerVerbs allows customizing the verbs used in slash commands. For example, you can customize what verbs appear when you type `/`.\n\n### Use Case\n- Customize available verbs for slash commands\n- Add custom verbs beyond default ones\n- Improve command discoverability\n\n### Reference\nClaude Code uses `SpinnerVerbs` in settings.json:\n```json\n{\n  \"",
+    "url": "https://github.com/Factory-AI/factory/issues/718",
+    "timestamp": "2026-03-05T11:41:34Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 718
+    }
+  },
+  {
     "id": "github_issue_717",
     "source": "github",
     "author": "JochenYang",
