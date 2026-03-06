@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_744",
+    "source": "github",
+    "author": "rstander7777",
+    "content": "[Issue] Thinking output for custom models are not shown when enabled in the settings\n\nHi,\n\nThis is a duplicate of the case mentioned below. The issue seem to have returned or maybe it was never fixed?\n\nCan someone confirm that the thinking output is shown in droid cli when enabled in settings (Show thinking in main view: On)?\n\nLink to previous closed case:\n[Issue 242](https://github.com/Factory-AI/factory/issues/242)",
+    "url": "https://github.com/Factory-AI/factory/issues/744",
+    "timestamp": "2026-03-06T04:59:57Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 744
+    }
+  },
+  {
     "id": "github_issue_719",
     "source": "github",
     "author": "LuncyBloont",
