@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_745",
+    "source": "github",
+    "author": "alexhooketh",
+    "content": "[Issue] Factory App on macOS won't let sign in\n\n<img width=\"1193\" height=\"807\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/76e4fce9-f637-4270-a6e4-14d7ed6e7d9b\" />\n\nHappens in about 10 seconds after signing in via the webpage. Nothing unusual is shown on the frontend's console:\n\n```\n[OTEL] Disabled Object\nindex-yo6ioYAL.js:2590 User authenticated Object\napi.factory.ai/api/telemetry/ingest:1  Failed to load resource: net::ERR_NAME_NOT_RESOLVED\nindex-yo6ioYAL.js:2590 Navigating to path from notification/deeplink: Objectpath: \"/s",
+    "url": "https://github.com/Factory-AI/factory/issues/745",
+    "timestamp": "2026-03-06T15:14:59Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 745
+    }
+  },
+  {
     "id": "github_issue_744",
     "source": "github",
     "author": "rstander7777",
