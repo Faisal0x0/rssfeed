@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_765",
+    "source": "github",
+    "author": "a112121788",
+    "content": "[Issue] [BUg] Droid Computers is not enabled for your organization.\n\n",
+    "url": "https://github.com/Factory-AI/factory/issues/765",
+    "timestamp": "2026-03-10T07:10:55Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 765
+    }
+  },
+  {
     "id": "github_issue_760",
     "source": "github",
     "author": "hermesthecat",
