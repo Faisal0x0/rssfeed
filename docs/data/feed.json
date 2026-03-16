@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_793",
+    "source": "github",
+    "author": "SamKacer",
+    "content": "[Issue] Droid fails to make tool call and stops working on plan\n\nI have been using droid for a few weeks with good success. This week it started malfunctioning and is pretty much unusable at the moment.\n\nThe issue is when I ask it to do something, it will start working on it, but then it will stop when it tries to make a tool call. Instead of making the tool call and proceeding, it instead seems to print out the xml for the tool call and stops as if it is done with the task, even though it isn't.\n\nFor reference I am using stepfun/step-3.5-flash:free via open ",
+    "url": "https://github.com/Factory-AI/factory/issues/793",
+    "timestamp": "2026-03-16T11:03:49Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 793
+    }
+  },
+  {
     "id": "github_issue_788",
     "source": "github",
     "author": "JlNW00",
