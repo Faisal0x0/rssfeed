@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_812",
+    "source": "github",
+    "author": "rlgrpe",
+    "content": "[Issue] Droid 0.77 Segmentation fault\n\nAfter updating to version 0.77.0, whenever I run it on my machine in any terminal other than Ghostty, I get a segmentation fault\n\nBun v1.3.10 (30e609e0) macOS Silicon\nmacOS v15.7.4\nCPU: fp aes crc32 atomics\nArgs: \"droid\"\nFeatures: Bun.stderr(2) Bun.stdin(2) Bun.stdout(2) fetch(6) http_server(4) jsc spawn(51) standalone_executable workers_spawned workers_terminated napi_module_register process_dlopen\nBuiltins: \"abort-controller\" \"bun:ffi\" \"bun:main\" \"node:assert\" \"node:async_hooks\" \"node:buffer\" ",
+    "url": "https://github.com/Factory-AI/factory/issues/812",
+    "timestamp": "2026-03-17T23:45:58Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 812
+    }
+  },
+  {
     "id": "github_issue_794",
     "source": "github",
     "author": "markeljc",
