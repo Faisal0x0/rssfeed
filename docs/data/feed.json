@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_816",
+    "source": "github",
+    "author": "HeCHieh",
+    "content": "[Issue] [BUG] Ghostty tmux mode: content behind /model selection window flickers when holding direction keys\n\n## Bug ID: 602ab1f7-b5a7-4067-978a-c1625b6beed3\n\n## Environment\n- **Terminal:** Ghostty\n- **Mode:** tmux\n- **Droid version:** 0.79.0\n\n## Description\nWhen using the `/model` command in Ghostty terminal with tmux mode enabled, holding down direction keys (up/down) to quickly scroll through model options causes the content behind the selection window to flicker momentarily.\n\n## Steps to Reproduce\n1. Open Ghostty terminal with a tmux session\n2. Run `/model` to open the model selection UI\n3. Hold dow",
+    "url": "https://github.com/Factory-AI/factory/issues/816",
+    "timestamp": "2026-03-18T06:03:29Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 816
+    }
+  },
+  {
+    "id": "github_issue_815",
+    "source": "github",
+    "author": "HeCHieh",
+    "content": "[Issue] [BUG] Ghostty tmux mode: terminal flickers after long session with heavy console output\n\n## Bug ID: db39d8a8-8eac-45c7-b11a-d87a4d4d7861\n\n## Environment\n- **Terminal:** Ghostty\n- **Mode:** tmux\n- **Droid version:** 0.79.0\n- **Session duration:** 3 hours 45 minutes\n\n## Description\nWhen running droid in Ghostty terminal with tmux mode for an extended period, the terminal starts flickering once console output accumulates beyond a certain threshold. When typing text or using keyboard shortcuts, content scrolls from top to bottom.\n\n## Steps to Reproduce\n1. Open Ghostty terminal with a tm",
+    "url": "https://github.com/Factory-AI/factory/issues/815",
+    "timestamp": "2026-03-18T06:02:57Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 815
+    }
+  },
+  {
     "id": "github_issue_814",
     "source": "github",
     "author": "dinfames",
