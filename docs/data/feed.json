@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_814",
+    "source": "github",
+    "author": "dinfames",
+    "content": "[Issue] Droid v0.77 crashes with segfault on macOS Tahoe 26.3.1 (ARM64)\n\nAfter updating to v0.77.0, Droid crashes immediately on launch with bus error / segfault / Bun panic across all terminals (Warp, etc.) on macOS Tahoe.\n\nDowngrading to v0.76.0 via `curl -fsSL -o ~/.local/bin/droid.real \"https://downloads.factory.ai/factory-cli/releases/0.76.0/darwin/arm64/droid\"` resolves the issue.\n\n```\nBun v1.3.10 (30e609e0) macOS Silicon\nmacOS v26.3.1\nCPU: fp aes crc32 atomics\nArgs: \"/Users/[redacted]/.local/bin/droid.real\"\nRSS: 0.39GB | Peak: 0.40GB | Commit: 1.01GB | Faults:",
+    "url": "https://github.com/Factory-AI/factory/issues/814",
+    "timestamp": "2026-03-18T04:56:45Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 814
+    }
+  },
+  {
     "id": "github_issue_813",
     "source": "github",
     "author": "zwen64657",
