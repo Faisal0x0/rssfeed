@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_813",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] Sub-agents in version 0.77 appear to be unavailable.\n\nall three custom droids (worker, scrutiny-feature-reviewer,\n      user-testing-flow-validator) returned \"Premature close\" errors, indicating a system-level connection\n   issue\n       rather than individual droid configuration problems.",
+    "url": "https://github.com/Factory-AI/factory/issues/813",
+    "timestamp": "2026-03-18T03:47:37Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 813
+    }
+  },
+  {
     "id": "github_issue_812",
     "source": "github",
     "author": "rlgrpe",
