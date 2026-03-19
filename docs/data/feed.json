@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_821",
+    "source": "github",
+    "author": "Tyler-Factory",
+    "content": "[Issue] WebSearch tool broken: T.map is not a function\n\n## Bug Report\n\n**Tool:** WebSearch\n**Environment:** CLI, darwin 25.3.0, Claude Opus 4.6\n**Date:** 2026-03-19\n\n### Description\nThe WebSearch tool returns an internal JavaScript error when invoked. Any query triggers the failure.\n\n### Error\n```\nError performing web search: T.map is not a function.\n(In 'T.map(($)=>{let I=$.title||\"Untitled\",q=$.url.length>80?`${...}`:$.url,...})', 'T.map' is undefined)\n```\n\n### Steps to Reproduce\n1. Open Factory CLI session\n2. Invoke WebSearch with any query (e.g. ",
+    "url": "https://github.com/Factory-AI/factory/issues/821",
+    "timestamp": "2026-03-19T14:37:23Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 821
+    }
+  },
+  {
     "id": "github_issue_817",
     "source": "github",
     "author": "leolopez007",
