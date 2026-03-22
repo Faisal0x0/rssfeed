@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_830",
+    "source": "github",
+    "author": "jason-dark",
+    "content": "[Issue] Droid Shield false positives\n\nWhen committing I am frequently being blocked by Droid Shield for things like mocks and unit tests that use made up example tokens, passwords, etc. Would it be possible to support an exclusion pattern for things like this? Perhaps allow strings that explicitly start with `_mock_...` or something along those lines?",
+    "url": "https://github.com/Factory-AI/factory/issues/830",
+    "timestamp": "2026-03-22T20:32:39Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 830
+    }
+  },
+  {
     "id": "github_issue_822",
     "source": "github",
     "author": "zwen64657",
