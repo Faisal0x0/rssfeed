@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_832",
+    "source": "github",
+    "author": "chenglun17-0",
+    "content": "[Issue] Can't impress context\n\nWhen I use custom models, it can't auto compress my context.\nAnd when I use command to compress the context,  it also ouput wrong informations.\n\n\nError: Failed to compact and start a new session.\n\n   400 status code (no body)",
+    "url": "https://github.com/Factory-AI/factory/issues/832",
+    "timestamp": "2026-03-23T10:41:04Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 832
+    }
+  },
+  {
     "id": "github_issue_831",
     "source": "github",
     "author": "primmer",
