@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_839",
+    "source": "github",
+    "author": "thebasedcapital",
+    "content": "[Issue] TUI hangs at 'Thinking...' when cwd is home directory (~)\n\n## Description\n\nDroid v0.84.0 TUI mode hangs forever at \"Thinking...\" when launched from `~` (home directory). The message never reaches the API — the LLM call is never made. `droid exec` mode works fine from the same directory.\n\n## Environment\n\n- **Droid version:** 0.84.0\n- **OS:** macOS 15.4 (Darwin 25.3.0), Apple Silicon\n- **Terminal:** Ghostty (also reproduced in Apple Terminal and tmux)\n\n## Steps to Reproduce\n\n1. `cd ~`\n2. `droid`\n3. Type any message and press Enter\n4. TUI shows \"Thinking..",
+    "url": "https://github.com/Factory-AI/factory/issues/839",
+    "timestamp": "2026-03-24T13:20:51Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 839
+    }
+  },
+  {
     "id": "github_issue_837",
     "source": "github",
     "author": "Ding-Fan",
