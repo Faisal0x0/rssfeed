@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_837",
+    "source": "github",
+    "author": "Ding-Fan",
+    "content": "[Issue] [Feature Request]: Custom Skills Path Configuration\n\nAllow users to configure a custom skills directory path, similar to how OpenClaw support external skill locations.\n\nAdd `skillsPath` to `~/.factory/settings.json`:\n\n```json\n{\n  \"skillsPath\": [\"~/.config/skills\", \"~/work/shared-skills\"]\n}\n```\n\n### OpenClaw\nOpenClaw supports custom skill directories via configuration in `~/.openclaw/openclaw.json`:\n\n```json\n{\n  \"skills\": {\n    \"load\": {\n      \"extraDirs\": [\"~/Projects/agent-scripts/skills\", \"~/Projects/oss/some-skill-pack/skills\"]\n    }\n  }\n}\n```\n",
+    "url": "https://github.com/Factory-AI/factory/issues/837",
+    "timestamp": "2026-03-24T09:27:23Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 837
+    }
+  },
+  {
     "id": "github_issue_833",
     "source": "github",
     "author": "oldschoola",
