@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_852",
+    "source": "github",
+    "author": "towry",
+    "content": "[Issue] TUI broken: keep crash when use tools\n\n```\n[2026-03-26T06:01:08.038Z] INFO: 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙\n[2026-03-26T06:01:24.750Z] ERROR: An unexpected critical error occurred {\n  error: TypeError: undefined is not an object (evaluating 'h.input.directory_path')\n      at <anonymous> (src/services/ConversationStateManager.ts:809:39)\n      at forEach (native:1:11)\n      at <anonymous> (src/services/Conversatio",
+    "url": "https://github.com/Factory-AI/factory/issues/852",
+    "timestamp": "2026-03-26T07:26:47Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 852
+    }
+  },
+  {
     "id": "github_issue_851",
     "source": "github",
     "author": "seeyou19992006",
