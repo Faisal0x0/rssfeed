@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_849",
+    "source": "github",
+    "author": "ogulcancelik",
+    "content": "[Issue] systemd-inhibit sleep inhibitors leak on Linux\n\nOn Linux, droid spawns a systemd-inhibit process per mission to block suspend:\n\n ```\n   systemd-inhibit --what=sleep --mode=block --who=droid \\\n     --why=\"Keep system awake during mission execution\" \\\n     sh -c \"while :; do sleep 2147483647; done\"\n ```\n\n These processes are never killed when missions complete. They accumulate indefinitely. I had 72+ orphaned inhibitor processes after normal usage. This causes `CanSuspend` to return \"inhibited\" via logind, which makes GNOME hide the suspend but",
+    "url": "https://github.com/Factory-AI/factory/issues/849",
+    "timestamp": "2026-03-26T02:14:41Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 849
+    }
+  },
+  {
     "id": "github_issue_839",
     "source": "github",
     "author": "thebasedcapital",
