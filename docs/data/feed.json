@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_867",
+    "source": "github",
+    "author": "zipeilee",
+    "content": "[Issue] droid CLI startup is very slow (~2s) compared to other CLI AI agents\n\ndroid takes ~1.8-2.2s just to show `--help`. Other CLI AI agents (claude code, opencode, codex-cli) all start in <100ms.\n\nMeasured on my machine:\n\n```\ndroid --help    ~1.8-2.2s\ndroid --version ~0.8s\n```\n\n**Environment:**\n\n- droid 0.89.0 (installed via Homebrew)\n- MacBook Air, Apple M4, 16GB RAM\n- macOS 15.7.4\n\nThis is purely a software startup issue — the 108MB Bun-compiled binary needs to cold-start the JavaScriptCore VM and parse the entire JS bundle on every invocation, even for `--help`.",
+    "url": "https://github.com/Factory-AI/factory/issues/867",
+    "timestamp": "2026-03-28T11:45:20Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 867
+    }
+  },
+  {
     "id": "github_issue_866",
     "source": "github",
     "author": "AliverAnme",
