@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_865",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] v0.89.0: Specific input string \"Is the file also the latest?\" fails to display correctly\n\nFor some reason, the text 'Is the file also the latest?' is not showing up in version v0.89.0.\n不知为何，文本‘文件也是最新的吗？’在版本v0.89.0中没有显示出来。\n<img width=\"886\" height=\"598\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/870f2b41-5243-4bc0-87ff-db7e1e7717f8\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/865",
+    "timestamp": "2026-03-28T09:01:30Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 865
+    }
+  },
+  {
     "id": "github_issue_859",
     "source": "github",
     "author": "harshav167",
