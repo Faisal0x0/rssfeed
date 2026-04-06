@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_894",
+    "source": "github",
+    "author": "kendonB",
+    "content": "[Issue] Custom model doesn't expose Extra high as an option for reasoning effort\n\n",
+    "url": "https://github.com/Factory-AI/factory/issues/894",
+    "timestamp": "2026-04-06T06:06:42Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 894
+    }
+  },
+  {
     "id": "github_issue_893",
     "source": "github",
     "author": "jvantuyl",
