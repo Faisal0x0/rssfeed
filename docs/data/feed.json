@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_895",
+    "source": "github",
+    "author": "syxc",
+    "content": "[Issue] Bug: Environment variable references for `apiKey` get replaced with plaintext after saving settings\n\n# Bug: Environment variable references for `apiKey` get replaced with plaintext after saving settings\n\n## Bug Description\nWhen modifying any settings or configuration in Droid, environment variable references set for `apiKey` in `settings.json` are automatically replaced with their actual plaintext values.\n\nThis causes sensitive API keys to be written in plaintext to the config file, which is a security issue.\n\n## Steps to reproduce\n1. Set `apiKey` in `settings.json` to an environment variable (",
+    "url": "https://github.com/Factory-AI/factory/issues/895",
+    "timestamp": "2026-04-06T08:54:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 895
+    }
+  },
+  {
     "id": "github_issue_894",
     "source": "github",
     "author": "kendonB",
