@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_902",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] Suggestion: Improve Ctrl+N model switching behavior\n\n When pressing Ctrl+N, if the current model is a custom model, it should prioritize switching between custom models\n    first. Only when there is only one custom model available should it cycle to the built-in plan models.\n\n   This would provide a smoother experience for users who have multiple custom models configured.",
+    "url": "https://github.com/Factory-AI/factory/issues/902",
+    "timestamp": "2026-04-07T04:38:39Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 902
+    }
+  },
+  {
     "id": "github_issue_898",
     "source": "github",
     "author": "rlgrpe",
