@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_912",
+    "source": "github",
+    "author": "zyxlovesty",
+    "content": "[Issue] Terminal creation fails on non-C: drive paths (Windows) - \"Invalid cwd: path outside allowed directories\n\nFactory Desktop fails to create a terminal when the project/session working directory is on a non-system drive (e.g. E:\\). The daemon rejects the create_terminal RPC call with MetaError: Invalid cwd: path outside allowed directories.\nProjects on C:\\ work fine. There is no visible UI setting to configure allowed directories or add trusted paths.\nEnvironment\n\nFactory Desktop version: 0.51.1\nDroid version: 0.96.1\nOS: Windows 10.0.26200 (Windows 11)\nShell: PowerShell (Windows Terminal)\n\nSteps to Rep",
+    "url": "https://github.com/Factory-AI/factory/issues/912",
+    "timestamp": "2026-04-08T08:50:33Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 912
+    }
+  },
+  {
     "id": "github_issue_909",
     "source": "github",
     "author": "mikez93",
