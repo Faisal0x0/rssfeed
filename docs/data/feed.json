@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_916",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] <json-render> not rendered correctly when multiple subagents process large files\n\nWhen using multiple subagents (Task tool) to batch-read files and output summaries, the <json-render>\n   content is not rendered correctly and displays as raw JSON text.\n\n<img width=\"1013\" height=\"498\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9a695ea1-ae30-4b0f-9aa1-deff3a97a4af\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/916",
+    "timestamp": "2026-04-08T13:07:28Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 916
+    }
+  },
+  {
     "id": "github_issue_915",
     "source": "github",
     "author": "AliverAnme",
