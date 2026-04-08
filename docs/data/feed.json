@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_919",
+    "source": "github",
+    "author": "AssahBismarkabah",
+    "content": "[Issue] Desktop App (macOS): Clicking New Session does nothing, cloud sync 404 blocks UI\n\n## Environment\n- **OS:** macOS 26.3.1 (arm64, Apple Silicon)\n- **Factory Desktop:** v0.51.2 (3564)\n- **Droid CLI:** v0.96.2\n- **Electron:** 39.2.7\n\n## Symptom\nClicking \"New Session\" in the Desktop app does nothing. No terminal opens, no session appears in the UI, no error shown. The UI remains on the same screen as if the click was ignored.\n\nThe CLI works perfectly. `droid` in the terminal creates sessions and streams responses from models (claude-opus-4-6 via vertex_anthropic) without any issue",
+    "url": "https://github.com/Factory-AI/factory/issues/919",
+    "timestamp": "2026-04-08T21:08:41Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 919
+    }
+  },
+  {
     "id": "github_issue_916",
     "source": "github",
     "author": "zwen64657",
