@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_909",
+    "source": "github",
+    "author": "mikez93",
+    "content": "[Issue] Compaction broken for BYOK models — regression from v0.93.0 to v0.94.2, causes infinite retry loop and rapid credit burn\n\n### Description\n\nContext compaction (summarization) fails for BYOK custom models in v0.94.2. This is a regression — compaction worked correctly in v0.93.0 with the same BYOK configuration.\n\nTwo separate failures depending on the BYOK model provider:\n\n**1. BYOK OpenAI models (via proxy):**\n```\nMetaError: No text content found in Anthropic response\n```\nThe compaction summarizer appears to parse the model response using Anthropic message format (`content[].text` blocks) regardless of provider. Open",
+    "url": "https://github.com/Factory-AI/factory/issues/909",
+    "timestamp": "2026-04-08T00:23:05Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 909
+    }
+  },
+  {
     "id": "github_issue_902",
     "source": "github",
     "author": "zwen64657",
