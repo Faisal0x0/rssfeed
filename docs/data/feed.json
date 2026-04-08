@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_913",
+    "source": "github",
+    "author": "newwangshaofeng",
+    "content": "[Issue] [Bug] Compaction fails with BYOK OpenAI provider: \"No text content found in Anthropic response\"\n\nRepro: Set sessionDefaultSettings.model to a custom model with provider: \"openai\", trigger /compress, and compaction fails at Summarizer.ts:341 because the response parser expects Anthropic format regardless of the configured provider.\n\nMetaError: No text content found in Anthropic response\n    at Summarizer.ts:341\n\n09:14:13  TUI 发起 droid.compact_session 请求\n    ↓\n09:14:13  (等待约 126 秒)\n    ↓\n09:16:21  [Compaction] End (manual error)\n          MetaError: No text content found in Anthropic response",
+    "url": "https://github.com/Factory-AI/factory/issues/913",
+    "timestamp": "2026-04-08T09:24:41Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 913
+    }
+  },
+  {
     "id": "github_issue_912",
     "source": "github",
     "author": "zyxlovesty",
