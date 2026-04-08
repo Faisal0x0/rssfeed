@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_915",
+    "source": "github",
+    "author": "AliverAnme",
+    "content": "[Issue] [BUG]Windows Terminal Rendering Glitches and Layout Corruption\n\n### Description\nWhen using the droid cli tool on Windows, the terminal output experiences significant rendering issues, leading to a corrupted and unreadable layout. This problem appears consistently across different terminal emulators (e.g., Command Prompt, PowerShell, Windows Terminal).\nThe interface elements, such as text and borders, are misaligned, making the tool difficult to use. Interestingly, disabling the feature that displays the current window context seems to mitigate the issue\n### ",
+    "url": "https://github.com/Factory-AI/factory/issues/915",
+    "timestamp": "2026-04-08T11:34:42Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 915
+    }
+  },
+  {
+    "id": "github_issue_914",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] Manual context compression failed in version 0.96.1, but automatic compression works.\n\n<img width=\"1053\" height=\"164\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/621804c6-0659-4362-a7ca-b9faec6fd830\" />\n<img width=\"832\" height=\"329\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7e028ec6-6d54-4a56-ba6a-edb9dd2f3a4b\" />\nI hope this can be fixed as soon as possible.",
+    "url": "https://github.com/Factory-AI/factory/issues/914",
+    "timestamp": "2026-04-08T11:15:33Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 914
+    }
+  },
+  {
     "id": "github_issue_913",
     "source": "github",
     "author": "newwangshaofeng",
