@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_924",
+    "source": "github",
+    "author": "Rubyj",
+    "content": "[Issue] Mixed Models spec mode auto-switching does not work with custom BYOK models\n\n## Description\nAfter approving a spec in Specification Mode, the session does not automatically switch from the `specModeModel` to the default `model`. It remains on the spec mode model for execution.\n\n## Environment\n- OS: macOS (darwin 25.4.0)\n- Date observed: 2026-04-09\n\n## Custom Model Configuration (`~/.factory/settings.json`)\n- Default model: `custom:Sonnet-4.6-1` (claude-sonnet-4-6 via Anthropic provider)\n- Spec mode model: `custom:Opus-4.6-0` (claude-opus-4-6 via Anthropic provider)\n- Bot",
+    "url": "https://github.com/Factory-AI/factory/issues/924",
+    "timestamp": "2026-04-09T15:36:36Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 924
+    }
+  },
+  {
     "id": "github_issue_923",
     "source": "github",
     "author": "phillza",
