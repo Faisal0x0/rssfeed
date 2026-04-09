@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_923",
+    "source": "github",
+    "author": "phillza",
+    "content": "[Issue] droid TUI (mission mode): terminal scrollback jumps to top during active LLM output\n\n## Summary\n\nWhen `droid` is running in mission/TUI mode and the LLM is actively generating output, any attempt to scroll the terminal (mouse wheel or scrollbar drag) causes the viewport to jump immediately to the very top of the terminal scrollback buffer instead of scrolling by a small amount.\n\n## Steps to Reproduce\n\n1. Run `droid` in a terminal (Windows Terminal, PowerShell, etc.)\n2. Start a mission and wait for the LLM to begin actively generating/streaming output\n3. While the LLM is working,",
+    "url": "https://github.com/Factory-AI/factory/issues/923",
+    "timestamp": "2026-04-09T12:10:24Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 923
+    }
+  },
+  {
     "id": "github_issue_922",
     "source": "github",
     "author": "Blue-B",
