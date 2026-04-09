@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_922",
+    "source": "github",
+    "author": "Blue-B",
+    "content": "[Issue] [BUG] TodoWrite/plan renders raw Unicode codepoints for CJK (Korean) characters\n\n<!DOCTYPE html><h2 cid=\"n443\" mdtype=\"heading\" class=\"md-end-block md-heading md-focus\" style=\"box-sizing: border-box; white-space: pre-wrap; break-after: avoid-page; break-inside: avoid; orphans: 4; font-size: 1.3125em; margin-top: 2.28571em; margin-bottom: 0.75em; font-weight: bold; line-height: 1.15; position: relative; color: rgb(31, 9, 9); font-family: &quot;PT Serif&quot;, &quot;Times New Roman&quot;, &quot;SF Pro&quot;, Times, serif; font-style: normal; font-variant-ligatures: normal; fon",
+    "url": "https://github.com/Factory-AI/factory/issues/922",
+    "timestamp": "2026-04-09T04:34:49Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 922
+    }
+  },
+  {
     "id": "github_issue_919",
     "source": "github",
     "author": "AssahBismarkabah",
