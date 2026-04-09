@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_925",
+    "source": "github",
+    "author": "GHesericsu",
+    "content": "[Issue] [Feature] Voice mode to prompt the agents\n\nI would like to use dictation to quickly tell agents what to do and sometimes it's easy to just press a button to speak to Droid than typing. \n\nCurrently I'd need to use a thirdparty app to talk to Droid agents. ",
+    "url": "https://github.com/Factory-AI/factory/issues/925",
+    "timestamp": "2026-04-09T20:32:01Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 925
+    }
+  },
+  {
     "id": "github_issue_924",
     "source": "github",
     "author": "Rubyj",
