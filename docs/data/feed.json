@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_932",
+    "source": "github",
+    "author": "coygeek",
+    "content": "[Issue] macOS app switches BYOK/custom-endpoint chats to read-only after first message, while droid CLI keeps working\n\n### Problem\n\nWhen I use a custom endpoint / BYOK-style setup, the macOS Factory app lets me send the first message, but then the session becomes unusable.\n\nAfter the first prompt completes, the app shows messages like:\n\n- `Your subscription has ended. Sending new messages is disabled.`\n- `You are on the free tier. Upgrade to a paid plan to unlock more features.`\n- `This is a read-only legacy session`\n\nAt that point I cannot continue the conversation in the GUI.\n\nWhat makes this look like a bug r",
+    "url": "https://github.com/Factory-AI/factory/issues/932",
+    "timestamp": "2026-04-10T01:48:16Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 932
+    }
+  },
+  {
     "id": "github_issue_925",
     "source": "github",
     "author": "GHesericsu",
