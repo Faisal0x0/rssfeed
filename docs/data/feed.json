@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_936",
+    "source": "github",
+    "author": "MadGraph",
+    "content": "[Issue] Feature Request: Option to suppress hook execution logs / vanilla mode\n\n## Problem\n\nWhen a plugin registers hooks, Factory displays `HOOKS X → Script: plugin-name` for **every** hook execution, even when the hook exits silently (exit code 0 with no stdout). This creates visual pollution when users want to run droid without plugin orchestration.\n\n## Use Case\n\nThe [oh-my-droid](https://github.com/MadGraph/oh-my-droid) plugin implements a guard pattern where hooks check an `OMD_ENABLED` environment variable and `exit(0)` silently when not set:\n\n```javascript\nexport asy",
+    "url": "https://github.com/Factory-AI/factory/issues/936",
+    "timestamp": "2026-04-12T08:51:41Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 936
+    }
+  },
+  {
     "id": "github_issue_935",
     "source": "github",
     "author": "coygeek",
