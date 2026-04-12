@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_935",
+    "source": "github",
+    "author": "coygeek",
+    "content": "[Issue] BYOK: Compaction routes through Factory backend instead of custom model, produces misleading 402 error\n\n## Summary\n\nWhen using a BYOK custom model via `customModels` in `settings.json`, context compaction routes through Factory's own backend instead of the configured BYOK model endpoint. On the free tier (no Factory subscription), this causes a `402 Payment Required` error. The CLI then misleadingly labels this as a \"BYOK Error\" and tells the user to \"check your billing status with your BYOK model provider\" — but the error originates from Factory's own billing system, not the BYOK provider.\n\n## Se",
+    "url": "https://github.com/Factory-AI/factory/issues/935",
+    "timestamp": "2026-04-12T03:05:38Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 935
+    }
+  },
+  {
     "id": "github_issue_932",
     "source": "github",
     "author": "coygeek",
