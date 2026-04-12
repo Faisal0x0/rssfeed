@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_940",
+    "source": "github",
+    "author": "kendonB",
+    "content": "[Issue] Compress history model not able to be set to custom\n\nMy model is set to a custom option that works, when compressing history I get this:\n●  BYOK Error: 402 {\"detail\":\"Ready to get started? Subscribe\n   at https://app.factory.ai/settings/billing\",\"status\":402,\"t\n   itle\":\"Payment Required\",\"requestId\":\"syd1::97gvl-177603756\n   3179-5ce9370ab528\"}\n\n   Upstream error: Ready to get started? Subscribe at\n   https://app.factory.ai/settings/billing\n\n    Please check your billing status with your BYOK model\n   provider.",
+    "url": "https://github.com/Factory-AI/factory/issues/940",
+    "timestamp": "2026-04-12T23:47:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 940
+    }
+  },
+  {
     "id": "github_issue_939",
     "source": "github",
     "author": "mikez93",
