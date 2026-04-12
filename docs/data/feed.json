@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_938",
+    "source": "github",
+    "author": "harshav167",
+    "content": "[Issue] ApplyPatch reports \"Target already exists\" for deleted files — stale creation cache not invalidated by shell rm\n\n## Summary\n\nWhen a file is created via `ApplyPatch`, then deleted via shell `rm` (through the Execute tool), subsequent `ApplyPatch` create attempts for the same path intermittently fail with \"Target already exists\" — even though the file is confirmed absent on disk. An immediate `Read` on the same path returns ENOENT, proving the file doesn't exist.\n\nThis primarily impacts OpenAI/Codex model sessions where `ApplyPatch` is the only available file creation tool (no Edit/Create/Write fallback).\n\n#",
+    "url": "https://github.com/Factory-AI/factory/issues/938",
+    "timestamp": "2026-04-12T09:46:01Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 938
+    }
+  },
+  {
+    "id": "github_issue_937",
+    "source": "github",
+    "author": "harshav167",
+    "content": "[Issue] v0.99.0 regression: `undefined is not an object (evaluating 'h.type')` — streaming chunk parser crashes on tool-call output index gaps\n\n## Summary\n\nDroid v0.99.0 introduced a regression where the OpenAI Responses API streaming parser intermittently crashes with a TypeError during tool-call-heavy responses. The error kills the active response and shows the generic BYOK error banner. This did not occur on v0.98.0 with identical configuration, endpoint, and prompts.\n\n## Error Output\n\n```\n●  BYOK Error: undefined is not an object (evaluating 'h.type')\n\n   Troubleshooting tips for custom models:\n   1. Verify the \"provider\" type in yo",
+    "url": "https://github.com/Factory-AI/factory/issues/937",
+    "timestamp": "2026-04-12T09:33:52Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 937
+    }
+  },
+  {
     "id": "github_issue_936",
     "source": "github",
     "author": "MadGraph",
