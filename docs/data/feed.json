@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_939",
+    "source": "github",
+    "author": "mikez93",
+    "content": "[Issue] /bug command fails to create bug report in BYOK sessions — \"Failed to create a bug report\"\n\n### Description\n\nThe `/bug` command fails silently in BYOK model sessions. After describing the issue and submitting, it returns:\n\n```\nFailed to create a bug report\n```\n\nNo bug report is created. No additional error details are provided.\n\n### Reproduction\n\n1. Start a Droid session using a BYOK model (e.g., Claude Opus 4.6 Max Thinking)\n2. Type `/bug`\n3. Describe an issue when prompted\n4. Submit\n\n**Expected:** Bug report is created and submitted to Factory\n**Actual:** \"Failed to create a bug repo",
+    "url": "https://github.com/Factory-AI/factory/issues/939",
+    "timestamp": "2026-04-12T17:03:01Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 939
+    }
+  },
+  {
     "id": "github_issue_938",
     "source": "github",
     "author": "harshav167",
