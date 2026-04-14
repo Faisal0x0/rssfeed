@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_948",
+    "source": "github",
+    "author": "Skyline-9",
+    "content": "[Issue] droid daemon --remote-access does not connect to relay\n\n# Description\n`droid daemon --remote-access` no longer opens a WebSocket connection to [relay.factory.ai](http://relay.factory.ai/). The web UI shows \"Daemon transport not connected\" and sessions cannot be started from the Factory app\n\n# Steps to reproduce:\n\n- Register a BYOM Linux machine with droid computer register\n- Start the daemon with `droid daemon --remote-access`\n- Observe that the web UI shows \"Daemon transport not connected\"\n- Verify via `lsof` that no connections are made to [relay.f",
+    "url": "https://github.com/Factory-AI/factory/issues/948",
+    "timestamp": "2026-04-14T07:38:05Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 948
+    }
+  },
+  {
     "id": "github_issue_945",
     "source": "github",
     "author": "dobedobedu",
