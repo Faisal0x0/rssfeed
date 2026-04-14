@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_945",
+    "source": "github",
+    "author": "dobedobedu",
+    "content": "[Issue] [BUG] BYOK Azure OpenAI: max_tokens not supported, must use max_completion_tokens\n\n## Description\n\nWhen using a custom model with `provider: \"openai\"` pointing to Azure OpenAI's Responses API (v1), Droid sends `max_tokens` in the request body. However, Azure's newer models (GPT-5 series, o-series) reject `max_tokens` and require `max_completion_tokens` instead.\n\nThis causes a 400 error for any BYOK model configured with `provider: \"openai\"` that routes to Azure OpenAI's Responses API endpoint.\n\n## Steps to reproduce\n\n1. Configure a custom model with `provider: \"openai\"` pointi",
+    "url": "https://github.com/Factory-AI/factory/issues/945",
+    "timestamp": "2026-04-14T03:50:38Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 945
+    }
+  },
+  {
     "id": "github_issue_941",
     "source": "github",
     "author": "kendonB",
