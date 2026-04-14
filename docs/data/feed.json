@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_949",
+    "source": "github",
+    "author": "ipfred",
+    "content": "[Issue] statusline， How to configure display context usage\n\nWhat can be configured using /statusline? \nNo official documentation available.\n\nIt seems wrong to fully use language to describe the context usage of the configuration.\n\nIs there any detailed documentation for statusline, so that statusline configuration can be developed more accurately?\n\nThe effect I configured is different from `/context`.\n\n<img width=\"592\" height=\"81\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/68b16faa-54cd-47d3-be02-4d86aca23845\" />\n\n<img width=\"296\" height",
+    "url": "https://github.com/Factory-AI/factory/issues/949",
+    "timestamp": "2026-04-14T14:28:40Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 949
+    }
+  },
+  {
     "id": "github_issue_948",
     "source": "github",
     "author": "Skyline-9",
