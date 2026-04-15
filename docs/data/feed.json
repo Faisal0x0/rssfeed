@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_961",
+    "source": "github",
+    "author": "harrismcc",
+    "content": "[Issue] StartMissionRun fails with \"features.json must exist\" even when features.json exists and is valid\n\n  StartMissionRun repeatedly returns the error:\n\n     Error: features.json must exist with at least one feature before starting the run. Create the features.json file first.\n\n   However, features.json exists at the expected path (/Users/harris/.factory/missions/<mission-id>/features.json), is valid JSON, contains 2 features with all required fields (id, title, description, skillName, status, fulfills),\n   and has been verified multiple ways:\n\n   Reproduction steps:\n\n   1. Call ProposeMission — s",
+    "url": "https://github.com/Factory-AI/factory/issues/961",
+    "timestamp": "2026-04-15T20:56:40Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 961
+    }
+  },
+  {
     "id": "github_issue_958",
     "source": "github",
     "author": "blitzhermesai-creator",
