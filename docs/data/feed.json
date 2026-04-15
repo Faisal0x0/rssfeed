@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_955",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] Feature Request: Add context_window and cost data to statusLine stdin\n\n \n\n   Problem\n\n   Droid's statusLine plugin only passes 5 fields via stdin:\n\n   json\n     {\"session_id\":\"...\",\"transcript_path\":\"...\",\"cwd\":\"...\",\"model\":{...},\"version\":\"...\"}\n\n   Claude Code also passes context_window, cost, rate_limits, etc. (docs: https://code.claude.com/docs/en/statusline#available-data).\n\n   Request\n\n   Please add the following fields to statusLine stdin, aligning with Claude Code:\n\n   •  `context_window`: total_input_tokens, total_output_tokens, used_percentage — for cont",
+    "url": "https://github.com/Factory-AI/factory/issues/955",
+    "timestamp": "2026-04-15T13:11:42Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 955
+    }
+  },
+  {
     "id": "github_issue_949",
     "source": "github",
     "author": "ipfred",
