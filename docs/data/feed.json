@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_958",
+    "source": "github",
+    "author": "blitzhermesai-creator",
+    "content": "[Issue] Slack integration fails with 'No Cloud Templates configured' when only BYOM computers are available\n\n## Bug\n\nWhen mentioning `@Factory` in a Slack channel/thread, the bot responds with:\n\n> ⚠️ No Cloud Templates configured\n> Your organization does not have any Cloud Templates set up yet. Create one and try again.\n\nThis happens even when BYOM (Bring Your Own Machine) computers are registered, active, and have Remote Access enabled.\n\n## Steps to Reproduce\n\n1. Register a BYOM computer via `droid computer register` and confirm it shows as **active** with `droid computer list`\n2. Enable Remote Access",
+    "url": "https://github.com/Factory-AI/factory/issues/958",
+    "timestamp": "2026-04-15T18:40:55Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 958
+    }
+  },
+  {
     "id": "github_issue_955",
     "source": "github",
     "author": "zwen64657",
