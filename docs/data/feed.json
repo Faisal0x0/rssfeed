@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_966",
+    "source": "github",
+    "author": "cexll",
+    "content": "[Issue] [BUG] Droid 0.101 suffers from severe performance issues.\n\nissue report id : dde9078e-53af-45bd-811d-a9679ce4388e\n\nProlonged operation results in severe lag, as well as excessive CPU and memory usage.\n\n<img width=\"286\" height=\"613\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e5416ae3-f53f-47a6-90f4-a8331d63fcb7\" />\n\n<img width=\"289\" height=\"878\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ba84adc1-9555-4b34-b0d8-68d97df5ac5f\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/966",
+    "timestamp": "2026-04-16T15:40:39Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 966
+    }
+  },
+  {
     "id": "github_issue_965",
     "source": "github",
     "author": "Blue-B",
