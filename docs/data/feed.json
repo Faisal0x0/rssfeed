@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_962",
+    "source": "github",
+    "author": "oldschoola",
+    "content": "[Issue] request: Custom model support under /stats\n\nJust dont show BYOK for all custom models.\nIt would be nice if you got the custom model names from the settings json and showed that, so we can see what custom models have been used other than BYOK.",
+    "url": "https://github.com/Factory-AI/factory/issues/962",
+    "timestamp": "2026-04-16T01:21:16Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 962
+    }
+  },
+  {
     "id": "github_issue_961",
     "source": "github",
     "author": "harrismcc",
