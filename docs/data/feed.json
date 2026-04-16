@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_965",
+    "source": "github",
+    "author": "Blue-B",
+    "content": "[Issue] [BUG] Droid session not recoverable after 30-min inactivity cleanup — \"Failed to send message\" loop (BYOK custom model via OAuth, Factory CLI)\n\n<!DOCTYPE html><h3 cid=\"n2\" mdtype=\"heading\" class=\"md-end-block md-heading\" style=\"box-sizing: border-box; white-space: pre-wrap; break-after: avoid-page; break-inside: avoid; orphans: 4; font-size: 1.3125em; margin-top: 2.28571em; margin-bottom: 0.75em; font-weight: normal; line-height: 1.15; position: relative; color: rgb(31, 9, 9); font-family: &quot;PT Serif&quot;, &quot;Times New Roman&quot;, &quot;SF Pro&quot;, Times, serif; font-style: normal; font-variant-ligatures: normal; font-variant",
+    "url": "https://github.com/Factory-AI/factory/issues/965",
+    "timestamp": "2026-04-16T04:50:46Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 965
+    }
+  },
+  {
     "id": "github_issue_962",
     "source": "github",
     "author": "oldschoola",
