@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_974",
+    "source": "github",
+    "author": "davidgeib89-art",
+    "content": "[Issue] Mission artifact corruption can trigger replay/resume churn because scheduling trusts mutable `features.json`\n\nTitle: Mission artifact corruption can trigger replay/resume churn because scheduling trusts mutable `features.json`\n\n## Summary\n\nWe hit an expensive mission-state integrity failure in Droid / Factory missions.\n\nThis was not a product-code regression.  \nIt was a harness/state issue where a late artifact-writing failure left `features.json` malformed/inconsistent, and resume behavior then relied on that mutable file strongly enough to create replay/broad-resume risk.\n\nThe practical result was tha",
+    "url": "https://github.com/Factory-AI/factory/issues/974",
+    "timestamp": "2026-04-17T18:02:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 974
+    }
+  },
+  {
     "id": "github_issue_972",
     "source": "github",
     "author": "ZhenningLang",
