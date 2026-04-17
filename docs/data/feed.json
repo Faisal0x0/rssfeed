@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_972",
+    "source": "github",
+    "author": "ZhenningLang",
+    "content": "[Issue] Cannot login on web\n\n<img width=\"3024\" height=\"1522\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/82e38006-4d2c-449d-b224-c79453b5bc10\" />\n\n<img width=\"1886\" height=\"612\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/605a4266-ef93-4435-be50-9d56f8cabfb2\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/972",
+    "timestamp": "2026-04-17T04:05:19Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 972
+    }
+  },
+  {
     "id": "github_issue_966",
     "source": "github",
     "author": "cexll",
