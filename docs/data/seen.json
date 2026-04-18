@@ -1,6 +1,5 @@
 {
   "ids": [
-    "reddit_1p0a05d",
     "twitter_1992515302089965724",
     "twitter_1992516325206618262",
     "twitter_1992523182683955496",
@@ -999,7 +998,8 @@
     "github_issue_972",
     "github_issue_974",
     "github_issue_977",
-    "github_issue_978"
+    "github_issue_978",
+    "github_issue_979"
   ],
   "conversations": []
 }

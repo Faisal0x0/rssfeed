@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_979",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] Intermittent function calling failures with glm-4.7 / glm-5.1\n\nEnvironment: Windows 11, Droid CLI v0.104.0, Zhipu official plan (glm-4.7 / glm-5.1)\n\n   Symptom A (glm-4.7)\n\n   When the model needs to call a tool, it fails to generate a structured tool_use JSON object. Instead, the tool call is leaked as plain text into the thinking field. The Droid framework receives a content\n    array with no executable tool calls, causing the task to hang. The user must manually send \"continue\" to resume.\n\n   Symptom B (glm-5.1)\n\n   The model outputs a text message sayin",
+    "url": "https://github.com/Factory-AI/factory/issues/979",
+    "timestamp": "2026-04-18T14:45:28Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 979
+    }
+  },
+  {
     "id": "github_issue_978",
     "source": "github",
     "author": "zwen64657",
