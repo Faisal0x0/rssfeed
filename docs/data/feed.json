@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_977",
+    "source": "github",
+    "author": "Dage1819",
+    "content": "[Issue] Failed to create session. Is the daemon running?\n\nFailed to create session. Is the daemon running?",
+    "url": "https://github.com/Factory-AI/factory/issues/977",
+    "timestamp": "2026-04-18T04:22:35Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 977
+    }
+  },
+  {
     "id": "github_issue_974",
     "source": "github",
     "author": "davidgeib89-art",
