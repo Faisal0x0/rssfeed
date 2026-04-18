@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_978",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] Edit tool results not displayed after execution in v0.104.0\n\n After updating to v0.104.0, the Edit tool successfully applies file modifications, but the UI no longer shows the change details (e.g., line change summary like +X added, -X removed). The actual file is\n   modified correctly — it's just that the edit results are not rendered in the UI.\n\n<img width=\"1616\" height=\"355\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/37f59790-6e17-4353-a61e-e7b2defb1395\" />\n<img width=\"1356\" height=\"445\" alt=\"Image\" src=\"https://github.com/user-attachm",
+    "url": "https://github.com/Factory-AI/factory/issues/978",
+    "timestamp": "2026-04-18T11:40:12Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 978
+    }
+  },
+  {
     "id": "github_issue_977",
     "source": "github",
     "author": "Dage1819",
