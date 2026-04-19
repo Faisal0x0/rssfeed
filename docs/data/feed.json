@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_981",
+    "source": "github",
+    "author": "dalisoft",
+    "content": "[Issue] [FEATURE REQUEST] Tool search / discovery\n\nWould be nice to see features from other AI Agents.\n\nSee\nClaude:\n- https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool\n- - Explanation: https://www.anthropic.com/engineering/advanced-tool-use\n\nCodex:\n- https://developers.openai.com/api/docs/guides/tools-tool-search\n- - Post: https://www.reddit.com/r/codex/comments/1r22uk1/new_search_tool_is_amazing/\n\nOpenCode\n- Issue: https://github.com/anomalyco/opencode/issues/9350 (not implemented, for explanation)\n- Community:\n- - ",
+    "url": "https://github.com/Factory-AI/factory/issues/981",
+    "timestamp": "2026-04-19T13:34:29Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 981
+    }
+  },
+  {
     "id": "github_issue_979",
     "source": "github",
     "author": "zwen64657",
