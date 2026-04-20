@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_987",
+    "source": "github",
+    "author": "chindris-mihai-alexandru",
+    "content": "[Issue] BYOK generic-chat-completion-api can crash during streaming with `null is not an object (evaluating 'H.usage')`\n\n## Summary\n\nDroid CLI crashes during BYOK streaming for a custom `generic-chat-completion-api` model after the request has already reached first token.\n\nIn my case, the model is `claude-opus-4-6` routed through AgentRouter, but the failure appears to be in Droid's stream/response handling rather than an early auth/config issue.\n\nThe user-visible failure is:\n\n```text\nTypeError: null is not an object (evaluating 'H.usage')\nMetaError: Exec failed\n```\n\n## Environment\n\n- Droid CLI: `0.100.0`\n- OS: ma",
+    "url": "https://github.com/Factory-AI/factory/issues/987",
+    "timestamp": "2026-04-20T22:37:08Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 987
+    }
+  },
+  {
     "id": "github_issue_985",
     "source": "github",
     "author": "harrypham2000",
