@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_985",
+    "source": "github",
+    "author": "harrypham2000",
+    "content": "[Issue] [Bug] Mode Switching Not Working in Mission Mode\n\n---\nname: Bug report\nabout: Create a report to help us improve\ntitle: '[Bug] Mode Switching Not Working in Mission Mode'\nlabels: bug\nassignees: ''\nBug Report ID: d460c9f9-b831-4ce4-9671-921ced7e2e7f \n\n## Summary\n\nOnce entering Mission mode (`/enter-mission`), users **cannot switch to Spec mode or Normal mode**. Neither the keyboard shortcut (Shift+Tab) nor slash commands work to change the interaction mode. Users are locked into AGI mode with no way to switch.\n\n## Environment\n\n- **Terminal**: Gh",
+    "url": "https://github.com/Factory-AI/factory/issues/985",
+    "timestamp": "2026-04-20T22:06:35Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 985
+    }
+  },
+  {
     "id": "github_issue_983",
     "source": "github",
     "author": "jeffreyARte",
