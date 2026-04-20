@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_983",
+    "source": "github",
+    "author": "jeffreyARte",
+    "content": "[Issue] Bug: Unsupported Vertex model ID error when resuming mission with glm-5.1\n\n## Bug Report\n\n### Error\n```\n400 {\"detail\":\"Unsupported Vertex model ID\",\"status\":400,\"title\":\"Bad Request\",\"requestId\":\"fra1::c7rgj-1776670292120-6732d91e8f63\"}\n```\n\n### Context\n- Occurs when **resuming a mission** (mission worker/subagent sessions)\n- Model: `glm-5.1` (Droid Core GLM-5.1), which is listed as a valid model on the pricing page\n- The main session runs fine on `glm-5.1` — this error only appears for mission worker sessions\n\n### Contradiction\nThe same `glm-5.1` model ID works for th",
+    "url": "https://github.com/Factory-AI/factory/issues/983",
+    "timestamp": "2026-04-20T07:50:21Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 983
+    }
+  },
+  {
     "id": "github_issue_981",
     "source": "github",
     "author": "dalisoft",
