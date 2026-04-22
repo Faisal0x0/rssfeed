@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1000",
+    "source": "github",
+    "author": "harrismcc",
+    "content": "[Issue] When invoking skills with a slash command, chars like `(` are being replaced with `[object Object]`\n\nRunning droid version 0.108.0, using iTerm as my terminal. Bug Report ID: 2fff990b-1c0b-4f0b-b8c7-a3632c5c430a\n\nWhen I invoke a skill using a slash command, special chars like `(` are appearing in the result (and to the model) as `[object Object]`.\n\nSo this input:\n```\n /brainstorming This is a test ( <- paren\n```\nShows up as:\n```\nThis is a test [object Object] [object Object] - paren\n```\n\n## Screenshot\n<img width=\"953\" height=\"760\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/daff",
+    "url": "https://github.com/Factory-AI/factory/issues/1000",
+    "timestamp": "2026-04-22T23:12:06Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1000
+    }
+  },
+  {
     "id": "github_issue_996",
     "source": "github",
     "author": "listell-writer",
