@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_996",
+    "source": "github",
+    "author": "listell-writer",
+    "content": "[Issue] [FEAT] Support pre-registered OAuth clients for HTTP MCP servers (for Slack and others that reject Dynamic Client Registration)\n\n## Summary\n\nDroid's HTTP MCP OAuth flow relies on RFC 7591 Dynamic Client Registration (DCR). Some hosted MCP servers only accept pre-registered public OAuth clients and refuse DCR, which makes those servers impossible to connect from Droid regardless of interactive vs exec mode. Confirmed on Slack (`mcp.slack.com/mcp`); likely affects other vendors with tightly scoped OAuth apps.\n\n## Environment\n\n- Droid CLI 0.104.0\n- macOS (darwin 25.4.0)\n- Terminal: iTerm.app and VS Code, same result\n\n## Repr",
+    "url": "https://github.com/Factory-AI/factory/issues/996",
+    "timestamp": "2026-04-22T14:34:07Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 996
+    }
+  },
+  {
     "id": "github_issue_987",
     "source": "github",
     "author": "chindris-mihai-alexandru",
