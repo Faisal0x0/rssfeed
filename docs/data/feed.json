@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_1018",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] deepseek-v4-flash 400 error with thinking mode + tool calls\n\n\n\n\nProblem\n\ndeepseek-v4-flash with thinking mode enabled fails after 2-3 rounds with:\n\n400 The reasoning_content in the thinking mode must be passed back to the API\n\nWhat works\n\n· deepseek-v4-pro works fine (no tool calls triggered in my test)\n· deepseek-reasoner (legacy) works fine (same model underneath)\n\nRoot cause\n\nDeepSeek V4 requires reasoning_content to be passed back when tool calls occur. Factory Droid isn't doing this.\n\nLegacy models (deepseek-reasoner) use the opposite rule (do NOT pa",
+    "url": "https://github.com/Factory-AI/factory/issues/1018",
+    "timestamp": "2026-04-24T11:53:50Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1018
+    }
+  },
+  {
+    "id": "github_issue_1017",
+    "source": "github",
+    "author": "AIast0r",
+    "content": "[Issue] reasoningEffort: custom\n\nAdd the ability through the config to create reasoning levels that will be displayed in the UI, not the standard off, low, medium, high",
+    "url": "https://github.com/Factory-AI/factory/issues/1017",
+    "timestamp": "2026-04-24T11:51:20Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1017
+    }
+  },
+  {
     "id": "github_issue_1016",
     "source": "github",
     "author": "jucor",
