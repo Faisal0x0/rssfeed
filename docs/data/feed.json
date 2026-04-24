@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1016",
+    "source": "github",
+    "author": "jucor",
+    "content": "[Issue] Scrutiny validator fails then hangs, does not return control to the orchestrator, blocks the whole Mission\n\nIn Missions, the scrutiny-validator systematically fails, and then stays stuck -- it does not give control back to the orchestrator, which is stuck waiting for it. I have to manually intervene and stop the worker, tell the orchestrator to ignore it and resume.\n\n<img width=\"1419\" height=\"1248\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/66fdaa43-9da6-4158-ad7a-b8ecd24ead67\" />\n\nThe last message of the validator is:\n```\n# Scrutiny Validator Execution Failed I invoked the\n'scrutiny-",
+    "url": "https://github.com/Factory-AI/factory/issues/1016",
+    "timestamp": "2026-04-24T09:09:35Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1016
+    }
+  },
+  {
     "id": "github_issue_1000",
     "source": "github",
     "author": "harrismcc",
