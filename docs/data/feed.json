@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1021",
+    "source": "github",
+    "author": "nethbotheju",
+    "content": "[Issue] [Bug] droid desktop is not working on mac\n\nDroid desktop is not working on my mac. When I open the app, i can see the icon in the dock and the top menu bar, but no window appears. i m using desktop version 0.66.1 (4112) on macos 15.7.3 (24G419)\n\nI’ve tried uninstalling the droid cli, clearing the .factory folder, and reinstalling the app, but the issue still persists",
+    "url": "https://github.com/Factory-AI/factory/issues/1021",
+    "timestamp": "2026-04-25T08:10:05Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1021
+    }
+  },
+  {
     "id": "github_issue_1018",
     "source": "github",
     "author": "zwen64657",
