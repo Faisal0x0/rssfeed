@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1023",
+    "source": "github",
+    "author": "okerivy",
+    "content": "[Issue] [Feature Request] Configurable 90s streaming timeout causing auto-retry loop\n\n# Factory Droid 90s Auto-Retry Interruption Issue - Issue/Feature Request\n\n## Problem Description\n\nFactory Droid CLI has a built-in **auto-retry interruption mechanism** that triggers when AI model streaming responses reach **90 seconds**. The Droid client proactively interrupts the current request and automatically initiates a retry. This mechanism causes serious issues in certain scenarios.\n\n### Core Issue\n\n**Droid automatically interrupts and retries at 90 seconds, even though the request mig",
+    "url": "https://github.com/Factory-AI/factory/issues/1023",
+    "timestamp": "2026-04-26T03:37:41Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1023
+    }
+  },
+  {
     "id": "github_issue_1022",
     "source": "github",
     "author": "afshawnlotfi",
