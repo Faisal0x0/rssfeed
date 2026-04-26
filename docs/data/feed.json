@@ -1,5 +1,44 @@
 [
   {
+    "id": "github_issue_1027",
+    "source": "github",
+    "author": "gunduziba",
+    "content": "[Issue] deepseek-content[].thinking in the thinking mode must be passed back\n\nI'm using the anthropic-format API. It works fine if I only use DeepSeek,If I don't switch the model,.\n The exception occurs in this scenario: when I use other models to call some tools, and then switch back to deepseek-v4-pro. At this point, it will back \"content[].thinking in the thinking mode must be passed back to the API\"\n",
+    "url": "https://github.com/Factory-AI/factory/issues/1027",
+    "timestamp": "2026-04-26T17:09:23Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1027
+    }
+  },
+  {
+    "id": "github_issue_1026",
+    "source": "github",
+    "author": "gunduziba",
+    "content": "[Issue] deepseek-content[].thinking in the thinking mode must be passed back\n\nI'm using the anthropic-format API. It works fine if I only use DeepSeek,If I don't switch the model,.\n The exception occurs in this scenario: when I use other models to call some tools, and then switch back to deepseek-v4-pro. At this point, it will back \"content[].thinking in the thinking mode must be passed back to the API\"\n",
+    "url": "https://github.com/Factory-AI/factory/issues/1026",
+    "timestamp": "2026-04-26T17:09:21Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1026
+    }
+  },
+  {
+    "id": "github_issue_1025",
+    "source": "github",
+    "author": "gunduziba",
+    "content": "[Issue] deepseek-content[].thinking in the thinking mode must be passed back\n\nI'm using the anthropic-format API. It works fine if I only use DeepSeek,If I don't switch the model,.\n The exception occurs in this scenario: when I use other models to call some tools, and then switch back to deepseek-v4-pro. At this point, it will back \"content[].thinking in the thinking mode must be passed back to the API\"\n",
+    "url": "https://github.com/Factory-AI/factory/issues/1025",
+    "timestamp": "2026-04-26T17:09:21Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1025
+    }
+  },
+  {
     "id": "github_issue_1024",
     "source": "github",
     "author": "odytrice",
