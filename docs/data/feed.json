@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1022",
+    "source": "github",
+    "author": "afshawnlotfi",
+    "content": "[Issue] Mission daemon keeps dying\n\nHad this issue in the past that it seemed from the Changelog was fixed because a race condition but now have the same issue where the mission daemon dies and I have to restart again\n\nThis is droid 0.109.1 ",
+    "url": "https://github.com/Factory-AI/factory/issues/1022",
+    "timestamp": "2026-04-26T01:59:51Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1022
+    }
+  },
+  {
     "id": "github_issue_1021",
     "source": "github",
     "author": "nethbotheju",
