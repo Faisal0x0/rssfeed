@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1024",
+    "source": "github",
+    "author": "odytrice",
+    "content": "[Issue] Bug: TodoWrite with empty string does not clear todo list in TUI\n\n## Description\n\nWhen calling the TodoWrite tool with an empty string (`todos: \"\"`), the API returns \"TODO List Updated\" but the TUI (Plan panel) continues to display stale/cached todo items instead of reflecting the empty state.\n\nUsing `todos: \"[]\"` (empty array) also does not clear the panel when called in isolation. The panel only updates when a subsequent TodoWrite call with actual content overwrites it. Called 6 times consecutively with `todos: \"[]\"`, the old items remained visible the entir",
+    "url": "https://github.com/Factory-AI/factory/issues/1024",
+    "timestamp": "2026-04-26T14:56:51Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1024
+    }
+  },
+  {
     "id": "github_issue_1023",
     "source": "github",
     "author": "okerivy",
