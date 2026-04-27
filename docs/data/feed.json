@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1028",
+    "source": "github",
+    "author": "coygeek",
+    "content": "[Issue] Feature Request: Add 'Follow System Theme' option for automatic light/dark mode switching\n\n## Problem\n\nFactory currently requires manual toggling between Light and Dark mode. Since macOS supports automatic theme switching based on time-of-day (or manual system preference), users who have 'Auto' selected in System Settings > Appearance see their apps switch between light (day) and dark (night) modes automatically. However, Factory does not respect this system setting and stays fixed on whichever mode was manually selected.\n\n## Proposed Solution\n\nAdd a third option alongside Light and D",
+    "url": "https://github.com/Factory-AI/factory/issues/1028",
+    "timestamp": "2026-04-27T04:17:28Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1028
+    }
+  },
+  {
     "id": "github_issue_1027",
     "source": "github",
     "author": "gunduziba",
