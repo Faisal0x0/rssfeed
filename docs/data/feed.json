@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_1031",
+    "source": "github",
+    "author": "ironerumi",
+    "content": "[Issue] Advertise `availableConfigOptions` and emit `config_option_update` in `--output-format acp`\n\n**Area**: cli, ACP\n**Tested against**: droid 0.109.1 (2026-04-28)\n**Related**: companion to \"Expose `reasoning_effort` via ACP `session/set_config_option`\" (#1030 )\n\n## Summary\n\n`droid exec --output-format acp` advertises `models` and `modes` blocks in the `session/new` response, but no `configOptions`. Result: ACP clients have no way to **discover** that reasoning effort, autonomy level, or thinking-token usage exist for a session — even when the data is fully present in droid's local state and",
+    "url": "https://github.com/Factory-AI/factory/issues/1031",
+    "timestamp": "2026-04-27T16:43:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1031
+    }
+  },
+  {
+    "id": "github_issue_1030",
+    "source": "github",
+    "author": "ironerumi",
+    "content": "[Issue] Expose `reasoning_effort` via ACP `session/set_config_option`\n\n**Area**: cli, ACP\n**Tested against**: droid 0.109.1 (2026-04-28)\n\n## Summary\n\n`droid exec --output-format acp` accepts `session/set_model` and `session/set_mode` but rejects `session/set_config_option` with JSON-RPC `-32601 Method not found`. As a result, ACP clients cannot set or read reasoning effort over the wire, even though droid already supports it (`droid exec -r/--reasoning-effort`) and persists it in local session state.\n\nCodex's ACP implementation already exposes reasoning effort via ",
+    "url": "https://github.com/Factory-AI/factory/issues/1030",
+    "timestamp": "2026-04-27T16:40:55Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1030
+    }
+  },
+  {
     "id": "github_issue_1028",
     "source": "github",
     "author": "coygeek",
