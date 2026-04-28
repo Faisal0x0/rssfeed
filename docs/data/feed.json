@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1036",
+    "source": "github",
+    "author": "adi805",
+    "content": "[Issue] bug in mission runner\n\n│⛬ Unable to reach api.minimax.io. This usually means a firewall, DNS/network, or SSL proxy issue. Check with your IT team if you're on a corporate network.             │\n\n<img width=\"959\" height=\"158\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/13d710ce-051b-416c-9eda-788f61cfc0d0\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/1036",
+    "timestamp": "2026-04-28T05:51:05Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1036
+    }
+  },
+  {
     "id": "github_issue_1031",
     "source": "github",
     "author": "ironerumi",
