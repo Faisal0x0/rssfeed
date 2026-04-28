@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1037",
+    "source": "github",
+    "author": "jibzus",
+    "content": "[Issue] DeepSeek V4 Task/subagent fails after successful PreToolUse hook rewrite\n\n## Summary\n\nWhen using DeepSeek V4 (`deepseek-v4-pro` and `deepseek-v4-flash`) in Droid BYOK, a `PreToolUse` hook on the `Task` tool can return `allow` successfully with `updatedInput`, but the Task/subagent then produces no output and fails.\n\nThis appears distinct from the plain DeepSeek V4 `reasoning_content` tool-call error: the hook itself succeeds, the prompt rewrite is applied, and then the delegated Task path stalls/fails after the hook stage.\n\n## Environment\n\n- Droid CLI version: recent/",
+    "url": "https://github.com/Factory-AI/factory/issues/1037",
+    "timestamp": "2026-04-28T09:26:29Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1037
+    }
+  },
+  {
     "id": "github_issue_1036",
     "source": "github",
     "author": "adi805",
