@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1052",
+    "source": "github",
+    "author": "raphaelluethy",
+    "content": "[Issue] ACP implementation does not allow to cancel running task\n\nIssue: \nWhen using the Zed editor with the Droid ACP, the agent does not allow me to cancel the run.\nI tested it with the latest Zed Preview and Nightly build, and it does not matter whether tool calls are in between or not. The task just continues, while the Cancel-Button is gone.\n\nWhat I would expect to happen:\nThe agent stop working on the task, either by the next turn (e.g. tool call) or immediatly.",
+    "url": "https://github.com/Factory-AI/factory/issues/1052",
+    "timestamp": "2026-04-29T17:09:28Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1052
+    }
+  },
+  {
     "id": "github_issue_1037",
     "source": "github",
     "author": "jibzus",
