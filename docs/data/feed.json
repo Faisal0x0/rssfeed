@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1062",
+    "source": "github",
+    "author": "needcoder",
+    "content": "[Issue] Is there a node.js version?\n\n❯ droid\nBun v1.3.13 (bf2e2cec) Windows x64 (baseline)\nWindows v.win10_cu\nArgs:\nFeatures: no_avx2 no_avx\nElapsed: 2ms | User: 15ms | Sys: 0ms\nRSS:\npanic: Illegal instruction at address 0x7FF6753BF1F9\npanicked during a panic. Aborting.",
+    "url": "https://github.com/Factory-AI/factory/issues/1062",
+    "timestamp": "2026-04-30T16:25:24Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1062
+    }
+  },
+  {
     "id": "github_issue_1061",
     "source": "github",
     "author": "batumilove",
