@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1059",
+    "source": "github",
+    "author": "schopencoder",
+    "content": "[Issue] UI hides a custom midel when terminal is resized to small\n\nHi, i have custom models confiured as following, \n`  \"customModels\": [\n    {\n      \"model\": \"gemini-3-flash\",\n      \"id\": \"custom:Gemini-3-Flash-0\",\n      \"index\": 0,\n      \"baseUrl\": \"http://localhost:8317/v1\",\n      \"apiKey\": \"1234\",\n      \"displayName\": \"Gemini 3 Flash\",\n      \"noImageSupport\": false,\n      \"provider\": \"openai\"\n    },\n    {\n      \"model\": \"gemini-3-flash-lite\",\n      \"id\": \"custom:Gemini-3-Flash-Lite-1\",\n      \"index\": 1,\n      \"baseUrl\": \"http://localhost:8317/v1\",\n      \"ap",
+    "url": "https://github.com/Factory-AI/factory/issues/1059",
+    "timestamp": "2026-04-30T11:11:34Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1059
+    }
+  },
+  {
     "id": "github_issue_1052",
     "source": "github",
     "author": "raphaelluethy",
