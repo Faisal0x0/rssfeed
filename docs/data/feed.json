@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_1061",
+    "source": "github",
+    "author": "batumilove",
+    "content": "[Issue] Droid mission subagents route to Claude/Anthropic instead of BYOK custom worker model\n\n## Bug description\n\nThis appears related to #868, but I can reproduce a remaining/regressed path in Droid `0.113.0`: mission-mode subagents are still launched with a built-in Anthropic/Claude model even when the configured default/session model and mission worker model point at a BYOK/custom OpenAI-compatible model.\n\nIn the affected run, the local BYOK endpoint received zero requests while the Droid worker/subagent process and session metadata showed Anthropic/Claude routing.\n\n## Why this seems ",
+    "url": "https://github.com/Factory-AI/factory/issues/1061",
+    "timestamp": "2026-04-30T15:59:16Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1061
+    }
+  },
+  {
+    "id": "github_issue_1060",
+    "source": "github",
+    "author": "syxc",
+    "content": "[Issue] BYOK DeepSeek-V4: 400 'reasoning_content must be passed back' with both anthropic and generic-chat-completion-api providers\n\n## Bug Description\n\nWhen using DeepSeek-V4 models (deepseek-v4-flash, deepseek-v4-pro) via Factory BYOK with **both** `anthropic` provider (`https://api.deepseek.com/anthropic`) and `generic-chat-completion-api` provider (`https://api.deepseek.com`), the following error occurs intermittently during multi-turn conversations:\n\n```\nBYOK Error: 400 The `reasoning_content` in the thinking mode must be passed back to the API.\nUpstream error: The `reasoning_content` in the thinking mode must be passed ",
+    "url": "https://github.com/Factory-AI/factory/issues/1060",
+    "timestamp": "2026-04-30T15:47:21Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1060
+    }
+  },
+  {
     "id": "github_issue_1059",
     "source": "github",
     "author": "schopencoder",
