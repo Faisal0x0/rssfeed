@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1063",
+    "source": "github",
+    "author": "rlgrpe",
+    "content": "[Issue] Support per-invocation model overrides for custom droid subagents\n\n## Problem\n\nCustom droids support a static `model` and `reasoningEffort` in their Markdown frontmatter. This works well for fixed-purpose subagents, but orchestration workflows often need to choose a model dynamically per invocation.\n\nToday, a parent Droid can choose `subagent_type` via the Task tool, but cannot pass a model override for that specific Task call. If a droid has `model: inherit`, it uses the parent session model. If it has a fixed model, every invocation uses that model.\n\nThis mak",
+    "url": "https://github.com/Factory-AI/factory/issues/1063",
+    "timestamp": "2026-04-30T18:08:13Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1063
+    }
+  },
+  {
     "id": "github_issue_1062",
     "source": "github",
     "author": "needcoder",
