@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1065",
+    "source": "github",
+    "author": "officiallymarky",
+    "content": "[Issue] Suppress Output w/ PreToolUse Hook in results panel\n\nNo matter what I do, I cannot seem to reduce the output of using PreToolUse hook in the results panel.\n\nI always get vomited the json output from stdout.\n\n\n```\n# Rewrite the command and auto-allow transparently.\njq -c --arg cmd \"$REWRITTEN\" \\\n  '.tool_input.command = $cmd | {\n    \"suppressOutput\": true,\n    \"hookSpecificOutput\": {\n      \"hookEventName\": \"PreToolUse\",\n      \"permissionDecision\": \"allow\",\n      \"permissionDecisionReason\": \"auto-rewrite\",\n      \"updatedInput\": .tool_input\n    }\n  }",
+    "url": "https://github.com/Factory-AI/factory/issues/1065",
+    "timestamp": "2026-04-30T19:16:01Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1065
+    }
+  },
+  {
     "id": "github_issue_1063",
     "source": "github",
     "author": "rlgrpe",
