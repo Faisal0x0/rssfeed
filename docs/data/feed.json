@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1066",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] Why Is Image Recognition Unavailable for mimo-V2.5 and Kimi K2.6?\n\nWhy is the image recognition function of MIMO-V2.5 and Kimi K2.6 unavailable? Your plan also includes the Kimi model, but I found that it cannot recognize images after accessing the API. More critically, the configuration file contains \"noImageSupport\": true. After I delete it, the tool automatically restores it. There shouldn't be a compatibility issue, right?",
+    "url": "https://github.com/Factory-AI/factory/issues/1066",
+    "timestamp": "2026-04-30T21:27:50Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1066
+    }
+  },
+  {
     "id": "github_issue_1065",
     "source": "github",
     "author": "officiallymarky",
