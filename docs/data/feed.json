@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1068",
+    "source": "github",
+    "author": "zwen64657",
+    "content": "[Issue] DeepSeek V4 Pro is still triggering a 400 error during use. v0.114.1\n\n<img width=\"1259\" height=\"196\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a6225f5e-f751-41a0-8e75-074bddb790f4\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/1068",
+    "timestamp": "2026-05-01T12:00:57Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1068
+    }
+  },
+  {
     "id": "github_issue_1066",
     "source": "github",
     "author": "zwen64657",
