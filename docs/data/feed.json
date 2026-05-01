@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1070",
+    "source": "github",
+    "author": "dunova",
+    "content": "[Issue] [Bug] BYOK: Switching models mid-session fails with \"content[].thinking must be passed back to API\" (400 error)\n\n## Bug Description\n\nWhen switching between BYOK custom models mid-session in Factory (e.g., from Claude to a DeepSeek model configured with `provider: \"anthropic\"`), all subsequent requests to the switched model fail with:\n\n```\nBYOK Error: 400 {\"error\":{\"message\":\"The content[].thinking in the thinking mode must be passed back to the API.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}\n```\n\nStarting a **new session** with the same model works perfectly. The issue on",
+    "url": "https://github.com/Factory-AI/factory/issues/1070",
+    "timestamp": "2026-05-01T15:34:05Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1070
+    }
+  },
+  {
     "id": "github_issue_1069",
     "source": "github",
     "author": "boggi-futura",
