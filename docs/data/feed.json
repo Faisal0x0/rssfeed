@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1078",
+    "source": "github",
+    "author": "jorgsaa",
+    "content": "[Issue] Failed telemetry calls causes a running session/mission to terminate\n\n```\n[2026-05-02T12:42:38.975Z] ERROR: Error flushing telemetry events to web: dH [FetchError]: 503 Service Unavailable\n    at T9 (../../packages/utils/src/api/fetch.ts:90:15)\n    at processTicksAndRejections (native:7:39) {\n  metadata: { errorMessage: 'Service Unavailable', statusCode: 503 },\n  response: Response {},\n  [cause]: undefined\n}\n```",
+    "url": "https://github.com/Factory-AI/factory/issues/1078",
+    "timestamp": "2026-05-02T20:08:26Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1078
+    }
+  },
+  {
     "id": "github_issue_1070",
     "source": "github",
     "author": "dunova",
