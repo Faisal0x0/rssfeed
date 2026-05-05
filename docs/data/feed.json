@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1086",
+    "source": "github",
+    "author": "chuckasaurus",
+    "content": "[Issue] MCP OAuth: Datadog auth fails with invalid_scope (works in Claude Code with identical config)\n\n## Summary\n\nAuthenticating to the official Datadog remote MCP server (`https://mcp.datadoghq.com/api/unstable/mcp-server/mcp`) via `/mcp` fails immediately with:\n\n```\nAuthorization Failed\nError: invalid_scope\n```\n\nThe exact same server URL with the exact same minimal config (no headers, no env vars) authenticates and works correctly in Claude Code, which strongly suggests Factory's MCP OAuth client is requesting a `scope` value that Datadog's authorization server does not recognize.\n\n## Environm",
+    "url": "https://github.com/Factory-AI/factory/issues/1086",
+    "timestamp": "2026-05-05T13:44:35Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1086
+    }
+  },
+  {
     "id": "github_issue_1078",
     "source": "github",
     "author": "jorgsaa",
