@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_1091",
+    "source": "github",
+    "author": "RealNarcissus",
+    "content": "[Issue] Droid BYOK drops reasoning_content for DeepSeek V4 Flash (tool-call turns → 400 error)\n\n## Summary of the error\n\nWhen using DeepSeek V4 Flash via BYOK (`generic-chat-completion-api` provider), the second and subsequent turns in a tool-call conversation fail with:\n\n```\nBYOK Error: 400 Error from provider (DeepSeek): The `reasoning_content` in the thinking mode must be passed back to the API.\n```\n\nDeepSeek V4 Flash with thinking mode enabled returns `reasoning_content` on assistant messages. When Droid replays the message history on the next API call, it strips this field. DeepSeek's",
+    "url": "https://github.com/Factory-AI/factory/issues/1091",
+    "timestamp": "2026-05-06T19:27:23Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1091
+    }
+  },
+  {
+    "id": "github_issue_1090",
+    "source": "github",
+    "author": "cmoro-deusto",
+    "content": "[Issue] Droid 0.119.0 linux-x64 Segmentation Fault\n\nI just installed droid\n\n```\n❯ curl -fsSL https://app.factory.ai/cli | sh\nDownloading Factory CLI v0.119.0 for linux-x64                                                                                                                                                Fetching and verifying checksum\nChecksum verification passed\nDownloading ripgrep for linux-x64\nFetching and verifying ripgrep checksum\n```\n\nThen just launched it, core dumped:\n\n```\n❯ droid\n================================================",
+    "url": "https://github.com/Factory-AI/factory/issues/1090",
+    "timestamp": "2026-05-06T19:05:37Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1090
+    }
+  },
+  {
     "id": "github_issue_1086",
     "source": "github",
     "author": "chuckasaurus",
