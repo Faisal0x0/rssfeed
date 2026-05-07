@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1094",
+    "source": "github",
+    "author": "mkioutcc",
+    "content": "[Issue] droid standalone crashes on Windows after update: Bun 1.3.13 segmentation fault\n\n## Summary\n\nAfter updating droid from the official quickstart installation flow, the Windows standalone executable no longer starts. It crashes immediately with a Bun segmentation fault before droid appears to run any application logic.\n\n## Environment\n\n- OS: Windows 11 Pro 10.0.26200\n- Executable path: `%USERPROFILE%\\bin\\droid.exe`\n- Bun shown in crash report: `Bun v1.3.13 (bf2e2cec) Windows x64`\n- Runtime mode shown in crash report: `standalone_executable`\n- System Bun version installed separa",
+    "url": "https://github.com/Factory-AI/factory/issues/1094",
+    "timestamp": "2026-05-07T00:23:45Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1094
+    }
+  },
+  {
     "id": "github_issue_1091",
     "source": "github",
     "author": "RealNarcissus",
