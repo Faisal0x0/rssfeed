@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1096",
+    "source": "github",
+    "author": "om-media",
+    "content": "[Issue] Context compaction fails with BYOK error on local (self-hosted) model\n\n## Summary\n\nWhen the conversation context approaches the model's window limit and Droid should compact, it stops responding and throws a BYOK (Bring Your Own Key) error. The session becomes unusable and must be restarted.\n\n## Steps to Reproduce\n\n1. Start a new Droid session using a local self-hosted model, not a cloud API.\n2. Run a sufficiently long conversation that approaches the context window limit.\n3. Wait for Droid to attempt automatic context compaction.\n\n## Expected Behavior\n\nDroid shoul",
+    "url": "https://github.com/Factory-AI/factory/issues/1096",
+    "timestamp": "2026-05-07T09:22:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1096
+    }
+  },
+  {
     "id": "github_issue_1094",
     "source": "github",
     "author": "mkioutcc",
