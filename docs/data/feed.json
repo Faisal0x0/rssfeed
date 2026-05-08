@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1101",
+    "source": "github",
+    "author": "SantaDiegoKairos",
+    "content": "[Issue] Droid BYOK Responses finalizer crashes on sparse or invalid content blocks\n\n## Summary\n\nDroid can crash while finalizing streamed BYOK OpenAI Responses turns when the stream contains invalid/sparse tool/content block state.\n\nObserved error:\n\n```text\nTypeError: undefined is not an object (evaluating 'f.type')\n```\n\nThe same failure class sometimes appears as `E.type`.\n\nThis correlates with Droid logging filtered invalid tool uses immediately before finalization:\n\n```text\n[LLM] Filtered out invalid tool uses ... invalidTools=[{}, ...]\n```\n\n## Environment\n\n- OS: Windows `wi",
+    "url": "https://github.com/Factory-AI/factory/issues/1101",
+    "timestamp": "2026-05-08T20:43:09Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1101
+    }
+  },
+  {
     "id": "github_issue_1099",
     "source": "github",
     "author": "gagan114662",
