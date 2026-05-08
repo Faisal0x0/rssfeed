@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_1099",
+    "source": "github",
+    "author": "gagan114662",
+    "content": "[Issue] Mission worker startup blocks on missing mission-cwd README.md (and possibly others), preventing greenfield bootstrap features from completing via worker execution\n\n## Environment\n\n- **droid**: `0.121.0` (CLI, npm install)\n- **macOS**: 14.x, Apple Silicon\n- **Mission setup**: BYOK custom models via local proxy\n- **Models tested**: Claude Opus 4.7 high, Claude Sonnet 4.6 high, GPT-5 Codex (failure was reproducible across all three)\n\n## Summary\n\nWorkers spawned by the mission runner read certain files from the mission cwd during startup before invoking the feature-specific skill. When a feature is a **greenfield bootstrap feature** whose job is to *create* th",
+    "url": "https://github.com/Factory-AI/factory/issues/1099",
+    "timestamp": "2026-05-08T17:41:58Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1099
+    }
+  },
+  {
+    "id": "github_issue_1098",
+    "source": "github",
+    "author": "gagan114662",
+    "content": "[Issue] Orchestrator marks feature completed despite blocking issues, followedProcedure=false, or hallucinated artifacts\n\n\n## Environment\n\n- **droid**: `0.121.0` (CLI, npm install)\n- **macOS**: 14.x, Apple Silicon\n- **Mission setup**: BYOK custom models (Anthropic + OpenAI) via local CLIProxyAPI proxy\n- **Models in mission**: orchestrator Claude Opus 4.7 (high), workers a mix of GPT-5 Codex and Claude Sonnet 4.6 (high)\n\n## Summary\n\nThe orchestrator's per-feature completion gate trusts `handoff.successState: \"success\"` literally and ignores other fields in the structured handoff that contradict the success claim. Th",
+    "url": "https://github.com/Factory-AI/factory/issues/1098",
+    "timestamp": "2026-05-08T17:35:39Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1098
+    }
+  },
+  {
     "id": "github_issue_1096",
     "source": "github",
     "author": "om-media",
