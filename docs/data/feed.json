@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1104",
+    "source": "github",
+    "author": "dobedobedu",
+    "content": "[Issue] [BUG] BYOK custom model unable to reach Azure AI Services endpoint despite curl working\n\n## [BUG] BYOK custom model unable to reach Azure AI Services endpoint despite curl working\n\n### Bug Description\nCustom BYOK model using Azure AI Services endpoint (services.ai.azure.com) shows \n\"Unable to reach <host>\" error in droid, but the same endpoint works perfectly \nvia curl with valid HTTP 200 response.\n\n### Steps to Reproduce\n1. Add a custom model to ~/.factory/settings.json with:\n   - baseUrl: https://<resource>.services.ai.azure.com/openai/v1\n   - model: <deployment-name>\n   - provide",
+    "url": "https://github.com/Factory-AI/factory/issues/1104",
+    "timestamp": "2026-05-09T09:21:57Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1104
+    }
+  },
+  {
     "id": "github_issue_1101",
     "source": "github",
     "author": "SantaDiegoKairos",
