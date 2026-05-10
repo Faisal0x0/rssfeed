@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1105",
+    "source": "github",
+    "author": "SantaDiegoKairos",
+    "content": "[Issue] Add configurable trust modes for Droid-Shield secret blocking\n\n## Summary\n\nPlease add a user-controllable trust / secret-protection mode for Droid-Shield, available from settings and/or per-session controls.\n\nThe default strict protection is valuable, especially for public GitHub / open-source work. However, advanced users also need a deliberate way to choose a different policy when working in fully trusted private environments, such as a local GitLab instance or an internal monorepo where committing operational config files is intentional.\n\n## Concrete sce",
+    "url": "https://github.com/Factory-AI/factory/issues/1105",
+    "timestamp": "2026-05-10T01:40:27Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1105
+    }
+  },
+  {
     "id": "github_issue_1104",
     "source": "github",
     "author": "dobedobedu",
