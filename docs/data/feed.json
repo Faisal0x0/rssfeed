@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1111",
+    "source": "github",
+    "author": "harrismcc",
+    "content": "[Issue] Subagent UI in Terminal frozen\n\nSeems like when I spin up subagents the UI is getting frozen and stuck on \"Initializing Agent\" until it's done. The actual subagent seems to complete correctly but I have no visibility into it. This happens on all of my sessions.\n\n<img width=\"800\" height=\"626\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3cda5adc-e801-4f13-9dbc-e3d79bcf31cb\" />\n\nBug Report ID: `0a739f36-0001-4aca-86ab-a41d0c6440ef`\nDroid Version: `0.123.1`\nTerminal: `iTerm 3.6.8`\nSystem: `macOS 26.3.1`",
+    "url": "https://github.com/Factory-AI/factory/issues/1111",
+    "timestamp": "2026-05-12T21:54:37Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1111
+    }
+  },
+  {
     "id": "github_issue_1108",
     "source": "github",
     "author": "yanalialiuk",
