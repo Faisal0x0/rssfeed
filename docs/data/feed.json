@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1108",
+    "source": "github",
+    "author": "yanalialiuk",
+    "content": "[Issue] Add atomic-chat BYOK Marketplace Plugin\n\n## What\n\nProposal to add an atomic-chat marketplace plugin that gives Droid users a validated, reproducible setup flow for connecting to Atomic Chat as a BYOK backend using Factory’s existing generic-chat-completion-api integration.\n\nAtomic Chat is an Apache-2.0 local-first desktop application exposing a single OpenAI Chat Completions–compatible HTTP API across local and configured cloud models.\n\n- Repo: https://github.com/AtomicBot-ai/Atomic-Chat\n- Integration reference: https://github.com/Atom",
+    "url": "https://github.com/Factory-AI/factory/issues/1108",
+    "timestamp": "2026-05-12T11:40:18Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1108
+    }
+  },
+  {
     "id": "github_issue_1105",
     "source": "github",
     "author": "SantaDiegoKairos",
