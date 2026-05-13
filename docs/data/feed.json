@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1115",
+    "source": "github",
+    "author": "hdot123",
+    "content": "[Issue] Mid-session model endpoint switch after upgrade causes session death with unrecoverable auto-continue loop\n\n## Summary\n\nAfter Factory Desktop upgrades from v0.80.1 to v0.81.0 during an active session, the model endpoint was silently switched from a custom model (`custom:GLM-5.1`) to the default official model (`GPT-5.5`). The session had already accumulated ~148M input tokens, far exceeding the new endpoint capacity. This caused unrecoverable `server_error` / `server_is_overloaded` errors and triggered 362 consecutive `Continue.` auto-retry messages, permanently killing the session.\n\n## Environment\n\n-",
+    "url": "https://github.com/Factory-AI/factory/issues/1115",
+    "timestamp": "2026-05-13T09:57:00Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1115
+    }
+  },
+  {
     "id": "github_issue_1114",
     "source": "github",
     "author": "rlgrpe",
