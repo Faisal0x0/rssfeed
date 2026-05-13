@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1116",
+    "source": "github",
+    "author": "angelhd1999",
+    "content": "[Issue] Custom droids cannot target DeepSeek BYOK thinking variants when model names are duplicated; DeepSeek provider with thinking also breaks tool calls\n\n## Summary\n\nI am using DeepSeek BYOK models through Factory/Droid and need separate entries for the same upstream model with different thinking settings, for example `High`, `Max`, and `None`.\n\nThere are two separate issues:\n\n1. **Main pain point: custom droids cannot target a specific DeepSeek BYOK thinking variant when multiple entries share the same upstream `model` value.** DeepSeek requires the API model name to remain exactly `deepseek-v4-flash` or `deepseek-v4-pro`, so I cannot encode var",
+    "url": "https://github.com/Factory-AI/factory/issues/1116",
+    "timestamp": "2026-05-13T10:32:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1116
+    }
+  },
+  {
     "id": "github_issue_1115",
     "source": "github",
     "author": "hdot123",
