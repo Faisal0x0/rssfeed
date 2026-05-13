@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1113",
+    "source": "github",
+    "author": "hdot123",
+    "content": "[Issue] Custom BYOK models no longer appear in model selector after 0.81.0 update\n\n## Summary\n\nAfter upgrading Factory Desktop from 0.80.1 to 0.81.0, previously configured custom BYOK models no longer appear in the desktop model selector UI.\n\nThe same custom model configuration still appears to be valid and usable by the daemon/CLI path: recent logs show requests using a custom model ID successfully, but the desktop UI does not list the custom models after the upgrade.\n\n## Environment\n\n- Factory Desktop: 0.81.0\n- Bundled `droid`: 0.124.0\n- Platform: macOS, arm64\n- Previous wor",
+    "url": "https://github.com/Factory-AI/factory/issues/1113",
+    "timestamp": "2026-05-13T08:10:41Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1113
+    }
+  },
+  {
     "id": "github_issue_1111",
     "source": "github",
     "author": "harrismcc",
