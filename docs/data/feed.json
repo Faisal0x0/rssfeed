@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1114",
+    "source": "github",
+    "author": "rlgrpe",
+    "content": "[Issue] Add `/loop` or `/goal` command\n\nAdd a feature like `/goal` in Codex or `/loop` as in Claude Code",
+    "url": "https://github.com/Factory-AI/factory/issues/1114",
+    "timestamp": "2026-05-13T08:44:08Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1114
+    }
+  },
+  {
     "id": "github_issue_1113",
     "source": "github",
     "author": "hdot123",
