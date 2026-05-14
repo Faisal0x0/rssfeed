@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1121",
+    "source": "github",
+    "author": "yanone",
+    "content": "[Issue] Show full deny-listed command for approval\n\nI recently ran into commands a lot that contained deny-listed `rm rf ...` parts, and had to manually confirm or deny.\n\nHowever, the actual command is truncated in the middle to fit the terminal, and there is no way of expanding it to review it in full. In my case, all of them were legitimate uses of `rm rf`, but the actually critical part was hidden in the truncated middle.\n\nThey need to reviewable in full. Truncation is a bug, not a feature. Thank you.",
+    "url": "https://github.com/Factory-AI/factory/issues/1121",
+    "timestamp": "2026-05-14T10:13:08Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1121
+    }
+  },
+  {
     "id": "github_issue_1120",
     "source": "github",
     "author": "multicam",
