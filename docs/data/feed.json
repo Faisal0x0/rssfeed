@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1120",
+    "source": "github",
+    "author": "multicam",
+    "content": "[Issue] Feature: Silent hook option to suppress progress display on successful execution\n\n\n## Summary\n\nHooks that succeed silently (exit code 0, no stdout) still produce a 3-line progress block in the TUI for PreToolUse, PostToolUse, Stop, and SubagentStop events. For users running multiple hooks per tool call, this produces 12-18 lines of   progress blocks per invocation -- 360-900 lines of noise in a typical session.\n\n## Current behavior\n\nEvery hook execution on PreToolUse/PostToolUse/Stop/SubagentStop renders:\n```test\n     Hooks PostToolUse → Grep\n         └─ Execute ~/.local/bin/",
+    "url": "https://github.com/Factory-AI/factory/issues/1120",
+    "timestamp": "2026-05-14T06:20:22Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1120
+    }
+  },
+  {
     "id": "github_issue_1116",
     "source": "github",
     "author": "angelhd1999",
