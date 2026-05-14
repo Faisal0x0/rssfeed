@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1125",
+    "source": "github",
+    "author": "rexebin",
+    "content": "[Issue] UI: No font size or text scaling options; input field loses focus repeatedly\n\n## Problem\n\nThe Factory App chat interface is hard to read with no built-in way to adjust font size or text scaling. Additionally, the prompt input field at the bottom keeps losing focus, making it difficult to write multi-line messages or edit text without interruptions.\n\n## Impact\n\n- Users cannot adjust text size for readability\n- Frequent focus loss on the input field disrupts workflow and typing flow\n- These seem like basic UX fundamentals that should be addressed",
+    "url": "https://github.com/Factory-AI/factory/issues/1125",
+    "timestamp": "2026-05-14T21:59:24Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1125
+    }
+  },
+  {
     "id": "github_issue_1121",
     "source": "github",
     "author": "yanone",
