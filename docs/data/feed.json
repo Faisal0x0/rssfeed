@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1133",
+    "source": "github",
+    "author": "jonahsnider",
+    "content": "[Issue] Built-in skills are outdated and causing issues\n\nHi! I've been using Factory Droid for a little while now and have really enjoyed it. While working on a frontend app today with Factory, I prompted it to use the Chrome Devtools MCP to view the site it was working on. Instead, it used the built-in agent-browser skill. This was confusing and also didn't work, it tried running `agent-browser install` but that was failing with some random error about Playwright.\n\nI get the reasoning behind having these built-in tools, but I don't see a way to turn ",
+    "url": "https://github.com/Factory-AI/factory/issues/1133",
+    "timestamp": "2026-05-20T22:28:15Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1133
+    }
+  },
+  {
     "id": "github_issue_1125",
     "source": "github",
     "author": "rexebin",
