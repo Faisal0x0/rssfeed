@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1136",
+    "source": "github",
+    "author": "trulsjor",
+    "content": "[Issue] Regression: Cannot type Norwegian character \"å\" in Droid CLI input on macOS\n\n## Description\n\nIn the latest version of Droid CLI, it is not possible to type the Norwegian character \"å\" directly in the chat input. The character worked in a previous version, so this is a regression.\n\n## Steps to reproduce\n\n1. Open Droid CLI on macOS (darwin 25.4.0)\n2. Try to type \"å\" using the Norwegian keyboard layout\n\n## Expected behavior\n\nThe character \"å\" appears in the input field.\n\n## Actual behavior\n\nThe character cannot be typed. Workaround: pasting with Cmd+V works.\n\n## Environment",
+    "url": "https://github.com/Factory-AI/factory/issues/1136",
+    "timestamp": "2026-05-21T10:44:22Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1136
+    }
+  },
+  {
     "id": "github_issue_1133",
     "source": "github",
     "author": "jonahsnider",
