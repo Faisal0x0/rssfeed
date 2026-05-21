@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1139",
+    "source": "github",
+    "author": "ceo263",
+    "content": "[Issue] chokidar Settings watcher spam (190-372 EINVAL WARN per session start) on Node 24 + Linux\n\n# Bug Report: chokidar Settings watcher EINVAL spam at session startup\n\n**droid version:** 0.131.0\n**Node version:** v24.10.0\n**Platform:** Linux 6.14.0-37-generic (Linux Mint 22.3)\n**Terminal:** WezTerm 20240203\n**Date observed:** 2026-05-21 / 2026-05-22\n\n## Summary\n\nEvery droid SessionStart produces **190-372 `WARN: Settings watcher error`** entries in `~/.factory/logs/droid-log-single.log`. The errors are `EINVAL: invalid argument, watch '<path>'` from chokidar `_handleDir` → `node:fs:watch`.",
+    "url": "https://github.com/Factory-AI/factory/issues/1139",
+    "timestamp": "2026-05-21T21:22:12Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1139
+    }
+  },
+  {
     "id": "github_issue_1136",
     "source": "github",
     "author": "trulsjor",
