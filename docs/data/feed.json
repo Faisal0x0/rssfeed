@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1141",
+    "source": "github",
+    "author": "harryblam",
+    "content": "[Issue] [BUG] Non-image MCP EmbeddedResource bytes dropped — agents can't read JSON/NDJSON/Markdown attachments\n\n# Factory CLI: Persist non-image MCP `EmbeddedResource` blobs to disk\n\n## Summary\n\nFactory's CLI renders `image/*` MCP `EmbeddedResource` payloads inline so the agent can view them, but for any other MIME type (`application/json`, `application/x-ndjson`, `text/markdown`, etc.) it persists only a placeholder string `[Embedded Resource: <mime>]` in the session log — the actual base64 bytes returned by the MCP server are dropped before the agent ever sees them.\n\nThe agent has no way to recover thos",
+    "url": "https://github.com/Factory-AI/factory/issues/1141",
+    "timestamp": "2026-05-22T14:13:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1141
+    }
+  },
+  {
     "id": "github_issue_1139",
     "source": "github",
     "author": "ceo263",
