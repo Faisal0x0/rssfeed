@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1145",
+    "source": "github",
+    "author": "Jonathan-0101",
+    "content": "[Issue] [Feature Request] - Add text highlighting set of slash commands in the CLI\n\nWhen a slash command is typed out or selected and the user is entering text after it before pressing enter, it would be good to have the command highlighted.\n\n- This would make the appearance clearer and improve the UX",
+    "url": "https://github.com/Factory-AI/factory/issues/1145",
+    "timestamp": "2026-05-23T13:52:23Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1145
+    }
+  },
+  {
     "id": "github_issue_1144",
     "source": "github",
     "author": "Lemonawa",
