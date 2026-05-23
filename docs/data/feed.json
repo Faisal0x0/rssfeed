@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1144",
+    "source": "github",
+    "author": "Lemonawa",
+    "content": "[Issue] Mission workers display \"0 tool uses\" despite performing file writes\n\n## Description\n\nWhen running a Mission, feature workers that clearly performed tool-based work (file writes, reads, searches) report \"0 tool uses\" in the completion summary.\n\n## Steps to Reproduce\n\n1. Start a Mission via `/missions`\n2. Plan includes multiple features that require file creation/modification\n3. Workers execute and produce output (files are written)\n4. Observe the `↳ Done (N tool uses · Xs)` completion line\n\n## Expected Behavior\n\nEach worker's completion summary should accurately r",
+    "url": "https://github.com/Factory-AI/factory/issues/1144",
+    "timestamp": "2026-05-23T08:21:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1144
+    }
+  },
+  {
     "id": "github_issue_1141",
     "source": "github",
     "author": "harryblam",
