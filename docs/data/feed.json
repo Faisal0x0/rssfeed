@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1147",
+    "source": "github",
+    "author": "atiqrahmanx",
+    "content": "[Issue] Bug: Custom vision models have images stripped due to built-in model ID substring matching\n\n## Bug: Custom vision models have images stripped due to built-in model ID substring matching\n\n**Droid CLI version:** 0.132.1\n\n### Description\n\nWhen configuring a custom model whose `model` field is a superset of a built-in model ID (e.g., `glm-5v-turbo` contains `glm-5`), Droid incorrectly resolves it to the built-in model and applies its `images: false` restriction. The user's `noImageSupport: false` setting in `settings.json` is ignored because the image-stripping check uses `||` instead of r",
+    "url": "https://github.com/Factory-AI/factory/issues/1147",
+    "timestamp": "2026-05-25T06:43:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1147
+    }
+  },
+  {
     "id": "github_issue_1145",
     "source": "github",
     "author": "Jonathan-0101",
