@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1148",
+    "source": "github",
+    "author": "mbaranovski",
+    "content": "[Issue] Bug: droid exec GenerateDroid infinite loop\n\nVersion with issue: **Factory CLI v0.132.1**\nVersion where everything was working fine: **v0.129.0** (possible higher as well, but noticed only on v0.132.1).\nModel: GLM-5.1\n\n<img width=\"1633\" height=\"1224\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e37c4dbc-e53a-4296-a0d1-1768b0dc8194\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/1148",
+    "timestamp": "2026-05-25T19:59:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1148
+    }
+  },
+  {
     "id": "github_issue_1147",
     "source": "github",
     "author": "atiqrahmanx",
