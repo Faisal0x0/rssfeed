@@ -1,5 +1,44 @@
 [
   {
+    "id": "github_issue_1153",
+    "source": "github",
+    "author": "MaksymPerevalov",
+    "content": "[Issue] Drod CLI and Factory App sessions are not synced.\n\n### Reproduce\n\n1. Start a session in Droid CLI. Write `Hi 1`.\n2. Open the same session in Factory App - you see `Hi 1`.\n3. Write `Hi 2` in Droid CLI - not visible in Factory App. \n4. Restart Factory App - `Hi 2 ` visible in Factory App. ",
+    "url": "https://github.com/Factory-AI/factory/issues/1153",
+    "timestamp": "2026-05-26T13:33:58Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1153
+    }
+  },
+  {
+    "id": "github_issue_1152",
+    "source": "github",
+    "author": "MaksymPerevalov",
+    "content": "[Issue] Add basic Vim motions for CLI prompt\n\nAdd basic Vim motions for Droid CLI.  \n\n\n Navigation\n   •  h/l — move left/right by character\n   •  w/b — move forward/back by word\n   •  0/$ — jump to start/end of line\n\n   Editing\n   •  x — delete character under cursor\n   •  dw — delete word\n   •  dd — delete entire line\n   •  cw — change word (delete + enter insert mode)\n   •  C — change to end of line\n\n   Mode switching\n   •  i — insert before cursor\n   •  a — insert after cursor\n   •  A — insert at end of line\n   •  Esc — back to normal mo",
+    "url": "https://github.com/Factory-AI/factory/issues/1152",
+    "timestamp": "2026-05-26T13:30:30Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1152
+    }
+  },
+  {
+    "id": "github_issue_1151",
+    "source": "github",
+    "author": "MaksymPerevalov",
+    "content": "[Issue] Allow to open Factory App from the terminal.\n\nI hate macOS native Explorer. I always navigate between directories via the terminal. Please add an equivalent of `codex app <path>` = `droid app <path>`.   deeplinks are also good enough. ",
+    "url": "https://github.com/Factory-AI/factory/issues/1151",
+    "timestamp": "2026-05-26T13:25:50Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1151
+    }
+  },
+  {
     "id": "github_issue_1148",
     "source": "github",
     "author": "mbaranovski",
