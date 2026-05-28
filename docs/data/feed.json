@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1163",
+    "source": "github",
+    "author": "hdot123",
+    "content": "[Issue] Daemon-spawned right-pane shell leaks NODE_CHANNEL_FD into droid CLI, breaks session creation\n\n## Summary\n\nWhen `droid` is launched in the Factory desktop app's embedded right-pane terminal, it consistently fails at session creation with:\n\n```\n[useDaemonAgent] Failed to create session\nConnectionClosedError: Connection closed while request pending (code=1000, reason=IPC disconnected)\n```\n\nUser-visible message in the TUI: `创建会话失败。请查看日志了解详情` (\"Failed to create session, see logs for details\").\n\nThe same `droid` binary (`v0.135.0`, `~/.local/bin/droid` and `Factory.app/Contents/Resources/bin/d",
+    "url": "https://github.com/Factory-AI/factory/issues/1163",
+    "timestamp": "2026-05-28T05:02:53Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1163
+    }
+  },
+  {
     "id": "github_issue_1153",
     "source": "github",
     "author": "MaksymPerevalov",
