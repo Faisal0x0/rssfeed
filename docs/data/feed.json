@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1166",
+    "source": "github",
+    "author": "macosai",
+    "content": "[Issue] Task subagent fails with exit 1 when using BYOK custom models (Ollama)\n\n     BYOK (Ollama) custom models fail in Task subagents — all exit with code 1, zero output.\n\n     Environment: Factory CLI 0.135.0, Windows 10, PowerShell 7+, Ollama on 127.0.0.1:11434.\n\n     Tested models: custom:nemotron-3-super:cloud, custom:deepseek-v4-flash:cloud, custom:gemma4:31b-cloud.\n     Also tested: raw name (no custom: prefix) and full custom ID — all failed identically.\n\n     Control test: model: inherit works perfectly (parent session also uses BYOK).\n\n     Error: \"Task subagent ",
+    "url": "https://github.com/Factory-AI/factory/issues/1166",
+    "timestamp": "2026-05-28T09:55:54Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1166
+    }
+  },
+  {
     "id": "github_issue_1165",
     "source": "github",
     "author": "listell-writer",
