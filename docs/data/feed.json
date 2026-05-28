@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1165",
+    "source": "github",
+    "author": "listell-writer",
+    "content": "[Issue] [BUG] v0.135.0 regression: MCP OAuth callback server fails to bind, all MCP servers stuck at \"connecting...\" in /mcp UI\n\n## Summary\n\nAfter upgrading to droid `0.135.0`, the `/mcp` panel shows every configured MCP server stuck at `connecting...` indefinitely and no MCP tools are registered. Downgrading to `0.104.0` (or `0.134.0`) restores normal behaviour with the same `~/.factory/mcp.json` and same machine. The root cause from logs is that the MCP OAuth callback HTTP server fails to bind at startup, which then aborts `list_mcp_servers` / `list_mcp_tools` in the background JSON-RPC worker.\n\n## Environment\n\n- Droid ",
+    "url": "https://github.com/Factory-AI/factory/issues/1165",
+    "timestamp": "2026-05-28T09:08:52Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1165
+    }
+  },
+  {
     "id": "github_issue_1163",
     "source": "github",
     "author": "hdot123",
