@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1176",
+    "source": "github",
+    "author": "AliverAnme",
+    "content": "[Issue] Droid CLI keeps auto-injecting \"Continue\" during long tasks and resets execution with Cloudflare models only\n\nDuring long-running tasks such as project analysis, Droid CLI keeps auto-injecting continuation steps like \"Continue.\" while the task is still in progress.\n\nWith Cloudflare-backed models, these continuation steps seem to interrupt the model's current reasoning/execution flow. Instead of continuing from the current state, the model restarts its analysis, repeats planning, and loses continuity.\n\nThis issue appears mainly in long tasks. Shorter interactions are much less affected.\n\nThe same workflo",
+    "url": "https://github.com/Factory-AI/factory/issues/1176",
+    "timestamp": "2026-05-30T18:25:29Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1176
+    }
+  },
+  {
     "id": "github_issue_1166",
     "source": "github",
     "author": "macosai",
