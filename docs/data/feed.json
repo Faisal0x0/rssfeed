@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1183",
+    "source": "github",
+    "author": "macosai",
+    "content": "[Issue] Response Truncation Bug Report (max_tokens / Context Limit)\n\n# Factory Droid — Response Truncation Bug Report (max_tokens / Context Limit)\n\n## Summary\nDuring long conversation sessions, assistant responses are being cut off mid-sentence across multiple BYOK models. Investigation shows this is caused by the **Factory client not correctly enforcing model-specific output token limits**, or the **session context exceeding the model's input token limit**.\n\n## Affected Models (Confirmed)\n\n| Model | Error Pattern | Notes |\n|---|---|---|\n| `custom:kimi-k2.6:cloud",
+    "url": "https://github.com/Factory-AI/factory/issues/1183",
+    "timestamp": "2026-06-02T02:53:47Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1183
+    }
+  },
+  {
     "id": "github_issue_1176",
     "source": "github",
     "author": "AliverAnme",
