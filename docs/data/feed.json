@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1184",
+    "source": "github",
+    "author": "atiqrahmanx",
+    "content": "[Issue] Card component in <json-render> renders solid black background on factory-light theme\n\n## Card component in `<json-render>` renders solid black background on `factory-light` theme\n\n### What happens\n\nWhen Droid's AI responds with `<json-render>` tags containing `\"type\": \"Card\"` components, each Card renders as a **solid black rectangle** on the `factory-light` theme. The text inside exists but is invisible — it becomes readable when selected in the terminal (macOS selection highlight provides contrast).\n\n### How to reproduce\n\n1. Set theme to `factory-light`\n2. Send: `Analyze my sys",
+    "url": "https://github.com/Factory-AI/factory/issues/1184",
+    "timestamp": "2026-06-02T06:50:29Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1184
+    }
+  },
+  {
     "id": "github_issue_1183",
     "source": "github",
     "author": "macosai",
