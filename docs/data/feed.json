@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1186",
+    "source": "github",
+    "author": "zyaiire",
+    "content": "[Issue] bug: Mermaid diagram rendering broken — layout distortion and ignores code block instructions\n\n## Bug Description\n\nMermaid diagrams in Droid CLI are rendering incorrectly. The issue affects **all diagram types** (flowchart, sequence diagram, class diagram, state diagram, gantt chart, pie chart, etc.).\n\nThere are two specific problems:\n\n1. **Layout distortion**: Mermaid diagrams are rendered with broken/misaligned layouts — nodes overlap, edges point to wrong directions, spacing is off.\n2. **Ignores code output instructions**: Even when the prompt explicitly asks Droid to output raw Mermai",
+    "url": "https://github.com/Factory-AI/factory/issues/1186",
+    "timestamp": "2026-06-03T07:21:20Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1186
+    }
+  },
+  {
     "id": "github_issue_1184",
     "source": "github",
     "author": "atiqrahmanx",
