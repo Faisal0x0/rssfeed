@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1190",
+    "source": "github",
+    "author": "MintOcha",
+    "content": "[Issue] Context Denial of service by long git status output\n\n## ISSUE: Project with long git status instantly takes up usage\n\nSteps to reproduce:\n1. Create a new project\n2. Delete a large folder like node_modules\n3. All 200k tokens from the deletion is inserted into user_info, jamming up token space\n\n\n## Suggested fix: Cap git status output to x characters\n\n```\n●  Context Usage\n   v-rail: gpt-5.5 · Compaction meter available after the first model response\n\n   █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n\n   Estimated usage by cat",
+    "url": "https://github.com/Factory-AI/factory/issues/1190",
+    "timestamp": "2026-06-04T06:46:13Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1190
+    }
+  },
+  {
     "id": "github_issue_1186",
     "source": "github",
     "author": "zyaiire",
