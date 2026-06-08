@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1200",
+    "source": "github",
+    "author": "coygeek",
+    "content": "[Issue] [BUG] \"Deprecated model\" warning appears when continuing chat via \"droid core\" after hitting 5-hour session limit\n\n## Summary\n\nAfter hitting the 5-hour session limit, switching to **\"droid core\"** to continue the chat produces **\"deprecated model\"** warnings. The session was using Droid Core (GLM-5) which was already replaced by GLM-5.1, but the session-limit continuation flow surfaces confusing deprecation messages instead of transparently migrating to the successor model.\n\n## Environment\n\n- **Factory macOS App**: 0.99.0 (5600)\n- **Droid CLI**: 0.142.0\n- **OS**: macOS 26.5 (darwin arm64)\n- **Scenario**: Hit",
+    "url": "https://github.com/Factory-AI/factory/issues/1200",
+    "timestamp": "2026-06-08T01:48:55Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1200
+    }
+  },
+  {
     "id": "github_issue_1190",
     "source": "github",
     "author": "MintOcha",
