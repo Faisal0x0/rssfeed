@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1205",
+    "source": "github",
+    "author": "shelltea",
+    "content": "[Issue] macOS Droid CLI binaries have invalid code signatures and are blocked by Gatekeeper\n\n## Summary\n\nThe official macOS arm64 Droid CLI binaries for versions `0.142.0` and `0.143.0` contain invalid code signatures.\n\nBecause of this, macOS Gatekeeper blocks the binary with the following warning:\n\n> Apple could not verify “droid” is free of malware that may harm your Mac or compromise your privacy.\n\nRemoving the `com.apple.quarantine` attribute allows the CLI to run, but bypassing Gatekeeper should not be necessary for an official executable with access to source code, credentials, an",
+    "url": "https://github.com/Factory-AI/factory/issues/1205",
+    "timestamp": "2026-06-09T02:54:06Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1205
+    }
+  },
+  {
     "id": "github_issue_1204",
     "source": "github",
     "author": "coygeek",
