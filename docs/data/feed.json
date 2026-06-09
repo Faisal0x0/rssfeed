@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1206",
+    "source": "github",
+    "author": "matifema",
+    "content": "[Issue] droid daemon --remote-access spawns runaway git diff processes on large untracked binary files\n\n## Description\n\nThe daemon enumerates untracked files in a git repo via `git ls-files --others --exclude-standard`, then runs `git diff --no-index --numstat -- /dev/null <file>` for every untracked file simultaneously. For large binary files, each `git diff` reads the entire file and hammers the CPU -- and the daemon spawns one per file in parallel.\n\n## Example scenario\n\nA user accidentally ran `git init` in their home directory (or any directory containing large binaries). If that directory als",
+    "url": "https://github.com/Factory-AI/factory/issues/1206",
+    "timestamp": "2026-06-09T16:22:46Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1206
+    }
+  },
+  {
     "id": "github_issue_1205",
     "source": "github",
     "author": "shelltea",
