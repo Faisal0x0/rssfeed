@@ -1,5 +1,20 @@
 [
   {
+    "id": "github_issue_1220",
+    "source": "github",
+    "author": "coygeek",
+    "content": "[Issue] Built-in denylist prompts still interrupt High-autonomy Droid automation\n\n## Summary\n\n`droid exec --auto high` and High-autonomy Droid sessions still stop for built-in denylisted shell commands such as `rm -rf ...`, even when those commands are scoped to disposable worktrees, temporary run directories, or other expected cleanup targets.\n\nThis creates a sharp limitation for autonomous orchestration workflows. Long-running agent workflows often need to remove temporary directories, delete completed worktrees, prune execution residue, or clean generated plan artifacts at",
+    "url": "https://github.com/Factory-AI/factory/issues/1220",
+    "timestamp": "2026-06-11T16:52:05Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 1220
+    }
+  },
+  {
     "id": "github_issue_1206",
     "source": "github",
     "author": "matifema",
