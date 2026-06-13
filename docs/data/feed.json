@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1228",
+    "source": "github",
+    "author": "amitach",
+    "content": "[Issue] ACP mode loads global ~/.factory/mcp.json servers and blocks initialize on them\n\n**Environment:** `droid` CLI run as an ACP agent via `droid exec --output-format acp` (also `--output-format acp-daemon`), macOS, embedded by an ACP client/host.\n\n**Summary:** When Droid runs as an ACP agent, it loads the user's global MCP servers from `~/.factory/mcp.json` *in addition to* the `mcpServers` the ACP client supplies in `session/new`, and it **blocks ACP `initialize`/session startup until every global server connects.** If a global server is slow or requires interactive authorizati",
+    "url": "https://github.com/Factory-AI/factory/issues/1228",
+    "timestamp": "2026-06-13T00:51:04Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1228
+    }
+  },
+  {
     "id": "github_issue_1220",
     "source": "github",
     "author": "coygeek",
