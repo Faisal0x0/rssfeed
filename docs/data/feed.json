@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1231",
+    "source": "github",
+    "author": "AssahBismarkabah",
+    "content": "[Issue] [BUG] macOS Desktop 0.104.0: asar integrity hash mismatch causes immediate crash on launch\n\n## Summary\n\nFactory Desktop v0.104.0 for macOS Apple Silicon immediately crashes on launch. The ship build has an `app.asar` SHA-256 hash that does not match the value recorded in `Info.plist` under `ElectronAsarIntegrity`, causing Electron to abort with `EXC_BREAKPOINT`.\n\n## Environment\n\n- **macOS:** 26.5.1 (Build 25F80)\n- **Architecture:** Apple Silicon (arm64)\n- **Factory Desktop version:** 0.104.0 (build 5830)\n- **Previous working version:** 0.101.2 (build 5748)\n- **Installation method:** In",
+    "url": "https://github.com/Factory-AI/factory/issues/1231",
+    "timestamp": "2026-06-14T19:30:33Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1231
+    }
+  },
+  {
     "id": "github_issue_1228",
     "source": "github",
     "author": "amitach",
