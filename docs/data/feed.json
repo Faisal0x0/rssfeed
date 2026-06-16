@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1238",
+    "source": "github",
+    "author": "mav-fieldguide",
+    "content": "[Issue] [BUG] MCP OAuth fails for spec-compliant servers that don't rotate refresh tokens (refresh_token_not_rotated)\n\n## Summary\n\nDroid's MCP OAuth client fails to connect to any OAuth-protected MCP server whose authorization server **does not rotate the refresh token** on token refresh. The driver treats a non-rotated (reused) refresh token as a fatal error (`reason: \"refresh_token_not_rotated\"`), drops the connection, and surfaces `Failed to connect to MCP server`.\n\nRefresh-token rotation is **optional** per OAuth 2.0 ([RFC 6749 §6](https://datatracker.ietf.org/doc/html/rfc6749#section-6): the authorization s",
+    "url": "https://github.com/Factory-AI/factory/issues/1238",
+    "timestamp": "2026-06-16T21:39:21Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1238
+    }
+  },
+  {
     "id": "github_issue_1231",
     "source": "github",
     "author": "AssahBismarkabah",
