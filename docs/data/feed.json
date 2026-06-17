@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1240",
+    "source": "github",
+    "author": "voli920",
+    "content": "[Issue] [BUG] Desktop App fails to detect local machine due to non-ASCII character\n\n### Bug Description\nThe Factory AI Desktop App is unable to detect or connect to the local daemon if the Windows user profile path contains non-ASCII characters (e.g., the Polish letter \"ł\" in C:\\Users\\Mikołaj). While the CLI daemon runs and authenticates perfectly, the Desktop GUI fails to parse the path, resulting in encoding corruption (``) and a subsequent daemon crash.\n\n### Steps to reproduce\n1. Start and authenticate a local daemon session via CLI (droid) on a Windows machine where the use",
+    "url": "https://github.com/Factory-AI/factory/issues/1240",
+    "timestamp": "2026-06-17T08:26:30Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1240
+    }
+  },
+  {
     "id": "github_issue_1238",
     "source": "github",
     "author": "mav-fieldguide",
