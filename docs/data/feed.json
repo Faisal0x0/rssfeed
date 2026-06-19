@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1246",
+    "source": "github",
+    "author": "MintOcha",
+    "content": "[Issue] [BUG] SEVERE performance issues when typing\n\nWhen using the TUI on konsole, arch linux, i get these errors.\nIt's been terrible to use lately, every keypress runs on 3fps. there's severe lag when it comes to sending prompts, keystrokes, etc. to the point where prompt lags for about 30 seconds before sending.\n\n  For the actual typing lag: the evidence points at a Factory Droid TUI/render bug in Konsole/Wayland, not MCP/context length. ~/.factory/logs/\n  console.log has:\n\n  Maximum update depth exceeded\n\n  That is a React infinite re-render w",
+    "url": "https://github.com/Factory-AI/factory/issues/1246",
+    "timestamp": "2026-06-19T09:49:04Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1246
+    }
+  },
+  {
     "id": "github_issue_1240",
     "source": "github",
     "author": "voli920",
