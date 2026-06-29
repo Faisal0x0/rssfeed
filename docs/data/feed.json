@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1263",
+    "source": "github",
+    "author": "levygit837-cyber",
+    "content": "[Issue] Custom model's can't use \"max\" effort.\n\nSoo, i have been using open models by the Droid CLI and Factory Desktop, the problem is clear, even if we change the settings.json or any parameters or configurations the custom model's like GLM 5.2 never can use the \"max\" effort, because in the droid the only models that have this effort are claude models, soo the problem is never we can't see on the settings or in runtime the option to model's that have reasoningEffort: max, like GLM 5.2 using the max effort that he can.\n\n- Model's that have e",
+    "url": "https://github.com/Factory-AI/factory/issues/1263",
+    "timestamp": "2026-06-29T01:00:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1263
+    }
+  },
+  {
     "id": "github_issue_1246",
     "source": "github",
     "author": "MintOcha",
