@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1267",
+    "source": "github",
+    "author": "tlerbao",
+    "content": "[Issue] BYOK custom models: no documented way to set or auto-detect context/input window size\n\n## Summary\n\nThere is no documented, working way to set (or auto-detect) the **input / context window size** for BYOK custom models in `~/.factory/settings.json`. Droid appears to apply an internal default (~239K–250K) to custom models regardless of the model's real context window, and none of the documented settings change this.\n\nThis is both a **question** (what is the intended mechanism?) and a **feature request** (please make it configurable per custom model, or auto-detect it).\n\n## Environme",
+    "url": "https://github.com/Factory-AI/factory/issues/1267",
+    "timestamp": "2026-07-01T05:20:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1267
+    }
+  },
+  {
     "id": "github_issue_1263",
     "source": "github",
     "author": "levygit837-cyber",
