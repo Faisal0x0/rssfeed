@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1270",
+    "source": "github",
+    "author": "kumamaki",
+    "content": "[Issue] deep-security-review skill: Pass 0 lieutenant Task dispatch consistently fails with \"Tool execution was cancelled\"\n\nThe `deep-security-review` skill spawns parallel `Task` subagents for Pass 0 lieutenant enumeration. Send 4 `Task` calls in one assistant message (the skill's `BATCH_SIZE_LIEUTENANTS` default) and all 4 return `Tool execution was cancelled`. Tasks cancel before they read a single file.\n\n### Environment\n\n- Droid CLI 0.164.0\n- macOS (darwin 25.5.0)\n- Orchestrator model: GLM-5.2 (Droid Core)\n- Skill: `builtin:deep-security-review` (via `builtin:security-review`, \"Deep\" mode)\n- Target: ~720 source f",
+    "url": "https://github.com/Factory-AI/factory/issues/1270",
+    "timestamp": "2026-07-03T11:55:10Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1270
+    }
+  },
+  {
     "id": "github_issue_1267",
     "source": "github",
     "author": "tlerbao",
