@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1273",
+    "source": "github",
+    "author": "wtq524176336-source",
+    "content": "[Issue] Feature Request: Real-time token usage / output TPS indicator during generation (similar to Claude Code)\n\n### 1. The Problem (Pain Point)\nCurrently, when using Droid CLI, it feels like a \"black box\" during long generations or tool executions. There is no real-time feedback on how many tokens are being consumed or generated. \n\nUsers cannot easily tell if:\n- The model is actively thinking/generating in the background.\n- The CLI is stuck in an infinite tool-call loop.\n- The network or API is hanging.\n\nWhile commands like `/cost` and `/context` are helpful, they only provide \"post-execution\" statistics.",
+    "url": "https://github.com/Factory-AI/factory/issues/1273",
+    "timestamp": "2026-07-07T14:09:50Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1273
+    }
+  },
+  {
     "id": "github_issue_1270",
     "source": "github",
     "author": "kumamaki",
