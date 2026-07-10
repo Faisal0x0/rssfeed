@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1290",
+    "source": "github",
+    "author": "mfirdausazizi",
+    "content": "[Issue] Subagent model: pins silently dropped (inherit parent model) when parent runs a gpt-5.6-* model — built-in and BYOK\n\n# Subagent `model:` pins are silently dropped (fall back to parent model) when the parent session runs a `gpt-5.6-*` model — affects both built-in and BYOK\n\n## Summary\n\nWhen the **parent session** runs on any `gpt-5.6-*` model, every subagent launched via the Task tool **ignores its droid file's pinned `model:`** and instead runs on the **parent's model**. The droid file is otherwise read and applied — notably the pinned `reasoningEffort` **is** honored in the BYOK case — only the `model` pin is",
+    "url": "https://github.com/Factory-AI/factory/issues/1290",
+    "timestamp": "2026-07-10T12:13:29Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1290
+    }
+  },
+  {
     "id": "github_issue_1273",
     "source": "github",
     "author": "wtq524176336-source",
