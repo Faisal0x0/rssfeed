@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1330",
+    "source": "github",
+    "author": "girte",
+    "content": "[Issue] [BUG] Subagent sessions appear in the main session history\n\n## Summary\n\nSessions created for Workers and other subagents appear as normal user sessions in the main session history/session picker. Entries such as `Worker: ...`, `Explorer: ...`, and `Web-researcher: ...` accumulate and make the history difficult to use.\n\n## Steps to reproduce\n\n1. Start a normal Droid session.\n2. Launch a Worker, Explorer, or another subagent through the Task tool.\n3. Let the subagent create its child session.\n4. Open the main session history/session picker.\n\n## Expected be",
+    "url": "https://github.com/Factory-AI/factory/issues/1330",
+    "timestamp": "2026-07-24T15:03:40Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1330
+    }
+  },
+  {
     "id": "github_issue_1329",
     "source": "github",
     "author": "pauljura",
