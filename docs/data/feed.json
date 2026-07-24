@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1329",
+    "source": "github",
+    "author": "pauljura",
+    "content": "[Issue] Using `/new` clears terminal scrollback\n\nPretty simple, my terminal may have dozens of lines in the scrollback buffer, either in Droid or before it, but if I type `/new` for a new session, it will wipe everything and I cannot scroll up any more.\n\nPlease don't do that.\n\nI want to be able to scroll up and still see my previous session, or stuff I was doing before I started Droid.\n\nThanks.",
+    "url": "https://github.com/Factory-AI/factory/issues/1329",
+    "timestamp": "2026-07-24T05:44:11Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1329
+    }
+  },
+  {
     "id": "github_issue_1294",
     "source": "github",
     "author": "kumamaki",
