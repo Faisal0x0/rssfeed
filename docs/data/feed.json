@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1340",
+    "source": "github",
+    "author": "lkmotto",
+    "content": "[Issue] Relay WebSocket drops every 2-14 minutes with code 1006 -- no keepalive/ping on daemon connection\n\n## Description\n\nThe daemon's WebSocket connection to `relay.factory.ai` drops every few minutes with code 1006 (\"Connection ended\" -- abnormal closure, no WebSocket close frame sent). The daemon reconnects within ~1 second, but during that reconnect window, web sessions become \"session unavailable\" because the relay's orphan grace period is shorter than the reconnect time.\n\n## Root Cause\n\nThe daemon does not send WebSocket-level ping/pong frames and does not enable TCP keepalive (`socket.setKeep",
+    "url": "https://github.com/Factory-AI/factory/issues/1340",
+    "timestamp": "2026-07-28T00:34:00Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1340
+    }
+  },
+  {
     "id": "github_issue_1330",
     "source": "github",
     "author": "girte",
