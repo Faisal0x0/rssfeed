@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_1341",
+    "source": "github",
+    "author": "anicholson",
+    "content": "[Issue] [Droid CLI] unusable jitter when scrolling back on kitty\n\nVersions:\n\ndroid: 0.181.0\nOS: macos 26.5.2\nterminal: Kitty 0.47.4\n\nHave verified Terminal.app and Ghostty.app are unaffected.\n\n<details>\n\n<summary>\nExpand to see screen recording\n</summary>\n\nhttps://github.com/user-attachments/assets/6b8e1f53-6555-4b27-bc96-8d21766ce680\n\n</details>",
+    "url": "https://github.com/Factory-AI/factory/issues/1341",
+    "timestamp": "2026-07-28T02:57:40Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 1341
+    }
+  },
+  {
     "id": "github_issue_1340",
     "source": "github",
     "author": "lkmotto",
