@@ -1,5 +1,57 @@
 [
   {
+    "id": "github_issue_6",
+    "source": "github",
+    "author": "Roderick-Clemente",
+    "content": "[Issue] Local marketplace keyed by directory basename, not `marketplace.json` name; error message misdirects\n\n## Summary\nWhen a local-path marketplace is added, it is registered under the **directory basename**, not the `name` field from `marketplace.json`. Installing with the documented `pluginName@marketplaceName` form (using the JSON `name`) then fails, and the error message misdirects to a cause that is not the problem.\n\n## Environment\n- `droid` 0.186.0, macOS (darwin 24.6.0)\n\n## Reproduction\n`marketplace.json` has `\"name\": \"probe-mkt\"`. Directory is `/tmp/probe-6/mkt`.\n\n```\ndroid plugin marketplace",
+    "url": "https://github.com/Factory-AI/factory/issues/6",
+    "timestamp": "2026-08-03T15:45:32Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 6
+    }
+  },
+  {
+    "id": "github_issue_5",
+    "source": "github",
+    "author": "Roderick-Clemente",
+    "content": "[Issue] `DROID_PLUGIN_ROOT` env var in plugin hooks is the literal sentinel `/PLUGIN_ROOT_NOT_EXPANDED_ERROR`\n\n## Summary\nThe `DROID_PLUGIN_ROOT` environment variable handed to a plugin's hook script is the literal sentinel string `/PLUGIN_ROOT_NOT_EXPANDED_ERROR`, not the plugin's install path. Substitution of `${DROID_PLUGIN_ROOT}` into the hook's `command` string works, but a script that reads the variable from its own environment at runtime gets an invalid path.\n\n## Environment\n- `droid` 0.186.0, macOS (darwin 24.6.0), `droid exec` mode\n\n## Reproduction\nShip a plugin whose `hooks/hooks.json` declares",
+    "url": "https://github.com/Factory-AI/factory/issues/5",
+    "timestamp": "2026-08-03T15:45:31Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 5
+    }
+  },
+  {
+    "id": "github_issue_4",
+    "source": "github",
+    "author": "Roderick-Clemente",
+    "content": "[Issue] Unsupported `--reasoning-effort` silently resolves to `off` instead of erroring or clamping\n\n## Summary\nPassing a `--reasoning-effort` value the target model does not support resolves silently to `off` (the weakest setting) instead of erroring or clamping to the nearest supported value. Exit code is 0 and nothing is printed. A caller requesting *maximum* reasoning gets *none*, silently, indefinitely.\n\n## Environment\n- `droid` 0.186.0, macOS (darwin 24.6.0), `droid exec` mode\n\n## Reproduction\n`claude-haiku-4-5-20251001` advertises reasoning efforts `[off, low, medium, high]`. `xhigh` is ",
+    "url": "https://github.com/Factory-AI/factory/issues/4",
+    "timestamp": "2026-08-03T15:45:30Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 4
+    }
+  },
+  {
+    "id": "github_issue_3",
+    "source": "github",
+    "author": "Roderick-Clemente",
+    "content": "[Issue] `.factory/hooks.json` is silently never read at project scope (documented primary location)\n\n## Summary\nAt project scope, hook declarations in `.factory/hooks.json` are **silently never read**. The documentation lists this as the primary project-scope hook location, but a `PreToolUse` hook registered there never fires. The same declaration works only when moved into the `hooks` key of `.factory/settings.json`. There is no warning or error in either case — the run proceeds unguarded at `exit 0`.\n\nThis is a security-relevant failure: a hook is a policy control (test-lock, path guard, etc.",
+    "url": "https://github.com/Factory-AI/factory/issues/3",
+    "timestamp": "2026-08-03T15:45:29Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 3
+    }
+  },
+  {
     "id": "github_issue_2",
     "source": "github",
     "author": "Roderick-Clemente",
