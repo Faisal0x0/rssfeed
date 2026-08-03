@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_2",
+    "source": "github",
+    "author": "Roderick-Clemente",
+    "content": "[Issue] `droid exec --mission` performs no work and reports success (num_turns 0, zero tokens, exit 0)\n\n`droid exec --mission` performs no work and reports success (num_turns 0, zero tokens, exit 0)\n\n## Summary\n\nOn `droid` **0.186.0**, `droid exec --mission` short-circuits before any model call: it returns `subtype: \"success\"`, `is_error: false`, exit code 0, with `num_turns: 0`, zero tokens, and zero credits. No file is touched. The same task **without** `--mission` runs normally and edits the file.\n\nA single-variable control isolates `--mission` as the sole cause.\n\n## Environment\n\n| | |\n|---|---",
+    "url": "https://github.com/Factory-AI/factory/issues/2",
+    "timestamp": "2026-08-03T03:47:26Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 2
+    }
+  },
+  {
     "id": "github_issue_1",
     "source": "github",
     "author": "demosunguohua",
