@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_8",
+    "source": "github",
+    "author": "OliverGeorge8",
+    "content": "[Issue] Custom droid glm-5.2 pin intermittently falls back to GPT-5.6 Sol\n\n## Summary\n\nA project custom droid pinned to the native `glm-5.2` model intermittently ignored its model pin and ran on the parent session's `gpt-5.6-sol` model instead.\n\nThe failure was session-scoped: three parallel invocations from the same Spec Mode parent all used Sol, while equivalent invocations before and afterward correctly used GLM.\n\n## Configuration\n\n`.factory/droids/code-sweeper.md`:\n\n```yaml\n---\nname: code-sweeper\nmodel: glm-5.2\nreasoningEffort: high\ntools: [\"Read\", \"LS\", \"Grep\", \"G",
+    "url": "https://github.com/Factory-AI/factory/issues/8",
+    "timestamp": "2026-08-08T12:37:12Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 8
+    }
+  },
+  {
     "id": "github_issue_7",
     "source": "github",
     "author": "PluTiper",
