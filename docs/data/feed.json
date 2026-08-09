@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_9",
+    "source": "github",
+    "author": "shuuul",
+    "content": "[Issue] droid 0.190.0: ACP daemon passes unsupported `--mcp-servers` to child process -> \"Droid process exited unexpectedly (exit code 1)\"\n\nDroid version: 0.190.0 (both `$HOME/.local/bin/droid` and npm `droid@0.190.0`)\nOS: macOS (arm64)\nZed version: 1.14.2\n\n## What happened\nUsing Factory Droid as an ACP agent from Zed (external_agents registry entry runs `droid exec --output-format acp-daemon`) always fails with:\n```\nInternal error: { \"details\": \"Droid process exited unexpectedly (exit code 1)\" }\n```\n\n## Evidence (from `$HOME/.factory/logs/droid-log-single.log`)\nThe ACP daemon spawns a child process and passes a `--mcp-servers` argu",
+    "url": "https://github.com/Factory-AI/factory/issues/9",
+    "timestamp": "2026-08-09T10:14:39Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 9
+    }
+  },
+  {
     "id": "github_issue_8",
     "source": "github",
     "author": "OliverGeorge8",
