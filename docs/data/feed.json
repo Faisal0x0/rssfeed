@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_13",
+    "source": "github",
+    "author": "snguyen-cars",
+    "content": "[Issue] Custom droids receive zero MCP tools despite valid configuration\n\n## Custom droid MCP tools are not propagated\n\n### Environment\n- Droid version: 0.196.0\n- OS: macOS Darwin 25.5.0\n- MCP server: Jenkins\n- Custom model tested: gemini-3-flash and inherit\n\n### Reproduction\n1. Configure a custom droid with:\n        tools:\n          - jenkins___get_item\n          - jenkins___get_all_items\n2. Start a new Droid session.\n3. Delegate an inventory-only task to the Jenkins droid.\n4. Inspect the subagent manifest.\n\n### Expected\nThe subagent receives the configured Jenkins M",
+    "url": "https://github.com/Factory-AI/factory/issues/13",
+    "timestamp": "2026-08-14T18:19:07Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 13
+    }
+  },
+  {
     "id": "github_issue_9",
     "source": "github",
     "author": "shuuul",
