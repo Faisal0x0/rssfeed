@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_15",
+    "source": "github",
+    "author": "zyaiire",
+    "content": "[Issue] False positives for SHA-256 hashes and run metadata in Droid-Shield\n\nDroid-Shield is repeatedly blocking commits that contain evaluation metadata, although the files do not contain credentials.\n\nThe blocked files were JSON and JSONL reports containing:\n\n- SHA-256 checksums for input files and generated artifacts\n- Git commit revisions and run identifiers\n- Task IDs\n- Cache metadata\n- Local file path patterns and API endpoint names\n- Evaluation results and research logs\n\nThe repository was checked for Git hooks and secret-scanning configuration. It has no active p",
+    "url": "https://github.com/Factory-AI/factory/issues/15",
+    "timestamp": "2026-08-17T09:22:31Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 15
+    }
+  },
+  {
     "id": "github_issue_13",
     "source": "github",
     "author": "snguyen-cars",
