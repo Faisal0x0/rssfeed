@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_21",
+    "source": "github",
+    "author": "wtq524176336-source",
+    "content": "[Issue] Feature Request: Show real-time output token counter (↓ N) while Droid is streaming\n\nDuring Droid execution, show a real-time output token counter next to the streaming status, similar to:\n\nstreaming ↓ 153\n\nThe number should increase live as the model generates tokens.\n\nThis is different from showing cumulative token usage after/between model calls. The key requirement is to provide immediate visual feedback while the model is actively streaming.\n\n✶ Detecting… (5s · streaming · ↓ 153 · esc to interrupt)\n\n\n<img width=\"1855\" height=\"453\" alt=\"Image\" src=\"https://github.com/user-at",
+    "url": "https://github.com/Factory-AI/factory/issues/21",
+    "timestamp": "2026-08-21T02:02:24Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 21
+    }
+  },
+  {
     "id": "github_issue_15",
     "source": "github",
     "author": "zyaiire",
