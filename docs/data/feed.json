@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_22",
+    "source": "github",
+    "author": "alanxchen85",
+    "content": "[Issue] Desktop-created sessions are stamped machineId \"local\" on a registered Droid Computer, so they never appear on app.factory.ai web/mobile\n\n## Summary\n\nSessions created in the **Factory desktop app** on a machine that is registered as a Droid Computer are stamped `machineId: \"local\"` instead of the machine's registered computer ID. As a result they are never associated with that computer in Factory's cloud session registry, and **never appear on app.factory.ai (web/mobile)** when browsing that computer — even though the web surface, desktop app, daemon, and sessions all live on the same physical machine.\n\nThis contradicts the docume",
+    "url": "https://github.com/Factory-AI/factory/issues/22",
+    "timestamp": "2026-08-21T21:13:42Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 22
+    }
+  },
+  {
     "id": "github_issue_21",
     "source": "github",
     "author": "wtq524176336-source",
