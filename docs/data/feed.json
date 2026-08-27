@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_23",
+    "source": "github",
+    "author": "TFluegge89",
+    "content": "[Issue] Plugin store migration renames the aggregate index that `plugin list`/`marketplace list`/`plugin update` still read\n\n﻿**Product:** Droid CLI\n**Version:** 0.157.1\n**Platform:** Windows 10 Enterprise (10.0.26100), PowerShell 5.1\n**Severity:** Medium. Plugin management commands become unusable. Session plugin\nloading is unaffected, so the impact is on management and update, not runtime.\n\n## Summary\n\n`droid plugin list`, `droid plugin marketplace list`, and `droid plugin update` read\nthe aggregate files `~/.factory/plugins/known_marketplaces.json` and\n`~/.factory/plugins/installed_plugins.json`. Other code paths m",
+    "url": "https://github.com/Factory-AI/factory/issues/23",
+    "timestamp": "2026-08-27T06:13:22Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 23
+    }
+  },
+  {
     "id": "github_issue_22",
     "source": "github",
     "author": "alanxchen85",
