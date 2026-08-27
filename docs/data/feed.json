@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_24",
+    "source": "github",
+    "author": "Reederey87",
+    "content": "[Issue] Bug: BYOK custom model with noImageSupport:false still has images stripped ([stripImagesFromConversation])\n\n### Summary\n\nDroid strips image inputs from requests to a custom BYOK model even though `noImageSupport` is explicitly `false`. The docs define this flag as *\"Set to `true` to disable image inputs for this model\"*, so `false`/unset should keep image inputs enabled. Instead, Droid classifies the custom model as non-image and strips images anyway.\n\n### Environment\n\n- droid CLI version: **v0.205.1**\n- OS: macOS (Apple Silicon)\n- Model configured via `customModels` in `~/.factory/settings.json`\n\n###",
+    "url": "https://github.com/Factory-AI/factory/issues/24",
+    "timestamp": "2026-08-27T22:37:48Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 24
+    }
+  },
+  {
     "id": "github_issue_23",
     "source": "github",
     "author": "TFluegge89",
