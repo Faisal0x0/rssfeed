@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_26",
+    "source": "github",
+    "author": "brendandebeasi",
+    "content": "[Issue] Feature Request: mouse text selection that copies logical text, not the rendered layout (Claude Code's option+click native select)\n\n### Summary\n\nThere is no way to select text on screen and get the underlying logical text back. Dragging over a response gives me what is rendered: hard wraps at the current pane width, plus any box borders that fall inside the range. Pasting that into an editor, a commit message or a chat means repairing every wrap by hand.\n\nClaude Code solves this in the terminal itself, and it is the thing I miss most when I switch to droid.\n\n### What Claude Code does\n\nIt enables mouse reporting (`\\x1b[?1000h",
+    "url": "https://github.com/Factory-AI/factory/issues/26",
+    "timestamp": "2026-08-28T20:34:36Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 26
+    }
+  },
+  {
+    "id": "github_issue_25",
+    "source": "github",
+    "author": "brendandebeasi",
+    "content": "[Issue] Feature Request: configurable keybindings; Option+Enter cannot be bound to newline (insert-newline is fixed to Shift/Ctrl/backslash+Enter)\n\n### Summary\n\nThere is no way to change which keys insert a newline in the composer. The bindings are fixed at Shift+Enter, Ctrl+Enter and `\\`+Enter, and nothing in `~/.factory/settings.json` or the CLI overrides them. Option+Enter in particular cannot be bound at all, which is the one that costs me: it is the newline key I have muscle memory for from other terminal agents, and on the hosts I run droid on it is also the only modified-Enter that reliably survives the terminal chain.\n\n### Current b",
+    "url": "https://github.com/Factory-AI/factory/issues/25",
+    "timestamp": "2026-08-28T20:19:15Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 25
+    }
+  },
+  {
     "id": "github_issue_24",
     "source": "github",
     "author": "Reederey87",
