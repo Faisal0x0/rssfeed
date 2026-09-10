@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_31",
+    "source": "github",
+    "author": "marovole",
+    "content": "[Issue] BYOK generic-chat-completion-api: parallel tool calls with image results create an orphan role:\"tool\" message -> 400 from strict upstreams\n\n### Summary\n\nWith a BYOK custom model configured as `provider: \"generic-chat-completion-api\"` + `noImageSupport: false`, an assistant turn that makes **2 or more tool calls in one message where a non-final tool result carries an image** generates an invalid request: a `role: \"tool\"` message ends up with no preceding assistant message declaring its id.\n\nStrict OpenAI-compatible upstreams reject it with:\n\n```text\n400 invalid_request_error: Messages with role 'tool' must be a response to a precedin",
+    "url": "https://github.com/Factory-AI/factory/issues/31",
+    "timestamp": "2026-09-10T14:51:33Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 31
+    }
+  },
+  {
     "id": "github_issue_30",
     "source": "github",
     "author": "Kusarok",
