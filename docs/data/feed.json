@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_32",
+    "source": "github",
+    "author": "ysankpia",
+    "content": "[Issue] BYOK generic-chat-completion-api: cross-provider replay of parallel image tool calls produces an orphan `role:\"tool\"` message -> 400\n\n### Summary\n\nSame underlying defect as #31, observed from a **different angle**: the parallel image tool calls were issued by one BYOK model, and the 400 appears only after the session is **switched to a different model** that replays the history. The new model never produced the image reads itself.\n\nOnce the shape is in history, the session is permanently broken on that model until it is switched back to an image-stripping route.\n\n### Environment\n\n- Droid CLI **0.218.1** (daemon, `subcommand: e",
+    "url": "https://github.com/Factory-AI/factory/issues/32",
+    "timestamp": "2026-09-13T12:41:40Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 32
+    }
+  },
+  {
     "id": "github_issue_31",
     "source": "github",
     "author": "marovole",
