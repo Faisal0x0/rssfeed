@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_33",
+    "source": "github",
+    "author": "joshwilhelmi",
+    "content": "[Issue] `Execute` SIGKILLs every command when `ps` is unavailable: `factory-execute-supervisor` treats a failed liveness probe as owner death\n\n## Summary\n\nIn any environment where `ps` cannot be executed, 100% of `Execute` tool calls fail instantly with:\n\n```\nError: Command terminated by signal: SIGKILL\n```\n\nThe command itself is never at fault: trivial commands (`pwd`, `/bin/echo hi`) die in 57–88 ms. Every other tool (Read, Edit, Grep, MCP tools, fire-and-forget) works normally in the same session.\n\nThe cause is `factory-execute-supervisor`: its owner-liveness probe shells out to `ps`, and it cannot distinguish \"the probe failed\" fro",
+    "url": "https://github.com/Factory-AI/factory/issues/33",
+    "timestamp": "2026-09-16T00:58:24Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 33
+    }
+  },
+  {
     "id": "github_issue_32",
     "source": "github",
     "author": "ysankpia",
