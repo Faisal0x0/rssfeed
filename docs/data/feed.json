@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_34",
+    "source": "github",
+    "author": "Fewmanism",
+    "content": "[Issue] Factory Desktop: ⌘V paste intermittently does nothing in the chat composer (v0.177.0, macOS 26.5)\n\n## What happened\n\nPressing ⌘V in the Factory App chat composer does absolutely nothing — no insertion, no error, no visible reaction. Typing keeps working normally. The failure is intermittent: the composer recovers on its own after a while (seconds to minutes), without restarting the app. Observed repeatedly on 2026-09-16 (JST evening).\n\nAdditional observation the same evening: attaching a file in the composer produced no visible reaction either; possibly related, unconfirmed.\n\n## Expected\n\n⌘V ",
+    "url": "https://github.com/Factory-AI/factory/issues/34",
+    "timestamp": "2026-09-16T11:04:54Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 34
+    }
+  },
+  {
     "id": "github_issue_33",
     "source": "github",
     "author": "joshwilhelmi",
