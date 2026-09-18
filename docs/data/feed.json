@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_38",
+    "source": "github",
+    "author": "kasajian",
+    "content": "[Issue] Running droid doesn't see AGENTS.md file in user's .factory folder if it's a symlink\n\nI don't know if this is Windows only, or for all platforms.\n\ndroid cli executable will not see file at \"%USERPROFILE%\\.factory\\AGENTS.md\"\nif it's a symlink.\n\nHow to reproduce\nfrom an Administrator cmd prompt, try:\nmklink \"%USERPROFILE%\\.factory\\AGENTS.md\" \"C:\\Sample\\AGENTS.md\"\n\nThis assume C:\\Sample\\AGENTS.md exists.\n\nThen run droid cli and you will see that it cannot see the AGENTS.md file.\n\nNow delete the link:\ndel /F /Q \"%USERPROFILE%\\.factory\\AGENTS.md\"\n\nAnd copy it to that location:\ncopy \"C",
+    "url": "https://github.com/Factory-AI/factory/issues/38",
+    "timestamp": "2026-09-18T19:31:00Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 38
+    }
+  },
+  {
     "id": "github_issue_34",
     "source": "github",
     "author": "Fewmanism",
