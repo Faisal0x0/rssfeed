@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_40",
+    "source": "github",
+    "author": "hrmesquita",
+    "content": "[Issue] Desktop 0.184.0: new sessions reset custom-model default to auto (custom models missing from picker)\n\n**Versions**: Desktop 0.184.0, bundled droid CLI 0.227.0, macOS 27.0 (arm64). Worked on Desktop 0.183.2.\n\nWhat happens After updating to 0.184.0, my custom models (customModels in ~/.factory/settings.json, provider anthropic, local baseUrl) show up briefly in the desktop model picker and then disappear. New sessions start on auto instead of my sessionDefaultSettings.model (a custom: id).\n\nExpected New sessions use my custom default model, and custom models stay in the picker.\n\n**Evidence**\n\nThe ",
+    "url": "https://github.com/Factory-AI/factory/issues/40",
+    "timestamp": "2026-09-25T10:25:25Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 40
+    }
+  },
+  {
     "id": "github_issue_38",
     "source": "github",
     "author": "kasajian",
