@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_42",
+    "source": "github",
+    "author": "sunnymodi21",
+    "content": "[Issue] Feature Request: emit ACP usage_update so ACP clients can show context-window usage\n\n## Summary\n\nIn ACP mode (`droid exec --output-format acp`), Droid never reports context-window usage. So ACP clients can't show a context meter, even though Droid already computes these numbers for `/context` and for the `stream-jsonrpc` protocol.\n\nPlease emit the standard ACP [`usage_update`](https://agentclientprotocol.com) session notification:\n\n```json\n{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"session/update\",\n  \"params\": {\n    \"sessionId\": \"…\",\n    \"update\": { \"sessionUpdate\": \"usage_update\", \"use",
+    "url": "https://github.com/Factory-AI/factory/issues/42",
+    "timestamp": "2026-09-25T19:14:32Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 42
+    }
+  },
+  {
     "id": "github_issue_40",
     "source": "github",
     "author": "hrmesquita",
