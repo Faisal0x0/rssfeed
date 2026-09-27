@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_43",
+    "source": "github",
+    "author": "brainplusplus",
+    "content": "[Issue] Why i cant use custom models in factory droid, default is auto model, then when i try search or select custom models not detected\n\nWhy i cant use custom models in factory droid, default is auto model, then when i try search or select custom models not detected",
+    "url": "https://github.com/Factory-AI/factory/issues/43",
+    "timestamp": "2026-09-27T14:09:38Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 43
+    }
+  },
+  {
     "id": "github_issue_42",
     "source": "github",
     "author": "sunnymodi21",
