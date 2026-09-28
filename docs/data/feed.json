@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_44",
+    "source": "github",
+    "author": "drawmeanelephant",
+    "content": "[Issue] Readiness reports can evaluate a stale worktree without warning\n\n## Summary\n\nThe readiness workflow can evaluate a stale worktree without warning. In this case, the report evaluated commit `a64eaae1b2a1a375d8937e6616519fd5d570442c` even though `origin/master` had advanced to `4aaad8e9b456fe2d33bab38f76593d75ccb44ce2`.\n\nThe first report was presented as current and scored 47.76% / Level 3. After fetching and fast-forwarding the worktree, the latest commit scored 80.60% / Level 5 because it contained 32 files of readiness improvements. That makes the result mat",
+    "url": "https://github.com/Factory-AI/factory/issues/44",
+    "timestamp": "2026-09-28T16:28:49Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 44
+    }
+  },
+  {
     "id": "github_issue_43",
     "source": "github",
     "author": "brainplusplus",
