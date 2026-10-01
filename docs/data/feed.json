@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_45",
+    "source": "github",
+    "author": "macosai",
+    "content": "[Issue] Windows: droid update re-downloads same version immediately after update\n\nWindows: Bootstrap applies a staged update at the start of the next process, but that process continues to run and self-reports its old in-memory version. As a result, running droid update immediately after an apply re-downloads and re-stages the same version; the new version only becomes active/visible on the second launch post-update.\n\nPossible solution: After applying a pending update at bootstrap, either re-exec into the new binary, or compare the on-disk binary version (rather than the in-m",
+    "url": "https://github.com/Factory-AI/factory/issues/45",
+    "timestamp": "2026-10-01T15:09:28Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 45
+    }
+  },
+  {
     "id": "github_issue_44",
     "source": "github",
     "author": "drawmeanelephant",
