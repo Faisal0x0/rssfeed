@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_46",
+    "source": "github",
+    "author": "vizh",
+    "content": "[Issue] ACP mode (`droid exec --output-format acp`): a new session (`session/new`) inherits the conversation context of earlier sessions in the same process\n\n## Summary\n\nWhen one `droid exec --output-format acp` process serves several ACP sessions, the model request for a new session includes the history of the earlier sessions from that process. Each session gets its own `sessionId` and its own file under `~/.factory/sessions/`, and the session files do not contain the foreign messages. The leak happens in memory only, so it can't be seen by inspecting the session files.\n\nEditors such as Zed keep one connection per agent and create every new chat wi",
+    "url": "https://github.com/Factory-AI/factory/issues/46",
+    "timestamp": "2026-10-01T21:35:06Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 46
+    }
+  },
+  {
     "id": "github_issue_45",
     "source": "github",
     "author": "macosai",
