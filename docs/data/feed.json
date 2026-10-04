@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_47",
+    "source": "github",
+    "author": "apple-ouyang",
+    "content": "[Issue] Feature Request: expose conversation rewind over ACP (Droid already implements execute_rewind)\n\n## Summary\n\nDroid has a working \"rewind conversation\" in the TUI (`/rewind-conversation`, backed by `droid.execute_rewind`), but it is not reachable from ACP, so ACP clients cannot offer it. Please advertise it over ACP:\n\n```json\n\"agentCapabilities\": {\n  \"_meta\": {\n    \"conversationRewind\": { \"method\": \"_paseo/session/revert\", \"target\": \"user-message-id\" }\n  }\n}\n```\n\nplus one `extMethod` case that forks the session and returns the new session id. The namespace is yours to pick; clients read the ",
+    "url": "https://github.com/Factory-AI/factory/issues/47",
+    "timestamp": "2026-10-04T03:17:03Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 47
+    }
+  },
+  {
     "id": "github_issue_46",
     "source": "github",
     "author": "vizh",
