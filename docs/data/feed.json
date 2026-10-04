@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_48",
+    "source": "github",
+    "author": "thedavidweng",
+    "content": "[Issue] Skills diagnostics: don't report duplicates that resolve to the same directory (symlinks)\n\n### Summary\n\nDroid reports a skill as \"defined more than once at the same level\" even when both entries are symlinks or paths that resolve to the **same directory**. The startup Diagnostics panel lists one issue per skill, so a library with many shared skills produces a long, unactionable list every launch.\n\n### Steps to reproduce\n\n```sh\nmkdir -p ~/.agents/skills/demo ~/.factory/skills\nprintf -- '---\\nname: demo\\ndescription: Demo skill\\n---\\nHello\\n' > ~/.agents/skills/demo/SKILL.md\nln -s ../..",
+    "url": "https://github.com/Factory-AI/factory/issues/48",
+    "timestamp": "2026-10-04T20:48:06Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 48
+    }
+  },
+  {
     "id": "github_issue_47",
     "source": "github",
     "author": "apple-ouyang",
