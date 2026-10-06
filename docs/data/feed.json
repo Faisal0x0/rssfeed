@@ -1,5 +1,31 @@
 [
   {
+    "id": "github_issue_60",
+    "source": "github",
+    "author": "prathamdby",
+    "content": "[Issue] [Bug]: droid 0.234.0 ACP session/set_config_option returns {} instead of configOptions\n\n### Before submitting\n\n- [x] I searched existing issues and did not find a duplicate.\n- [x] I included enough detail to reproduce or investigate the problem.\n\n### Area\n\nACP daemon (`droid exec --output-format acp-daemon`)\n\n### Steps to reproduce\n\n1. Start the ACP daemon with `droid exec --output-format acp-daemon`.\n2. Send `initialize`, then `session/new`.\n3. Read the `model` option's `currentValue` from that response, and one other listed value.\n4. Send `session/set_config_option` for both valu",
+    "url": "https://github.com/Factory-AI/factory/issues/60",
+    "timestamp": "2026-10-06T12:25:47Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 60
+    }
+  },
+  {
+    "id": "github_issue_59",
+    "source": "github",
+    "author": "NDilanka",
+    "content": "[Issue] Windows: Defender quarantining an active session transcript crashes the turn (EUNKNOWN, unhandled rejection) and silently hides the session\n\n## Summary\n\nOn Windows, Microsoft Defender real-time protection quarantined an active session transcript (`.jsonl`) while `droid.exe` was writing to it. Droid did not handle the missing file. The running turn crashed with `EUNKNOWN`, the daemon logged an unhandled promise rejection, the turn's output was lost, and the session disappeared from the session list with `SessionNotFoundError`. The user saw no explanation. The session only came back after a manual restore from Defender quarantine, whic",
+    "url": "https://github.com/Factory-AI/factory/issues/59",
+    "timestamp": "2026-10-06T11:56:26Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 59
+    }
+  },
+  {
     "id": "github_issue_48",
     "source": "github",
     "author": "thedavidweng",
