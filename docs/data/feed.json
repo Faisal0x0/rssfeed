@@ -1,5 +1,44 @@
 [
   {
+    "id": "github_issue_65",
+    "source": "github",
+    "author": "glmn",
+    "content": "[Issue] Interactive mode: no way to disable tools for a run (--disabled-tools is exec-only, runtime --settings has no tool list)\n\n**Version:** droid 0.235.0, Windows 10 x64\n\n**What's missing**\n\n`droid exec` has `--enabled-tools` / `--disabled-tools` / `--restrict-tools`, but the interactive TUI has no way to start with some tools turned off: `droid --help` lists none of these flags, and a runtime `--settings` file does not take a tool-disable list (`disabledToolIds` is only a per-session setting changed from inside the TUI).\n\n**Why it matters**\n\nA host that launches interactive `droid` for a specific job sometimes needs a ",
+    "url": "https://github.com/Factory-AI/factory/issues/65",
+    "timestamp": "2026-10-07T20:11:01Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 65
+    }
+  },
+  {
+    "id": "github_issue_64",
+    "source": "github",
+    "author": "glmn",
+    "content": "[Issue] permission_prompt Notification hook has no tool name or input (\"needs permission to execute 1 tool(s)\")\n\n**Version:** droid 0.235.0 (measured on 0.227.0, same message in 0.235.0), Windows 10 x64\n\n**What happens**\n\nWhen Droid asks for permission to run a tool, the `Notification` hook receives `notification_type: \"permission_prompt\"` with the message `Factory CLI needs permission to execute 1 tool(s)` — no tool name and no command/arguments. Example: the model calls `Execute` with `echo hi > probe.txt`; the hook payload says only \"1 tool(s)\".\n\n**Why it matters**\n\nThe `Notification` hook is what deskt",
+    "url": "https://github.com/Factory-AI/factory/issues/64",
+    "timestamp": "2026-10-07T20:10:59Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 64
+    }
+  },
+  {
+    "id": "github_issue_63",
+    "source": "github",
+    "author": "glmn",
+    "content": "[Issue] droid --resume <unknown id> exits 1 without printing anything\n\n**Version:** droid 0.235.0 (first seen on 0.227.0), Windows 10 x64\n\n**What happens**\n\n`droid --resume <id>` with an id that has no session file exits with code 1 and prints nothing — no error line, no picker, just a cleared screen.\n\n```\n> droid --resume 3f1c2a9e-0000-4000-8000-123456789abc\n> echo %ERRORLEVEL%\n1\n```\n\nSame result with a fresh `FACTORY_HOME_OVERRIDE` folder, with and without `FACTORY_AIRGAP_ENABLED=1`, and in a real pty (the process writes ~130 bytes of terminal control sequences a",
+    "url": "https://github.com/Factory-AI/factory/issues/63",
+    "timestamp": "2026-10-07T20:10:56Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 63
+    }
+  },
+  {
     "id": "github_issue_60",
     "source": "github",
     "author": "prathamdby",
