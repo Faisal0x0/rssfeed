@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_67",
+    "source": "github",
+    "author": "KrystianMarek",
+    "content": "[Issue] VS Code extension auto-install fails on VSCodium: only the Microsoft `code` CLI is searched, and the failure renders with an empty error message\n\n# VS Code extension auto-install fails on VSCodium: only the Microsoft `code` CLI is searched, and the failure renders with an empty error message\n\n## Summary\n\nWhen running `droid` inside a **VSCodium** integrated terminal, the \"VSCode Extension Available\" prompt appears, but accepting it fails with `Failed to install VSCode extension:` followed by an **empty error message**, and \"Press Enter to try again\" loops forever. Three underlying issues compound to produce this.\n\n## Environment\n\n- Droid ",
+    "url": "https://github.com/Factory-AI/factory/issues/67",
+    "timestamp": "2026-10-08T10:51:26Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 67
+    }
+  },
+  {
     "id": "github_issue_65",
     "source": "github",
     "author": "glmn",
