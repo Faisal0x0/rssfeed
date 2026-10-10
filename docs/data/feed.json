@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_68",
+    "source": "github",
+    "author": "velizarofff",
+    "content": "[Issue] Support custom groups for BYOK models in the model picker\n\n### Is your feature request related to a problem?\n\nThe model picker groups BYOK custom models by `provider`, which represents the API protocol adapter rather than a user-defined category. As a result, models from different vendors or tiers routed through the same OpenAI-compatible endpoint all appear in one group.\n\nPrefixes in `displayName` are a workaround, but they do not create separate sections. Changing `provider` is not a solution because it can change the request protocol.\n\n### Describe t",
+    "url": "https://github.com/Factory-AI/factory/issues/68",
+    "timestamp": "2026-10-10T18:06:38Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 68
+    }
+  },
+  {
     "id": "github_issue_67",
     "source": "github",
     "author": "KrystianMarek",
