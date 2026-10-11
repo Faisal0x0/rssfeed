@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_69",
+    "source": "github",
+    "author": "maxffarrell",
+    "content": "[Issue] Feature request: emit OSC7501 status from Droid CLI\n\nWhen several Droid sessions run in separate terminal tabs, it is hard to see which is working or waiting for input without opening each one.\n\nPlease emit [OSC7501 Program Status Protocol](https://www.superlogical.com/rex/docs/build/program-status) reports from the interactive CLI: `working`, `blocked` (permission/question/auth), `done`, `error`, and `idle`, with correct clearing on exit. This lets supporting terminals display session status without scraping the TUI or configuring hooks. Keep rep",
+    "url": "https://github.com/Factory-AI/factory/issues/69",
+    "timestamp": "2026-10-10T23:48:56Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 69
+    }
+  },
+  {
     "id": "github_issue_68",
     "source": "github",
     "author": "velizarofff",
