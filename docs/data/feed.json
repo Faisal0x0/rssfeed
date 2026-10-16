@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_discussion_75",
+    "source": "github",
+    "author": "kevinelliott",
+    "content": "[Discussion] Droid is included in the AgentManager tool catalog\n\nHi Droid maintainers — I maintain [AgentManager](https://github.com/kevinelliott/agentmanager), an open-source CLI/TUI for discovering, installing, and updating agentic developer tools.\n\nDroid is included in our [supported-tools catalog](https://github.com/kevinelliott/agentmanager#supported-agents) as `droid`. The entry links to this repository and records its installation methods and version-detection command.\n\nTo load the current catalog and inspect the entry:\n\n```sh\nagentmgr catalog refresh ",
+    "url": "https://github.com/Factory-AI/factory/discussions/75",
+    "timestamp": "2026-10-16T07:34:42Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Show and tell",
+      "number": 75
+    }
+  },
+  {
     "id": "github_issue_69",
     "source": "github",
     "author": "maxffarrell",
