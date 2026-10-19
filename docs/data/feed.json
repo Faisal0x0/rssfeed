@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_79",
+    "source": "github",
+    "author": "RoacherM",
+    "content": "[Issue] Reading a file that quotes a blocklisted client phrase 403s the session — false positive, misreported as model_authentication_failed\n\n## What happens\n\nDroid 0.244.0 on macOS: reading a plain file whose **content** contains a string from the backend's client-metadata blocklist makes the *next* request fail with a bare 403, and the session is then permanently unusable.\n\nSequence in a real session (`d305937b-…`, model `claude-opus-5-5`, effort high, provider lock `anthropic` / `azure_anthropic`):\n\n1. assistant calls `Read` on a markdown file (a design note) → the tool returns 13.2 KB of text (line 19).\n2. The following request is",
+    "url": "https://github.com/Factory-AI/factory/issues/79",
+    "timestamp": "2026-10-19T16:19:37Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 79
+    }
+  },
+  {
     "id": "github_discussion_75",
     "source": "github",
     "author": "kevinelliott",
