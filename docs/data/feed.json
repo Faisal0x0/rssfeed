@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_81",
+    "source": "github",
+    "author": "ziyou979",
+    "content": "[Issue] 600s host limit cuts off long-thinking Opus responses, causing repeated restarts and wasted usage\n\n## Summary\nWhen using Claude Opus 5.5 with extended thinking on the official Factory subscription, any single\nresponse whose thinking phase runs longer than 600 s is cut off by the host with:\n\n> The response exceeded the 600s host limit and was cut off. Ask for a shorter response\n> or split the task into smaller steps, then try again.\n\nThe stream ends without a `message_stop` and all thinking done so far is discarded. Droid then\nretries the same request once, which starts thinking from scratch, ",
+    "url": "https://github.com/Factory-AI/factory/issues/81",
+    "timestamp": "2026-10-21T17:19:53Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 81
+    }
+  },
+  {
     "id": "github_issue_79",
     "source": "github",
     "author": "RoacherM",
