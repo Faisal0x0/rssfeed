@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_84",
+    "source": "github",
+    "author": "HouMinXi",
+    "content": "[Issue] postinstall fallback download leaves bin/droid as a symlink to itself (\"Too many levels of symbolic links\")\n\nIf the platform optional dependency (for example `@factory/cli-linux-x64`) is not installed, the `droid` postinstall downloads the binary itself. That fallback leaves `bin/droid` as a symlink to itself, and running `droid` fails with `Too many levels of symbolic links`. When the optional dependency is installed, the install works.\n\nSeen on droid 0.212.0. The `install.js` in 0.249.0 is byte-identical, so the latest release has the same bug.\n\n### Environment\n\n- Linux x64\n- First hit in a Docker bu",
+    "url": "https://github.com/Factory-AI/factory/issues/84",
+    "timestamp": "2026-10-26T03:02:51Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 84
+    }
+  },
+  {
     "id": "github_issue_81",
     "source": "github",
     "author": "ziyou979",
