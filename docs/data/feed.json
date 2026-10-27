@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_85",
+    "source": "github",
+    "author": "LoopGlitch26",
+    "content": "[Issue] Hooks: include tool_use_id in PreToolUse and PostToolUse input\n\nThe hooks reference documents PreToolUse and PostToolUse input as `session_id`, `transcript_path`, `cwd`,\n`permission_mode`, `hook_event_name`, `tool_name`, `tool_input` (and `tool_response`), with nothing that names the\ntool call (docs/reference/hooks-reference.mdx:279-338).\n\nA hook that handles both events can't tell which PreToolUse a PostToolUse closes. Two identical calls in flight (the\nsame `Read`, a retried `Execute`) look the same. Droid also runs PostToolUse only after a tool succeeds a",
+    "url": "https://github.com/Factory-AI/factory/issues/85",
+    "timestamp": "2026-10-27T07:30:44Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 85
+    }
+  },
+  {
     "id": "github_issue_84",
     "source": "github",
     "author": "HouMinXi",
