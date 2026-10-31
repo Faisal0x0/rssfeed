@@ -1,5 +1,18 @@
 [
   {
+    "id": "github_issue_86",
+    "source": "github",
+    "author": "domstepek-dl",
+    "content": "[Issue] includeCoAuthoredByDroid: false is ignored; Droid still adds the co-author trailer to commits\n\n**What happened**\n\nI set `\"includeCoAuthoredByDroid\": false` in `~/.config/factory/settings.json` and restarted Droid. The model's session instructions still tell it to add `Co-authored-by: factory-droid[bot] <138933559+factory-droid[bot]@users.noreply.github.com>` to every commit message, so it refuses to make commits without the trailer.\n\n**Expected**\n\nWith the setting `false`, Droid commits have no co-author trailer, as the [settings docs](https://docs.factory.com/droid-cli/settings.md) descr",
+    "url": "https://github.com/Factory-AI/factory/issues/86",
+    "timestamp": "2026-10-30T19:38:24Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 86
+    }
+  },
+  {
     "id": "github_issue_85",
     "source": "github",
     "author": "LoopGlitch26",
