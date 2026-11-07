@@ -1,5 +1,70 @@
 [
   {
+    "id": "github_issue_91",
+    "source": "github",
+    "author": "honghaoaa1230",
+    "content": "[Issue] ACP: prompt remains pending after a coalesced turn completes (Droid 1.5.0)\n\n## Summary\n\nIn `droid exec --output-format acp`, a follow-up prompt arriving while Droid handles a background task's completion can remain pending even after assistant output arrives and Droid persists a completed outcome for the coalesced user turn. Sending `session/cancel` does not release that pending request.\n\n## Environment\n\n- Droid **1.5.0**, macOS arm64\n- Model: `claude-sonnet-5-5`, reasoning `high`, autonomy `auto-medium`\n- Client: Paseo built-in Factory Droid ACP provider, source `f2169",
+    "url": "https://github.com/Factory-AI/factory/issues/91",
+    "timestamp": "2026-11-06T18:08:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 91
+    }
+  },
+  {
+    "id": "github_issue_90",
+    "source": "github",
+    "author": "marcusyoung",
+    "content": "[Issue] Support hookSpecificOutput.updatedToolOutput in PostToolUse\n\n\n## What I expected\n\nA Claude Code plugin's `PostToolUse` hook can return `hookSpecificOutput.updatedToolOutput` to replace the tool's result before the model sees it. Droid accepts the same hook payload shape, so I expected this field to be honored.\n\n## What happens\n\nDroid parses the reply but keeps only `permissionDecision`, `permissionDecisionReason`, `additionalContext`, and `updatedInput`. `updatedToolOutput` is discarded, and the original tool result is published unchanged. `modifiedToolRe",
+    "url": "https://github.com/Factory-AI/factory/issues/90",
+    "timestamp": "2026-11-06T13:49:34Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 90
+    }
+  },
+  {
+    "id": "github_issue_89",
+    "source": "github",
+    "author": "aveyron1799-tech",
+    "content": "[Issue] Workstreams: configured BYOK custom models not selectable for orchestrator/agent model; SpawnAgent lacks model/reasoning params\n\n### Summary\n\nIn Factory Workstreams, the orchestrator/agent model pickers in **Workstream settings** (gear icon) reportedly do not offer models configured locally as BYOK custom models, so a workstream cannot be pinned to them. Additionally, the `SpawnAgent` tool available to the orchestrating agent exposes no `model` or `reasoning` parameters, so there is also no programmatic way to point subagents at a specific model.\n\nI cannot tell whether this is a bug or an intentional limitation, so flaggi",
+    "url": "https://github.com/Factory-AI/factory/issues/89",
+    "timestamp": "2026-11-05T19:54:09Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 89
+    }
+  },
+  {
+    "id": "github_issue_88",
+    "source": "github",
+    "author": "thezelium",
+    "content": "[Issue] Telemetry uploads 2.4–3.0 GB per month from Factory Desktop\n\n<img width=\"1893\" height=\"928\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/83655d76-eb31-4e58-825e-2bef4fb1e993\" />\n\n## Summary\n\nFactory Desktop uploads several GB per month to `telemetry.factory.ai`, even though telemetry is documented as product logs and usage metrics. The traffic is almost entirely outbound.\n\nMeasured with Little Snitch 6, upload only, for the Factory Desktop process and its `droid` child processes:\n\n| Period | Upload to `telemetry.factory.ai` |\n| --- | --- |\n",
+    "url": "https://github.com/Factory-AI/factory/issues/88",
+    "timestamp": "2026-11-05T14:48:18Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 88
+    }
+  },
+  {
+    "id": "github_issue_86",
+    "source": "github",
+    "author": "domstepek-dl",
+    "content": "[Issue] includeCoAuthoredByDroid: false is ignored; Droid still adds the co-author trailer to commits\n\n**What happened**\n\nI set `\"includeCoAuthoredByDroid\": false` in `~/.config/factory/settings.json` and restarted Droid. The model's session instructions still tell it to add `Co-authored-by: factory-droid[bot] <138933559+factory-droid[bot]@users.noreply.github.com>` to every commit message, so it refuses to make commits without the trailer.\n\n**Expected**\n\nWith the setting `false`, Droid commits have no co-author trailer, as the [settings docs](https://docs.factory.com/droid-cli/settings.md) descr",
+    "url": "https://github.com/Factory-AI/factory/issues/86",
+    "timestamp": "2026-10-30T19:38:24Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 86
+    }
+  },
+  {
     "id": "github_issue_85",
     "source": "github",
     "author": "LoopGlitch26",
