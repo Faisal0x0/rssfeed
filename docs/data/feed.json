@@ -1,5 +1,135 @@
 [
   {
+    "id": "github_issue_100",
+    "source": "github",
+    "author": "deboste",
+    "content": "[Issue] [Feature Request] Claude-style Artifacts with one-click publishing, shareable URLs, and team collaboration\n\n## Summary\n\nPlease add a native, Claude Artifacts-style workflow to Factory: create an interactive mini-app or document with Droid, preview and refine it, then publish it with one click to a dedicated, shareable URL.\n\nThe important part is not just generating files or displaying a local preview. It is making the result immediately useful to colleagues without requiring a separate deployment workflow, a running local server, or access to the creator's Mac.\n\n## Why this would be useful\n\nArtifacts ",
+    "url": "https://github.com/Factory-AI/factory/issues/100",
+    "timestamp": "2026-11-14T12:19:45Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 100
+    }
+  },
+  {
+    "id": "github_issue_98",
+    "source": "github",
+    "author": "mpuphy",
+    "content": "[Issue] [Bug] All three Standard usage counters suddenly jumped to 100% within 4 minutes 26 seconds\n\nAll three of my Standard usage counters - 5-hour, weekly, and monthly - suddenly jumped to 100% within 4 minutes and 26 seconds.\n\nBefore the jump, they showed 47%, 6%, and 57%, respectively. This appears to be a bug in usage accounting or limit reporting and needs urgent investigation.\n\n\nTimeline and observed values\n\nDate: November 12, 2026\nTimezone: UTC+8\n\nAffected interval:\n13:05:11 to 13:09:37 UTC+8\nEquivalent to 05:05:11 to 05:09:37 UTC\n\nAt 13:05:11:\n- 5-hour usage: 47%\n- Weekly usage: 6%\n- ",
+    "url": "https://github.com/Factory-AI/factory/issues/98",
+    "timestamp": "2026-11-12T06:48:08Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 98
+    }
+  },
+  {
+    "id": "github_issue_97",
+    "source": "github",
+    "author": "ylwang0425",
+    "content": "[Issue] Settings → Usage shows a monthly percentage that never blocks, while a separate 7-day rolling limit blocks at 100% with no warning\n\n### Summary\n\nTwo different usage mechanisms are surfaced with almost the same wording, and the one users can see does not correspond to the one that blocks them.\n\n- **Settings -> Usage -> Organization Usage** shows a **calendar-month** percentage. Per [App settings](https://docs.factory.com/factory-app/settings.md) this is explicitly \"informational, not a real-time usage limit. Reaching it never blocks usage or changes billing.\"\n- **Rate Limits** are three independent **rolling** windows (5-hour",
+    "url": "https://github.com/Factory-AI/factory/issues/97",
+    "timestamp": "2026-11-12T05:42:46Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 97
+    }
+  },
+  {
+    "id": "github_issue_96",
+    "source": "github",
+    "author": "marovole",
+    "content": "[Issue] Factory-hosted gemini-4-carbon: 44% cache hit rate vs 96-99% on other models (184M uncached input tokens in one day)\n\n### Summary\n\nPrompt caching looks broken for Factory-hosted `gemini-4-carbon`.\n\nOn 2026-11-11 that model billed **184.3M uncached input tokens** against **147.0M cache-read tokens** — a **44% cache hit rate**. Every other model on the same account, over the same 30 days, runs at **96–99%**. The same model through BYOK on the same day cached at **89%**.\n\nSame account, same model, same day — only the route differs. That points at caching on the hosted route, not at how the session was driven.\n\n###",
+    "url": "https://github.com/Factory-AI/factory/issues/96",
+    "timestamp": "2026-11-12T03:58:03Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 96
+    }
+  },
+  {
+    "id": "github_issue_92",
+    "source": "github",
+    "author": "IzakCancino-KEMX",
+    "content": "[Issue] Factory desktop leaves orphaned git diff processes running on Windows, causing slowdowns\n\n# Factory desktop leaves orphaned `git diff` processes running on Windows, causing slowdowns\n\n## Environment\n- OS: Windows 10.0.26200 (Windows PowerShell 5.1)\n- Factory desktop: app-1.0.0 (Electron 42.3.3)\n- Factory daemon: `droid.exe daemon`\n- Repo: a local internal git repository (name withheld)\n\n## Summary\nFactory desktop left about 150 `git.exe` processes running for more than four hours. Each one was started by Factory's git work and never exited. Their parent processes had already exited, ",
+    "url": "https://github.com/Factory-AI/factory/issues/92",
+    "timestamp": "2026-11-09T14:06:51Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 92
+    }
+  },
+  {
+    "id": "github_issue_91",
+    "source": "github",
+    "author": "honghaoaa1230",
+    "content": "[Issue] ACP: prompt remains pending after a coalesced turn completes (Droid 1.5.0)\n\n## Summary\n\nIn `droid exec --output-format acp`, a follow-up prompt arriving while Droid handles a background task's completion can remain pending even after assistant output arrives and Droid persists a completed outcome for the coalesced user turn. Sending `session/cancel` does not release that pending request.\n\n## Environment\n\n- Droid **1.5.0**, macOS arm64\n- Model: `claude-sonnet-5-5`, reasoning `high`, autonomy `auto-medium`\n- Client: Paseo built-in Factory Droid ACP provider, source `f2169",
+    "url": "https://github.com/Factory-AI/factory/issues/91",
+    "timestamp": "2026-11-06T18:08:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 91
+    }
+  },
+  {
+    "id": "github_issue_90",
+    "source": "github",
+    "author": "marcusyoung",
+    "content": "[Issue] Support hookSpecificOutput.updatedToolOutput in PostToolUse\n\n\n## What I expected\n\nA Claude Code plugin's `PostToolUse` hook can return `hookSpecificOutput.updatedToolOutput` to replace the tool's result before the model sees it. Droid accepts the same hook payload shape, so I expected this field to be honored.\n\n## What happens\n\nDroid parses the reply but keeps only `permissionDecision`, `permissionDecisionReason`, `additionalContext`, and `updatedInput`. `updatedToolOutput` is discarded, and the original tool result is published unchanged. `modifiedToolRe",
+    "url": "https://github.com/Factory-AI/factory/issues/90",
+    "timestamp": "2026-11-06T13:49:34Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 90
+    }
+  },
+  {
+    "id": "github_issue_89",
+    "source": "github",
+    "author": "aveyron1799-tech",
+    "content": "[Issue] Workstreams: configured BYOK custom models not selectable for orchestrator/agent model; SpawnAgent lacks model/reasoning params\n\n### Summary\n\nIn Factory Workstreams, the orchestrator/agent model pickers in **Workstream settings** (gear icon) reportedly do not offer models configured locally as BYOK custom models, so a workstream cannot be pinned to them. Additionally, the `SpawnAgent` tool available to the orchestrating agent exposes no `model` or `reasoning` parameters, so there is also no programmatic way to point subagents at a specific model.\n\nI cannot tell whether this is a bug or an intentional limitation, so flaggi",
+    "url": "https://github.com/Factory-AI/factory/issues/89",
+    "timestamp": "2026-11-05T19:54:09Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 89
+    }
+  },
+  {
+    "id": "github_issue_88",
+    "source": "github",
+    "author": "thezelium",
+    "content": "[Issue] Telemetry uploads 2.4–3.0 GB per month from Factory Desktop\n\n<img width=\"1893\" height=\"928\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/83655d76-eb31-4e58-825e-2bef4fb1e993\" />\n\n## Summary\n\nFactory Desktop uploads several GB per month to `telemetry.factory.ai`, even though telemetry is documented as product logs and usage metrics. The traffic is almost entirely outbound.\n\nMeasured with Little Snitch 6, upload only, for the Factory Desktop process and its `droid` child processes:\n\n| Period | Upload to `telemetry.factory.ai` |\n| --- | --- |\n",
+    "url": "https://github.com/Factory-AI/factory/issues/88",
+    "timestamp": "2026-11-05T14:48:18Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 88
+    }
+  },
+  {
+    "id": "github_issue_86",
+    "source": "github",
+    "author": "domstepek-dl",
+    "content": "[Issue] includeCoAuthoredByDroid: false is ignored; Droid still adds the co-author trailer to commits\n\n**What happened**\n\nI set `\"includeCoAuthoredByDroid\": false` in `~/.config/factory/settings.json` and restarted Droid. The model's session instructions still tell it to add `Co-authored-by: factory-droid[bot] <138933559+factory-droid[bot]@users.noreply.github.com>` to every commit message, so it refuses to make commits without the trailer.\n\n**Expected**\n\nWith the setting `false`, Droid commits have no co-author trailer, as the [settings docs](https://docs.factory.com/droid-cli/settings.md) descr",
+    "url": "https://github.com/Factory-AI/factory/issues/86",
+    "timestamp": "2026-10-30T19:38:24Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 86
+    }
+  },
+  {
     "id": "github_issue_85",
     "source": "github",
     "author": "LoopGlitch26",
