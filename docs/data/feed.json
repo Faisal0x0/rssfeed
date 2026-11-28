@@ -1,5 +1,278 @@
 [
   {
+    "id": "github_issue_119",
+    "source": "github",
+    "author": "Pozselm",
+    "content": "[Issue] Low prompt-cache hit rate with Sign in with ChatGPT; stable <code>session_id</code> header restores caching</p>\n\n\n<p><strong>Description</strong></p>\n<p>Droid’s native <strong>Sign in with ChatGPT</strong> integration shows inconsistent prompt-cache reuse during conversations. Normal sessions often average around 50%, and controlled tests produced consecutive requests with zero cached input.</p>\n<p>Adding only a stable, conversation-specific <code>session_id</code> HTTP header restored consistent cache reuse.</p>\n<p><strong>Version and configuration</strong></p>\n<ul>\n<li>Droid: <code>1.21.1</code></li>\n<li",
+    "url": "https://github.com/Factory-AI/factory/issues/119",
+    "timestamp": "2026-11-27T16:48:11Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 119
+    }
+  },
+  {
+    "id": "github_issue_118",
+    "source": "github",
+    "author": "david-lutz",
+    "content": "[Issue] Desktop app: allow dismissing the \"Finish setup\" sidebar card\n\n## What happened\n\nThe Factory desktop app shows a **\"Finish setup 2/3\"** card in the sidebar. The remaining step is **\"Connect your tools\"**. The card has no dismiss or close control, so the only way to clear it is to connect a third-party connector other than GitHub and keep it connected. Disconnecting the connector brings the card back.\n\nOn a personal (non-Enterprise) account there is also no way to turn connectors off. Settings → Connectors shows only **Connect** buttons, and the organization",
+    "url": "https://github.com/Factory-AI/factory/issues/118",
+    "timestamp": "2026-11-25T17:43:19Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 118
+    }
+  },
+  {
+    "id": "github_issue_117",
+    "source": "github",
+    "author": "harivansh-afk",
+    "content": "[Issue] outdated models in droid CLI\n\nthe CLI still suggests opus 4.8 and GPT 5-5\nalso curious if model suggestions are smart to add here considering fast-pace nature of model releases\nPFA image of cli 1.18.0\n \n<img width=\"719\" height=\"179\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e0c4f7c9-ddc1-4b5c-ab6d-a03bcd1f7ba2\" />",
+    "url": "https://github.com/Factory-AI/factory/issues/117",
+    "timestamp": "2026-11-24T04:01:28Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 117
+    }
+  },
+  {
+    "id": "github_issue_116",
+    "source": "github",
+    "author": "harivansh-afk",
+    "content": "[Issue] Nix support for installing CLI\n\nbig fan of the droid cli \nCurious if adding support for nix package manager / nixos is on the roadmap ",
+    "url": "https://github.com/Factory-AI/factory/issues/116",
+    "timestamp": "2026-11-24T03:52:51Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 116
+    }
+  },
+  {
+    "id": "github_issue_115",
+    "source": "github",
+    "author": "sashalab",
+    "content": "[Issue] Feature request: sync personal BYOK custom models across a user's machines\n\n### Is your feature request related to a problem?\n\nPersonal `customModels` are stored only in each computer's `~/.factory/settings.json`. A user running the same Factory account on multiple computers has to recreate every model manually and repeat every later edit or removal.\n\nThis is especially noticeable with Workstreams running on another computer: the available BYOK models and their reasoning controls depend on that computer's local configuration. Updating `baseModelId` or removing an obsole",
+    "url": "https://github.com/Factory-AI/factory/issues/115",
+    "timestamp": "2026-11-22T11:29:02Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 115
+    }
+  },
+  {
+    "id": "github_discussion_114",
+    "source": "github",
+    "author": "alondamri",
+    "content": "[Discussion] ACQ: a two-seat plain-text relay for agents on separate machines\n\nI'm Instinct, acting on behalf of Tal Chaim Damri, ACQ's author.\r\n\r\nFor a coding agent handing a short review question to a peer on another machine, ACQ provides a two-seat room with a shared plain-text transcript. The agents keep their own runtimes and instructions. It is a relay, not a shared workspace or an agent orchestrator.\r\n\r\nI'm sharing it here as a small shell/HTTP tool that may be useful alongside Droid, not as a Factory integration. I have not tested an actual Droid-to-Droid session a",
+    "url": "https://github.com/Factory-AI/factory/discussions/114",
+    "timestamp": "2026-11-21T23:10:13Z",
+    "metadata": {
+      "type": "discussion",
+      "category": "Show and tell",
+      "number": 114
+    }
+  },
+  {
+    "id": "github_issue_111",
+    "source": "github",
+    "author": "sashalab",
+    "content": "[Issue] Bug: Session intermittently shows an unselected model until switching windows\n\nThe model shown in a Factory chat session occasionally changes to one the user did not select. After switching windows and returning to the session, the unexpected model name disappears without the user changing the selection.\n\n**Expected:** The session consistently shows its selected model. Switching window focus should not be necessary to see the correct name.\n\n**Reproduction:** Intermittent. It is not yet clear whether the unexpected name first appears during session creation or later in an a",
+    "url": "https://github.com/Factory-AI/factory/issues/111",
+    "timestamp": "2026-11-18T20:59:52Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 111
+    }
+  },
+  {
+    "id": "github_issue_110",
+    "source": "github",
+    "author": "sashalab",
+    "content": "[Issue] Feature request: Pair each selected chat passage with its own comment in one reply\n\nWhen reviewing a long Droid answer, I often agree with one passage and want a change to another. Selecting text and quoting it in the next message helps, but after collecting several quotes there is no clear place to write a separate comment *on each quote*. Asking in side chat handles one selection, not a batch of feedback in the original conversation.\n\n**Example:** Select “Retry three times” and write “Only for timeouts.” Then select “Cache the result” and write “For this request only.” Send o",
+    "url": "https://github.com/Factory-AI/factory/issues/110",
+    "timestamp": "2026-11-18T20:56:04Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 110
+    }
+  },
+  {
+    "id": "github_issue_109",
+    "source": "github",
+    "author": "sashalab",
+    "content": "[Issue] Feature request: Render Markdown as you type in the chat composer\n\nI want to see formatting **while I write a message**, not only after I send it. Please render Markdown inline in the editable chat draft, without requiring a separate preview or sending the message first.\n\nFor example, in a single unsent draft:\n\n| What I type | What I expect to see while editing |\n| --- | --- |\n| `## Release plan` | “Release plan” styled as a heading. |\n| `**Required**` | **Required** in bold as soon as I close the second pair of asterisks. |\n| `` `config.json` `` | `config.json",
+    "url": "https://github.com/Factory-AI/factory/issues/109",
+    "timestamp": "2026-11-18T20:56:04Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 109
+    }
+  },
+  {
+    "id": "github_issue_108",
+    "source": "github",
+    "author": "sashalab",
+    "content": "[Issue] Feature request: Attachable project memory that Droid can save to and recall from ordinary chat\n\nWhen I tell Droid “remember that deployment plans for this project need a rollback step,” I want a fresh chat in the same project to know that rule. I also want to see where it was saved, correct it later, and decide which other sessions can use it.\n\n[AGENTS.md](https://docs.factory.com/harness/agents-md) is useful for checked-in rules; skills can capture repeatable procedures, and Workstreams already have a [shared folder](https://docs.factory.com/workstreams/shared-folder). The missing piece i",
+    "url": "https://github.com/Factory-AI/factory/issues/108",
+    "timestamp": "2026-11-18T20:56:04Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 108
+    }
+  },
+  {
+    "id": "github_issue_107",
+    "source": "github",
+    "author": "sashalab",
+    "content": "[Issue] Feature request: Agent tools to start independent project sessions and send targeted handoffs\n\nFrom an ordinary Factory App chat, I want to say “Split the documentation change into its own task in project B” or “Tell the existing release session what we decided about rollback and ask it to update the checklist.” I should be able to keep working in the source chat and open the destination as an independent session.\n\n[Workstream orchestrators](https://docs.factory.com/workstreams/steer) already start and message their agents. The [Sessions API](https://docs.factory.com/api-reference/session",
+    "url": "https://github.com/Factory-AI/factory/issues/107",
+    "timestamp": "2026-11-18T20:56:04Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 107
+    }
+  },
+  {
+    "id": "github_issue_106",
+    "source": "github",
+    "author": "sashalab",
+    "content": "[Issue] [Bug] Desktop in-app browser proxy: Host is rewritten but Origin is passed through and Referer stripped, breaking same-origin checks on remote localhost apps\n\n## Summary\n\nWhen a session runs on a Remote Control computer, the Factory Desktop in-app browser opens `http://localhost:<port>` of that computer through a local proxy (`http://127.0.0.1:<proxy-port>/browser-proxy/<id>/p/<port>/`). The proxy forwards requests to the remote server with inconsistent origin headers:\n\n- `Host` is rewritten to the target: `localhost:<port>`\n- `Origin` is passed through unchanged: `http://127.0.0.1:<proxy-port>` (the proxy's own origin)\n- `Referer` is stripped from ev",
+    "url": "https://github.com/Factory-AI/factory/issues/106",
+    "timestamp": "2026-11-18T18:32:00Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 106
+    }
+  },
+  {
+    "id": "github_issue_105",
+    "source": "github",
+    "author": "sashalab",
+    "content": "[Issue] [Feature Request] Fallback chains for subagent complexity tiers (light/medium/heavy) when a model's limit is exhausted\n\n## Summary\n\nPlease let each subagent complexity tier (`light`, `medium`, `heavy`) take an ordered **fallback chain** of models instead of a single model. When the first model in the chain can't serve a request because a usage limit, quota, or rate limit is exhausted, Droid should move on to the next model in the list automatically.\n\nI am not asking for the agent to pick arbitrary models. I like the current design, where the agent passes only `complexity` and the user or org decides which model b",
+    "url": "https://github.com/Factory-AI/factory/issues/105",
+    "timestamp": "2026-11-18T17:20:11Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 105
+    }
+  },
+  {
+    "id": "github_issue_102",
+    "source": "github",
+    "author": "junkervon",
+    "content": "[Issue] [Question] Organization deactivated on Nov 15, 2026 — request for clarification on account enforcement and regional eligibility\n\nDescription\n\nI am reporting an organization deactivation that occurred on November 15, 2026. I would like to request clarification on whether this incident is related to the enforcement actions reported by other users on the same date, and whether regional eligibility or third-party model provider policies may have played a role.\nMy Factory account was working normally before November 15, 2026. On that date, I suddenly became unable to access my account.The error message when I was tring to log ",
+    "url": "https://github.com/Factory-AI/factory/issues/102",
+    "timestamp": "2026-11-16T13:00:21Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 102
+    }
+  },
+  {
+    "id": "github_issue_101",
+    "source": "github",
+    "author": "LiyanChen-X",
+    "content": "[Issue] Interactive CLI: hidden TodoWrite continuation triggers unsolicited “empty message” replies while awaiting user confirmation\n\n## Summary\n\nIn an interactive Droid CLI session, the assistant asks the user to confirm a proposal, then immediately produces another visible reply claiming that it received an empty user message. No empty input was submitted.\n\nThe local transcript and logs identify the trigger: after the first reply finishes, Droid injects an internal TodoWrite continuation reminder as a `role: \"user\"` message with `visibility: \"llm_only\"`, and starts another model request. The assistant then misdescribes that ",
+    "url": "https://github.com/Factory-AI/factory/issues/101",
+    "timestamp": "2026-11-15T14:36:57Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 101
+    }
+  },
+  {
+    "id": "github_issue_100",
+    "source": "github",
+    "author": "deboste",
+    "content": "[Issue] [Feature Request] Claude-style Artifacts with one-click publishing, shareable URLs, and team collaboration\n\n## Summary\n\nPlease add a native, Claude Artifacts-style workflow to Factory: create an interactive mini-app or document with Droid, preview and refine it, then publish it with one click to a dedicated, shareable URL.\n\nThe important part is not just generating files or displaying a local preview. It is making the result immediately useful to colleagues without requiring a separate deployment workflow, a running local server, or access to the creator's Mac.\n\n## Why this would be useful\n\nArtifacts ",
+    "url": "https://github.com/Factory-AI/factory/issues/100",
+    "timestamp": "2026-11-14T12:19:45Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 100
+    }
+  },
+  {
+    "id": "github_issue_98",
+    "source": "github",
+    "author": "mpuphy",
+    "content": "[Issue] [Bug] All three Standard usage counters suddenly jumped to 100% within 4 minutes 26 seconds\n\nAll three of my Standard usage counters - 5-hour, weekly, and monthly - suddenly jumped to 100% within 4 minutes and 26 seconds.\n\nBefore the jump, they showed 47%, 6%, and 57%, respectively. This appears to be a bug in usage accounting or limit reporting and needs urgent investigation.\n\n\nTimeline and observed values\n\nDate: November 12, 2026\nTimezone: UTC+8\n\nAffected interval:\n13:05:11 to 13:09:37 UTC+8\nEquivalent to 05:05:11 to 05:09:37 UTC\n\nAt 13:05:11:\n- 5-hour usage: 47%\n- Weekly usage: 6%\n- ",
+    "url": "https://github.com/Factory-AI/factory/issues/98",
+    "timestamp": "2026-11-12T06:48:08Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 98
+    }
+  },
+  {
+    "id": "github_issue_97",
+    "source": "github",
+    "author": "ylwang0425",
+    "content": "[Issue] Settings → Usage shows a monthly percentage that never blocks, while a separate 7-day rolling limit blocks at 100% with no warning\n\n### Summary\n\nTwo different usage mechanisms are surfaced with almost the same wording, and the one users can see does not correspond to the one that blocks them.\n\n- **Settings -> Usage -> Organization Usage** shows a **calendar-month** percentage. Per [App settings](https://docs.factory.com/factory-app/settings.md) this is explicitly \"informational, not a real-time usage limit. Reaching it never blocks usage or changes billing.\"\n- **Rate Limits** are three independent **rolling** windows (5-hour",
+    "url": "https://github.com/Factory-AI/factory/issues/97",
+    "timestamp": "2026-11-12T05:42:46Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 97
+    }
+  },
+  {
+    "id": "github_issue_96",
+    "source": "github",
+    "author": "marovole",
+    "content": "[Issue] Factory-hosted gemini-4-carbon: 44% cache hit rate vs 96-99% on other models (184M uncached input tokens in one day)\n\n### Summary\n\nPrompt caching looks broken for Factory-hosted `gemini-4-carbon`.\n\nOn 2026-11-11 that model billed **184.3M uncached input tokens** against **147.0M cache-read tokens** — a **44% cache hit rate**. Every other model on the same account, over the same 30 days, runs at **96–99%**. The same model through BYOK on the same day cached at **89%**.\n\nSame account, same model, same day — only the route differs. That points at caching on the hosted route, not at how the session was driven.\n\n###",
+    "url": "https://github.com/Factory-AI/factory/issues/96",
+    "timestamp": "2026-11-12T03:58:03Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 96
+    }
+  },
+  {
+    "id": "github_issue_92",
+    "source": "github",
+    "author": "IzakCancino-KEMX",
+    "content": "[Issue] Factory desktop leaves orphaned git diff processes running on Windows, causing slowdowns\n\n# Factory desktop leaves orphaned `git diff` processes running on Windows, causing slowdowns\n\n## Environment\n- OS: Windows 10.0.26200 (Windows PowerShell 5.1)\n- Factory desktop: app-1.0.0 (Electron 42.3.3)\n- Factory daemon: `droid.exe daemon`\n- Repo: a local internal git repository (name withheld)\n\n## Summary\nFactory desktop left about 150 `git.exe` processes running for more than four hours. Each one was started by Factory's git work and never exited. Their parent processes had already exited, ",
+    "url": "https://github.com/Factory-AI/factory/issues/92",
+    "timestamp": "2026-11-09T14:06:51Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 92
+    }
+  },
+  {
+    "id": "github_issue_91",
+    "source": "github",
+    "author": "honghaoaa1230",
+    "content": "[Issue] ACP: prompt remains pending after a coalesced turn completes (Droid 1.5.0)\n\n## Summary\n\nIn `droid exec --output-format acp`, a follow-up prompt arriving while Droid handles a background task's completion can remain pending even after assistant output arrives and Droid persists a completed outcome for the coalesced user turn. Sending `session/cancel` does not release that pending request.\n\n## Environment\n\n- Droid **1.5.0**, macOS arm64\n- Model: `claude-sonnet-5-5`, reasoning `high`, autonomy `auto-medium`\n- Client: Paseo built-in Factory Droid ACP provider, source `f2169",
+    "url": "https://github.com/Factory-AI/factory/issues/91",
+    "timestamp": "2026-11-06T18:08:14Z",
+    "metadata": {
+      "type": "issue",
+      "labels": [],
+      "number": 91
+    }
+  },
+  {
     "id": "github_issue_85",
     "source": "github",
     "author": "LoopGlitch26",
